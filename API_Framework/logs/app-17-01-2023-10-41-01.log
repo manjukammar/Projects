@@ -1,0 +1,19 @@
+2023-01-17 10:41:01,287 195  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:41:01,291 199  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\API Workspace\API_Framework/reports/Automation Report- 01_17_2023_10_41_01
+2023-01-17 10:41:01,367 275  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:41:01,367 275  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:41:03,545 2453 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:41:03,547 2455 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:41:03,625 2533 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Able to provide Authorization and fetch the token
+2023-01-17 10:41:03,985 2893 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Response body value is: BQAZVM23ipUTLhotr3OiTryy0y8qxs4utxwURwfHWuwM3PWJITbMQFaZ0YBJL3ECczO7yxfGuBV2yPDcIrV82SJMcQgkEbHidgBfvURrdzUed1jLDrH-NVinvu7kD3Lauuvf6rCqH5JZXxsGRAzRmjWP-HQQWJLCeO_xwkhUS8wKSBNbbxUUe8WBtiUHtrX5FM9Jp-KNZn9LgEYTJAT-HxIst3ONSWZOHzCTnepLNi539rqIYFM2s7SUMJ5HkVcu2Y7iStnNEKoaqUK0Jyt-sooiRB0GtQjVioXZgmBBDzir1Sj-cmYxRoDLZF65T_Bh0Y0fBCyREoPvaOE5F5bA
+2023-01-17 10:41:04,076 2984 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Able to write data into json file
+2023-01-17 10:41:04,095 3003 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Able to read data from json file
+2023-01-17 10:41:04,100 3008 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Able to add headers for authentication
+2023-01-17 10:41:04,106 3014 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - This request do not have Path parameters
+2023-01-17 10:41:04,106 3014 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Path parameters added to the request
+2023-01-17 10:41:04,108 3016 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Able to add query parameter
+2023-01-17 10:41:04,533 3441 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 10:41:04,534 3442 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:41:04,542 3450 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Able to get request using parameters
+2023-01-17 10:41:04,546 3454 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Actual Response Time: 402 is less than Expected Response Time: 2000
+2023-01-17 10:41:04,546 3454 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_003 - Expected Status code is: 400 is matching with actual status code: 400

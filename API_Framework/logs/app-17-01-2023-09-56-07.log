@@ -1,0 +1,4 @@
+2023-01-17 09:56:07,864 317  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 09:56:07,876 329  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\User\git\API_Framework/reports/Automation Report- 01_17_2023_09_56_07
+2023-01-17 09:56:08,044 497  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 09:56:08,044 497  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created

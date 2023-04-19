@@ -1,0 +1,27 @@
+2023-01-17 10:20:11,597 228  [main] INFO  com.spotify.baseutil.BaseTest - C:\Users\Abhishek\New folder\API_Framework/Controller.xlsx
+2023-01-17 10:20:11,780 411  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GA_001
+2023-01-17 10:20:11,781 412  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GA_002
+2023-01-17 10:20:11,782 413  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GA_003
+2023-01-17 10:20:11,784 415  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GA_004
+2023-01-17 10:20:11,784 415  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAT_001
+2023-01-17 10:20:11,785 416  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAT_002
+2023-01-17 10:20:11,786 417  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAT_003
+2023-01-17 10:20:11,786 417  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAT_004
+2023-01-17 10:20:11,787 418  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAT_005
+2023-01-17 10:20:11,787 418  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GUSA_001
+2023-01-17 10:20:11,787 418  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GUSA_002
+2023-01-17 10:20:11,787 418  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GUSA_003
+2023-01-17 10:20:11,787 418  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GUSA_004
+2023-01-17 10:20:11,787 418  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GUSA_005
+2023-01-17 10:20:11,787 418  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAS_001
+2023-01-17 10:20:11,788 419  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAS_002
+2023-01-17 10:20:11,789 420  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAS_003
+2023-01-17 10:20:11,789 420  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAS_004
+2023-01-17 10:20:11,790 421  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAS_005
+2023-01-17 10:20:11,790 421  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAS_006
+2023-01-17 10:20:11,790 421  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_GAS_007
+2023-01-17 10:20:11,790 421  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_RUSA_001
+2023-01-17 10:20:11,791 422  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_RUSA_002
+2023-01-17 10:20:11,792 423  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_RUSA_003
+2023-01-17 10:20:11,795 426  [main] INFO  com.spotify.baseutil.BaseTest - com.spotify.albums.TYSS_Albums_RUSA_004
+2023-01-17 10:20:11,796 427  [main] INFO  com.spotify.baseutil.BaseTest - Total Scripts for Execution : 25

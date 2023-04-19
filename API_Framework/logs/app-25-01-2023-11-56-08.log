@@ -1,0 +1,23 @@
+2023-01-25 11:56:08,596 148  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-25 11:56:08,600 152  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\User\git\API_Framework/reports/Automation Report- 01_25_2023_11_56_08
+2023-01-25 11:56:08,661 213  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-25 11:56:08,661 213  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-25 11:56:10,794 2346 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-25 11:56:10,796 2348 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:56:10,939 2491 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Able to provide Authorization and fetch the token
+2023-01-25 11:56:11,329 2881 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Response body value is: BQDLmII-YyO3yjatmHCG4J602gnhr8fj3IRoj3ls5SjheGTkIggRcP095daDv-Yf4J4NN8tVBXSLhrNnvi2dmCSWAUUGzFtUVThxuWTedVX_F4rfO3O9fT0Ms5HetoKCVfXprTCG5EQ0Tw7muKJX_2gJGUVP0ywU2KZz4MyRkAeJEqAzO3uNWWKVv9kDpXtagSEWpnCAlIJV6Dj1gSSyRO3WGHjvApbtoQ4hAw_GYN7SopGPAMuImdY4y7fIWEtXh3siMlWo79fcQfGryQ2wkuhzhsHsKfIeUPjAsinptMJ3_LffpAoJgXE_KrAzHpFHhudHX7RtxXh4Klyx86_TnA
+2023-01-25 11:56:11,437 2989 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Able to write data into json file
+2023-01-25 11:56:11,455 3007 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Able to read data from json file
+2023-01-25 11:56:11,460 3012 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Able to add headers for authentication
+2023-01-25 11:56:11,465 3017 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - This request do not have Path parameters
+2023-01-25 11:56:11,465 3017 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Path parameters added to the request
+2023-01-25 11:56:11,465 3017 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - This reuest do not have Query Parameters
+2023-01-25 11:56:11,465 3017 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Able to add query parameter
+2023-01-25 11:56:11,976 3528 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-25 11:56:11,977 3529 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:56:11,983 3535 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Able to get request using parameters
+2023-01-25 11:56:11,985 3537 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-25 11:56:11,985 3537 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Actual Response Time: 488 is less than Expected Response Time: 2000
+2023-01-25 11:56:11,986 3538 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-25 11:56:11,997 3549 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Response body contains  Country code: IN
+2023-01-25 11:56:12,305 3857 [main] INFO  com.spotify.users.TYSS_Users_GCUP_002 - Schema validation is done

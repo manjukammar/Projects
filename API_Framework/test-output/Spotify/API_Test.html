@@ -1,0 +1,563 @@
+<html>
+<head>
+<title>TestNG:  API_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 16 19:16:52 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>76 seconds (76886 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_GAS_006.TC_TYSS_Albums_GAS_006()'><b>TC_TYSS_Albums_GAS_006</b><br>Test class: com.spotify.albums.TYSS_Albums_GAS_006<br>Test method:  Verify that the API returns an error when too many Album IDs are provided in the same request<br>Parameters: Albums_GAS_006, params, null, ids, /albums</td>
+<td><div><pre>java.lang.AssertionError: expected [400] but found [404]
+	at com.spotify.utils.ApiActionUtil.validateStatusCode(ApiActionUtil.java:191)
+	at com.spotify.albums.TYSS_Albums_GAS_006.TC_TYSS_Albums_GAS_006(TYSS_Albums_GAS_006.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1099556456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1099556456'><pre>java.lang.AssertionError: expected [400] but found [404]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at com.spotify.utils.ApiActionUtil.validateStatusCode(ApiActionUtil.java:191)
+	at com.spotify.albums.TYSS_Albums_GAS_006.TC_TYSS_Albums_GAS_006(TYSS_Albums_GAS_006.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.spotify.albums.TYSS_Albums_GAS_006@7e5c856f</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GUSE_002.TC_TYSS_Episodes_GUSE_002()'><b>TC_TYSS_Episodes_GUSE_002</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GUSE_002<br>Test method: Verify that the response contains Episodes items name<br>Parameters: Episodes_GUSE_002, params, null, null, /me/episodes</td>
+<td><div><pre>java.lang.AssertionError: expected [500] but found [200]
+	at com.spotify.utils.ApiActionUtil.validateStatusCode(ApiActionUtil.java:191)
+	at com.spotify.episodes.TYSS_Episodes_GUSE_002.TC_TYSS_Episodes_GUSE_002(TYSS_Episodes_GUSE_002.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace955557441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace955557441'><pre>java.lang.AssertionError: expected [500] but found [200]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at com.spotify.utils.ApiActionUtil.validateStatusCode(ApiActionUtil.java:191)
+	at com.spotify.episodes.TYSS_Episodes_GUSE_002.TC_TYSS_Episodes_GUSE_002(TYSS_Episodes_GUSE_002.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GUSE_002@62010f5c</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_GAS_007.TC_TYSS_Albums_GAS_007()'><b>TC_TYSS_Albums_GAS_007</b><br>Test class: com.spotify.albums.TYSS_Albums_GAS_007<br>Test method: Verify that the API returns an error when the request format is invalid</td>
+<td><div><pre>org.testng.TestNGException: 
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2023843291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2023843291'><pre>org.testng.TestNGException: 
+Data Provider public static java.lang.Object[][] com.spotify.dataprovider.DataProviderFactory.getFilterRowData(java.lang.reflect.Method) throws java.io.IOException,com.codoid.products.exception.FilloException returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:148)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.spotify.albums.TYSS_Albums_GAS_007@413f69cc</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GUSE_001.TC_TYSS_Episodes_GUSE_001()'><b>TC_TYSS_Episodes_GUSE_001</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GUSE_001<br>Test method: Verify that the response contains Episodes items name.<br>Parameters: Episodes_GUSE_001, params, null, null, /me/episodes</td>
+<td><div><pre>java.lang.AssertionError: expected [500] but found [200]
+	at com.spotify.utils.ApiActionUtil.validateStatusCode(ApiActionUtil.java:191)
+	at com.spotify.episodes.TYSS_Episodes_GUSE_001.TC_TYSS_Episodes_GUSE_001(TYSS_Episodes_GUSE_001.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace298738129", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace298738129'><pre>java.lang.AssertionError: expected [500] but found [200]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at com.spotify.utils.ApiActionUtil.validateStatusCode(ApiActionUtil.java:191)
+	at com.spotify.episodes.TYSS_Episodes_GUSE_001.TC_TYSS_Episodes_GUSE_001(TYSS_Episodes_GUSE_001.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GUSE_001@70f02c32</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_SECU_003.TC_TYSS_Episodes_SECU_003()'><b>TC_TYSS_Episodes_SECU_003</b><br>Test class: com.spotify.episodes.TYSS_Episodes_SECU_003<br>Test method: Verify that the response contains error when provide invalid Episodes ids.<br>Parameters: Episodes_SECU_003, params, null, null, /me/episodes</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_SECU_003@1fa1cab1</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GR_002.TC_TYSS_Tracks_GR_002()'><b>TC_TYSS_Tracks_GR_002</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GR_002<br>Test method: Verify that the API returns the correct data for each seed entity.<br>Parameters: Tracks_GR_002, params, null, seed_artists,seed_genres,seed_tracks, /recommendations</td>
+<td></td>
+<td>1</td>
+<td>com.spotify.tracks.TYSS_Tracks_GR_002@6239aba6</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GE_005.TC_TYSS_Episodes_GE_005()'><b>TC_TYSS_Episodes_GE_005</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GE_005<br>Test method: Verify that the response contains error when provide invalid  endpoint for the get episode request.<br>Parameters: Episodes_GE_005, params, id, market, /episode/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GE_005@30c93896</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GS_001.TC_TYSS_Shows_GS_001()'><b>TC_TYSS_Shows_GS_001</b><br>Test class: com.spotify.shows.TYSS_Shows_GS_001<br>Test method: Verify that the response contains exactly one show <br>Parameters: Shows_GS_001, params, id, market, /shows/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GS_001@31ff43be</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GSE_004.TC_TYSS_Episodes_GSE_004()'><b>TC_TYSS_Episodes_GSE_004</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GSE_004<br>Test method: Verify that the response contains error when provide invalid episode id.<br>Parameters: Episodes_GSE_004, params, null, null, /episodes</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GSE_004@58ce9668</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GUST_001.TC_TYSS_Tracks_GUST_001()'><b>TC_TYSS_Tracks_GUST_001</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GUST_001<br>Test method:  Verify that the API returns the expected number of Tracks for the current Spotify user's 'Your Music' library.<br>Parameters: Tracks_GUST_001, params, null, ids,market, /me/tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GUST_001@74bf1791</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GS_003.TC_TYSS_Shows_GS_003()'><b>TC_TYSS_Shows_GS_003</b><br>Test class: com.spotify.shows.TYSS_Shows_GS_003<br>Test method: Verify that the response contains shows name and release date of first episode of the show.<br>Parameters: Shows_GS_003, params, id, market, /shows/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GS_003@5c44c582</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GST_001.TC_TYSS_Tracks_GST_001()'><b>TC_TYSS_Tracks_GST_001</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GST_001<br>Test method: Verify that the response contains Tracks for the provided respective track ID's<br>Parameters: Tracks_GST_001, params, null, ids,market, /tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GST_001@4ff8d125</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GUST_005.TC_TYSS_Tracks_GUST_005()'><b>TC_TYSS_Tracks_GUST_005</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GUST_005<br>Test method: Verify that the API returns an error when an invalid limit value is provided<br>Parameters: Tracks_GUST_005, params, null, ids,market,limit, /me/tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GUST_005@1fb669c3</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_RUSA_002.TC_TYSS_Albums_RUSA_002()'><b>TC_TYSS_Albums_RUSA_002</b><br>Test class: com.spotify.albums.TYSS_Albums_RUSA_002<br>Test method: Verify that the API returns an error when an invalid Album id is provided for delete request<br>Parameters: Albums_RUSA_002, params, null, ids, /me/albums/</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.albums.TYSS_Albums_RUSA_002@3bd323e9</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GS_004.TC_Shows_GS_004()'><b>TC_Shows_GS_004</b><br>Test class: com.spotify.shows.TYSS_Shows_GS_004<br>Test method: Verify that the response contains error when provided wrong Show id<br>Parameters: Shows_GS_004, params, id, market, /shows/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GS_004@67d18ed7</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_GAS_005.TC_TYSS_Albums_GAS_005()'><b>TC_TYSS_Albums_GAS_005</b><br>Test class: com.spotify.albums.TYSS_Albums_GAS_005<br>Test method:  Verify that the API returns an error when an invalid Album ID is provided<br>Parameters: Albums_GAS_005, params, null, null, /albums</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.albums.TYSS_Albums_GAS_005@12d2ce03</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GUSS_004.TC_TYSS_Shows_GUSS_004()'><b>TC_TYSS_Shows_GUSS_004</b><br>Test class: com.spotify.shows.TYSS_Shows_GUSS_004<br>Test method: Verify that the response contains error when provided wrong shows endpoint<br>Parameters: Shows_GUSS_004, params, null, null, /me/show</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GUSS_004@6cc558c6</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GR_006.TC_TYSS_Tracks_GR_005()'><b>TC_TYSS_Tracks_GR_005</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GR_006<br>Test method: Verify that the API returns an error when the request format is invalid<br>Parameters: Tracks_GR_006, params, null, seed_artists,seed_genres,seed_tracks, /recommendation</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GR_006@479460a6</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GE_002.TC_TYSS_Episodes_GE_002()'><b>TC_TYSS_Episodes_GE_002</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GE_002<br>Test method: Verify that the response contains only one episode<br>Parameters: Episodes_GE_002, params, id, market, /episodes/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GE_002@68702e03</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GS_002.TC_TYSS_Shows_GS_002()'><b>TC_TYSS_Shows_GS_002</b><br>Test class: com.spotify.shows.TYSS_Shows_GS_002<br>Test method: Verify that the response contains available markets with country code 'IN'.<br>Parameters: Shows_GS_002, params, id, market, /shows/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GS_002@5b6ec132</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_RUSA_001.TC_TYSS_Albums_RUSA_001()'><b>TC_TYSS_Albums_RUSA_001</b><br>Test class: com.spotify.albums.TYSS_Albums_RUSA_001<br>Test method: Verify that the user is able to delete the request with valid Album id.<br>Parameters: Albums_RUSA_001, params, null, ids, /me/albums/</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.albums.TYSS_Albums_RUSA_001@1984b1f</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GSE_002.TC_TYSS_Episodes_GE_002()'><b>TC_TYSS_Episodes_GE_002</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GSE_002<br>Test method: Verify that the API returns, the Recommendations are generated based on the available information for a given seed entity and matched against similar artists and tracks.<br>Parameters: Episodes_GSE_002, params, null, ids,market, /episodes</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GSE_002@338c99c8</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_RUSS_001.TC_TYSS_Shows_RUSS_001()'><b>TC_TYSS_Shows_RUSS_001</b><br>Test class: com.spotify.shows.TYSS_Shows_RUSS_001<br>Test method: Verify that the response contains error when provided wrong shows id<br>Parameters: Shows_RUSS_001, params, null, ids, /me/shows</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_RUSS_001@63f259c3</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_GAS_002.TC_TYSS_Albums_GAS_002()'><b>TC_TYSS_Albums_GAS_002</b><br>Test class: com.spotify.albums.TYSS_Albums_GAS_002<br>Test method:  Verify that the response contains Album name,release date and list of tracks<br>Parameters: Albums_GAS_002, params, null, ids,market, /albums</td>
+<td></td>
+<td>1</td>
+<td>com.spotify.albums.TYSS_Albums_GAS_002@1efe439d</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GSE_001.TC_TYSS_Episodes_GSE_001()'><b>TC_TYSS_Episodes_GSE_001</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GSE_001<br>Test method: Verify that the API returns, the Recommendations are generated based on the available information for a given seed entity and matched against similar artists and tracks.<br>Parameters: Episodes_GSE_001, params, null, ids,market, /episodes</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GSE_001@59a008ba</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_GAS_001.TC_TYSS_Albums_GAS_001()'><b>TC_TYSS_Albums_GAS_001</b><br>Test class: com.spotify.albums.TYSS_Albums_GAS_001<br>Test method: Verify that the response contains Albums for the provided respective album ID's.<br>Parameters: Albums_GAS_001, params, null, ids,market, /albums</td>
+<td></td>
+<td>2</td>
+<td>com.spotify.albums.TYSS_Albums_GAS_001@36cda2c2</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GUSS_005.TC_TYSS_Shows_GUSS_005()'><b>TC_TYSS_Shows_GUSS_005</b><br>Test class: com.spotify.shows.TYSS_Shows_GUSS_005<br>Test method: Verify that the response contains error when provided wrong shows id<br>Parameters: Shows_GUSS_005, params, id, null, /me/shows/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GUSS_005@15713d56</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_SECU_002.TC_TYSS_Episodes_SECU_002()'><b>TC_TYSS_Episodes_SECU_002</b><br>Test class: com.spotify.episodes.TYSS_Episodes_SECU_002<br>Test method: Verify that the response contains error when provide invalid endpoint<br>Parameters: Episodes_SECU_002, params, null, ids, /me/episode</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_SECU_002@b4711e2</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_RUSS_003.TC_TYSS_Shows_RUSS_003()'><b>TC_TYSS_Shows_RUSS_003</b><br>Test class: com.spotify.shows.TYSS_Shows_RUSS_003<br>Test method: Verify that the response contains error when provided wrong shows ids.<br>Parameters: Shows_RUSS_003, params, null, ids, /me/shows</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_RUSS_003@600b90df</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GUST_002.TC_TYSS_Tracks_GUST_002()'><b>TC_TYSS_Tracks_GUST_002</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GUST_002<br>Test method: Verify that the API returns the correct data for each Track<br>Parameters: Tracks_GUST_002, params, null, ids,market, /me/tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GUST_002@54504ecd</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GS_006.TC_TYSS_Shows_GS_006()'><b>TC_TYSS_Shows_GS_006</b><br>Test class: com.spotify.shows.TYSS_Shows_GS_006<br>Test method: Verify that the response contains error when provided wrong shows endpoint<br>Parameters: Shows_GS_006, params, id, market, /show/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GS_006@132e0cc</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GUSS_003.TC_TYSS_Shows_GUSS_003()'><b>TC_TYSS_Shows_GUSS_003</b><br>Test class: com.spotify.shows.TYSS_Shows_GUSS_003<br>Test method: Verify that the response contains shows  Items type.<br>Parameters: Shows_GUSS_003, params, null, null, /me/shows</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GUSS_003@7a67e3c6</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_SECU_001.TC_TYSS_Episodes_SECU_001()'><b>TC_TYSS_Episodes_SECU_001</b><br>Test class: com.spotify.episodes.TYSS_Episodes_SECU_001<br>Test method: Verify that the response contains status code for Episodes request<br>Parameters: Episodes_SECU_001, params, null, ids, /me/episodes</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_SECU_001@2796aeae</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GE_004.TC_TYSS_Episodes_GE_004()'><b>TC_TYSS_Episodes_GE_004</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GE_004<br>Test method: Verify that the response contains error when provide invalid episode id.<br>Parameters: Episodes_GE_004, params, id, market, /episodes/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GE_004@2421cc4</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_RUSA_004.TC_TYSS_Albums_RUSA_004()'><b>TC_TYSS_Albums_RUSA_004</b><br>Test class: com.spotify.albums.TYSS_Albums_RUSA_004<br>Test method: Verify that the API returns an error when the request format is invalid<br>Parameters: Albums_RUSA_004, params, null, ids, /me/album</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.albums.TYSS_Albums_RUSA_004@c7ba306</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GST_003.TC_TYSS_Tracks_GST_003()'><b>TC_TYSS_Tracks_GST_003</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GST_003<br>Test method:  Verify that the response contains multiple Track name,release date and list of tracks<br>Parameters: Tracks_GST_003, params, null, ids,market, /tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GST_003@3403e2ac</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_CUSE_001.TC_TYSS_Episodes_CUSE_001()'><b>TC_TYSS_Episodes_CUSE_001</b><br>Test class: com.spotify.episodes.TYSS_Episodes_CUSE_001<br>Test method: Verify that the response contains 'true'<br>Parameters: Episodes_CUSE_001, params, null, ids, /me/episodes/contains</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_CUSE_001@7164ca4c</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GR_003.TC_TYSS_Tracks_GR_003()'><b>TC_TYSS_Tracks_GR_003</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GR_003<br>Test method: Verify that the response contains id, name,type,durations of seeds.<br>Parameters: Tracks_GR_003, params, null, seed_artists,seed_genres,seed_tracks, /recommendations</td>
+<td></td>
+<td>1</td>
+<td>com.spotify.tracks.TYSS_Tracks_GR_003@3e6104fc</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GR_004.TC_TYSS_Tracks_GR_004()'><b>TC_TYSS_Tracks_GR_004</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GR_004<br>Test method: Verify that the API returns an error when an invalid seed is provided.<br>Parameters: Tracks_GR_004, params, null, seed_artists,seed_genres,seed_tracks, /recommendations</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GR_004@12359a82</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GST_007.TC_TYSS_Tracks_GST_007()'><b>TC_TYSS_Tracks_GST_007</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GST_007<br>Test method: Verify that the API returns an error when the request format is invalid<br>Parameters: Tracks_GST_007, params, null, ids, /track</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GST_007@19c65cdc</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_RUSE_001.TC_TYSS_Episodes_RUSE_001()'><b>TC_TYSS_Episodes_RUSE_001</b><br>Test class: com.spotify.episodes.TYSS_Episodes_RUSE_001<br>Test method: Verify that the response contains status code for delete request of Episodes<br>Parameters: Episodes_RUSE_001, params, null, ids, /me/episodes</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_RUSE_001@56673b2c</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GST_002.TC_TYSS_Tracks_GST_002()'><b>TC_TYSS_Tracks_GST_002</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GST_002<br>Test method: Verify that the response contains Track name,release date<br>Parameters: Tracks_GST_002, params, null, ids,market, /tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GST_002@6d167f58</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_RUSS_002.TC_TYSS_Shows_RUSS_002()'><b>TC_TYSS_Shows_RUSS_002</b><br>Test class: com.spotify.shows.TYSS_Shows_RUSS_002<br>Test method: Verify that the response contains error when provided wrong shows endpoint<br>Parameters: Shows_RUSS_002, params, null, ids, /me/show</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_RUSS_002@26ceffa8</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GE_003.TC_TYSS_Episodes_GE_003()'><b>TC_TYSS_Episodes_GE_003</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GE_003<br>Test method: Verify that response contains first episode name and release date.<br>Parameters: Episodes_GE_003, params, id, market, /episodes/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GE_003@7a220c9a</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GST_004.TC_TYSS_Tracks_GST_004()'><b>TC_TYSS_Tracks_GST_004</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GST_004<br>Test method:  Verify that the response contains Track name,release date and list of tracks<br>Parameters: Tracks_GST_004, params, null, ids,market, /tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GST_004@65b104b9</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GUST_004.TC_TYSS_Tracks_GUST_004()'><b>TC_TYSS_Tracks_GUST_004</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GUST_004<br>Test method: Verify  that the API returns an error when invalid endpoint is provided<br>Parameters: Tracks_GUST_004, params, null, ids,market, /me/track</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GUST_004@1339e7aa</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_CUSE_003.TC_TYSS_Episodes_GE_003()'><b>TC_TYSS_Episodes_GE_003</b><br>Test class: com.spotify.episodes.TYSS_Episodes_CUSE_003<br>Test method: Verify that the response contains error when provide invalid Episodes ids.<br>Parameters: Episodes_CUSE_003, params, null, null, /me/episodes/contains</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_CUSE_003@5be46f9d</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GUSE_003.TC_TYSS_Episodes_GUSE_003()'><b>TC_TYSS_Episodes_GUSE_003</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GUSE_003<br>Test method: Verify that the response contains Episodes Items type for given request<br>Parameters: Episodes_GUSE_003, params, null, null, /me/episodes</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GUSE_003@51fadaff</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GE_001.TC_TYSS_Episodes_GE_001()'><b>TC_TYSS_Episodes_GE_001</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GE_001<br>Test method: Verify that the response contains number of Episodes.<br>Parameters: Episodes_GE_001, params, id, market, /episodes/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GE_001@3f91b517</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GR_001.TC_TYSS_Tracks_GR_001()'><b>TC_TYSS_Tracks_GR_001</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GR_001<br>Test method: Verify that the API returns, the Recommendations are generated based on the available information for a given seed entity and matched against similar artists and tracks.<br>Parameters: Tracks_GR_001, params, null, seed_artists,seed_genres,seed_tracks,market, /recommendations</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GR_001@49c66ade</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GUSE_004.TC_TYSS_Episodes_GUSE_004()'><b>TC_TYSS_Episodes_GUSE_004</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GUSE_004<br>Test method: Verify that the response containserror when provided invalid  endpoint for the get user saved  request<br>Parameters: Episodes_GUSE_004, params, null, null, /me/episode</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GUSE_004@401f7633</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GR_005.TC_TYSS_Tracks_GR_005()'><b>TC_TYSS_Tracks_GR_005</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GR_005<br>Test method: Verify that the API returns an error when too many seeds are provided in the same request.<br>Parameters: Tracks_GR_005, params, null, seed_artists,seed_genres,seed_tracks, /recommendations</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GR_005@68df9280</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GSE_003.TC_TYSS_Episodes_GSE_003()'><b>TC_TYSS_Episodes_GSE_003</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GSE_003<br>Test method: Verify that response contains first episode name and release date.<br>Parameters: Episodes_GSE_003, params, null, ids,market, /episodes</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GSE_003@21ba0741</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GS_005.TC_TYSS_Shows_GS_005()'><b>TC_TYSS_Shows_GS_005</b><br>Test class: com.spotify.shows.TYSS_Shows_GS_005<br>Test method: Verify that the response contains error when provided wrong shows endpoint<br>Parameters: Shows_GS_005, params, id, market, /show/{id}</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GS_005@2c78d320</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GST_005.TC_TYSS_Tracks_GST_005()'><b>TC_TYSS_Tracks_GST_005</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GST_005<br>Test method: Verify that the response body contains error when no id is provided<br>Parameters: Tracks_GST_005, params, null, null, /tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GST_005@6c4980d3</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GUSS_001.TC_TYSS_Shows_GUSS_001()'><b>TC_TYSS_Shows_GUSS_001</b><br>Test class: com.spotify.shows.TYSS_Shows_GUSS_001<br>Test method: Verify that the response contains shows  added date.<br>Parameters: Shows_GUSS_001, params, null, null, /me/shows</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GUSS_001@7b205dbd</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_GAS_003.TC_TYSS_Albums_GAS_003()'><b>TC_TYSS_Albums_GAS_003</b><br>Test class: com.spotify.albums.TYSS_Albums_GAS_003<br>Test method: Verify that the response contains multiple Albums name,release date and list of tracks<br>Parameters: Albums_GAS_003, params, null, ids,market, /albums</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.albums.TYSS_Albums_GAS_003@be68757</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GST_006.TC_TYSS_Tracks_GST_006()'><b>TC_TYSS_Tracks_GST_006</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GST_006<br>Test method: Verify that the API returns an error when too many Track IDs are provided in the same request.<br>Parameters: Tracks_GST_006, params, null, ids, /tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GST_006@327bcebd</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_CUSE_002.TC_TYSS_Episodes_GE_002()'><b>TC_TYSS_Episodes_GE_002</b><br>Test class: com.spotify.episodes.TYSS_Episodes_CUSE_002<br>Test method: Verify that the response contains error when provide invalid endpoint<br>Parameters: Episodes_CUSE_002, params, null, ids, /me/episodes/contain</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_CUSE_002@4f3bbf68</td></tr>
+<tr>
+<td title='com.spotify.episodes.TYSS_Episodes_GSE_005.TC_TYSS_Episodes_GSE_005()'><b>TC_TYSS_Episodes_GSE_005</b><br>Test class: com.spotify.episodes.TYSS_Episodes_GSE_005<br>Test method: Verify that the response contains error when provide invalid query param.<br>Parameters: Episodes_GSE_005, params, null, limit, /episodes</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.episodes.TYSS_Episodes_GSE_005@172b013</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_GAS_004.TC_TYSS_Albums_GAS_004()'><b>TC_TYSS_Albums_GAS_004</b><br>Test class: com.spotify.albums.TYSS_Albums_GAS_004<br>Test method: Verify that the response contains different type of  Albums name,release date and list of tracks<br>Parameters: Albums_GAS_004, params, null, ids,market, /albums</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.albums.TYSS_Albums_GAS_004@7d446ed1</td></tr>
+<tr>
+<td title='com.spotify.tracks.TYSS_Tracks_GUST_003.TC_TYSS_Tracks_GUST_003()'><b>TC_TYSS_Tracks_GUST_003</b><br>Test class: com.spotify.tracks.TYSS_Tracks_GUST_003<br>Test method: Verify that the API returns the Tracks in the order they were added to the user's library.<br>Parameters: Tracks_GUST_003, params, null, ids,market, /me/tracks</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.tracks.TYSS_Tracks_GUST_003@38b27cdc</td></tr>
+<tr>
+<td title='com.spotify.shows.TYSS_Shows_GUSS_002.TC_TYSS_Shows_GUSS_002()'><b>TC_TYSS_Shows_GUSS_002</b><br>Test class: com.spotify.shows.TYSS_Shows_GUSS_002<br>Test method: Verify that the response contains shows  Items name.<br>Parameters: Shows_GUSS_002, params, null, null, /me/shows</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.shows.TYSS_Shows_GUSS_002@106cc338</td></tr>
+<tr>
+<td title='com.spotify.albums.TYSS_Albums_RUSA_003.TC_TYSS_Albums_RUSA_003()'><b>TC_TYSS_Albums_RUSA_003</b><br>Test class: com.spotify.albums.TYSS_Albums_RUSA_003<br>Test method:  Verify that the API returns an error when too many Album IDs are provided in the same request<br>Parameters: Albums_RUSA_003, params, null, ids, /me/albums/</td>
+<td></td>
+<td>0</td>
+<td>com.spotify.albums.TYSS_Albums_RUSA_003@39ac0c0a</td></tr>
+</table><p>
+</body>
+</html>

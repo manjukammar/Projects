@@ -1,0 +1,22 @@
+2023-01-25 10:40:24,128 187  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-25 10:40:24,133 192  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\API Workspace\API_Framework/reports/Automation Report- 01_25_2023_10_40_24
+2023-01-25 10:40:24,211 270  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-25 10:40:24,211 270  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-25 10:40:26,269 2328 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-25 10:40:26,277 2336 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 10:40:26,362 2421 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Able to provide Authorization and fetch the token
+2023-01-25 10:40:26,696 2755 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Response body value is: BQD-ae-5yKyJsTMyEWHkpiWKYJQK9A5jpkWHFQBnawc-NgxCyGs6aksF4YyrkfZBXk9UiWQ0YKMpf9f_crVp1sfWK9wtOa3r6rUSKzSNJ4O1a4dTqDQbUWbBy-OEb1WwjH5EQoUjzVO_hBpZh-P1Gy6R76oReDhPgxNKnlasKPe9Yl9IZP1zSqJodsFO2eWCrmym60aDhjIHJRKSLlcZQ79ehsqvAzp67Osb3LeGWWrs6Y7yRZ5bbLyWBfP08oQhfWOAcyY-gz73Ordz1mqBB4o7NDmIhdF4Y70fjATaQjUC-T9Xzq4Qg6EiQ1E5uzchCojS9kWHgmtY-vN29ivDvw
+2023-01-25 10:40:26,794 2853 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Able to write data into json file
+2023-01-25 10:40:26,813 2872 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Able to read data from json file
+2023-01-25 10:40:26,819 2878 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Able to add headers for authentication
+2023-01-25 10:40:26,835 2894 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - This request do not have Path parameters
+2023-01-25 10:40:26,835 2894 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Path parameters added to the request
+2023-01-25 10:40:26,837 2896 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Able to add query parameter
+2023-01-25 10:40:27,241 3300 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-25 10:40:27,242 3301 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 10:40:27,248 3307 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Able to get request using parameters
+2023-01-25 10:40:27,250 3309 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-25 10:40:27,250 3309 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Actual Response Time: 379 is less than Expected Response Time: 2000
+2023-01-25 10:40:27,250 3309 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-25 10:40:27,518 3577 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Schema validation is done
+2023-01-25 10:40:27,519 3578 [main] INFO  com.spotify.albums.TYSS_Albums_CUSA_003 - Expected body value: false is present in the Actual body Value

@@ -1,0 +1,21 @@
+2023-01-25 11:16:39,451 316  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-25 11:16:39,457 322  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-D:\Api_FW\API_Framework/reports/Automation Report- 01_25_2023_11_16_39
+2023-01-25 11:16:39,576 441  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-25 11:16:39,672 537  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-25 11:16:42,833 3698 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-25 11:16:42,836 3701 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:16:42,978 3843 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Able to provide Authorization and fetch the token
+2023-01-25 11:16:43,553 4418 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Response body value is: BQA7waa-K-dG_he7Sh_Cc-aC0ldAgf8GMKpEa1fiVTwO98ptrz2gdlxZ2T71H35hs8x6O5wvQAYM9VgfadvcttUhZGswA898mNCxjuaqWmg9OrwWItTBvrGD2Odux_9DA954aLTJjaTalZIRdqlL4DRGaz2EjIH4eOH2CsGZ5hM-Ec4T0BfH8KNs3QE66gzhA9xwON4v7M0Dl681CNZgxSmdAkyyzL9TZGcChx41HdkIZmc0dkcNbo5Vplq6irQQE3T6TMiiuBsOJDrElUElLvjz72vhL7jijWucWTqs-jVx7SRCslAzCPyDvvNrK6xlhzMj1qRaSR7DqsW8ZlOonQ
+2023-01-25 11:16:43,772 4637 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Able to write data into json file
+2023-01-25 11:16:43,806 4671 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Able to read data from json file
+2023-01-25 11:16:43,813 4678 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Able to add headers for authentication
+2023-01-25 11:16:43,821 4686 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - This request do not have Path parameters
+2023-01-25 11:16:43,821 4686 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Path parameters added to the request
+2023-01-25 11:16:43,824 4689 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Able to add query parameter
+2023-01-25 11:16:44,131 4996 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-25 11:16:44,132 4997 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:16:44,148 5013 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Able to get request using parameters
+2023-01-25 11:16:44,152 5017 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-25 11:16:44,153 5018 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-25 11:16:44,154 5019 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Actual Response Time: 273 is less than Expected Response Time: 2000
+2023-01-25 11:16:44,834 5699 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GSA_002 - Schema validation is done

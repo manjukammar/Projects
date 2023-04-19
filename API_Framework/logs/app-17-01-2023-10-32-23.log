@@ -1,0 +1,20 @@
+2023-01-17 10:32:23,278 211  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:32:23,282 215  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_32_23
+2023-01-17 10:32:23,366 299  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:32:23,367 300  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:32:25,630 2563 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:32:25,633 2566 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:32:25,721 2654 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Able to provide Authorization and fetch the token
+2023-01-17 10:32:26,146 3079 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Response body value is: BQDxIbsbFWg8o864vZ5ALhkOmOgKrZofB5tEXELLA6UACCBStcBQdFswA_36I7JQe4aWd1LnBHgvZ2TAqUS3JPpozanna78n--XfxobJzcuKmIl6hWWXnvfVvHF8YXWuODegzD1_hlfFhZRHnSeatVvqam9Os5hgxAUOfgrNnXknijigrMaObjBuMon5HV0MZ-dq131e_vn3crkPSFYP7bG3tZRVsioI3STBaODyGnqgmfc46jfeWRp6i0GiWdr3A8Kk-GaGeG9eQVm4Ur3SWXGnSg-j2mSLMkADDdDtisY9dPbjcIN37iC8_Ab7W5HtxVi4L5Dhv8bXP1xpqm2s
+2023-01-17 10:32:26,258 3191 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Able to write data into json file
+2023-01-17 10:32:26,287 3220 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Able to read data from json file
+2023-01-17 10:32:26,295 3228 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Able to add headers for authentication
+2023-01-17 10:32:26,299 3232 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - This request do not have Path parameters
+2023-01-17 10:32:26,300 3233 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Path parameters added to the request
+2023-01-17 10:32:26,301 3234 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Able to add query parameter
+2023-01-17 10:32:27,078 4011 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 10:32:27,079 4012 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:32:27,100 4033 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Able to get request using parameters
+2023-01-17 10:32:27,102 4035 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-17 10:32:27,102 4035 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - Actual Response Time: 742 is less than Expected Response Time: 2000
+2023-01-17 10:32:27,103 4036 [main] INFO  com.spotify.search.TYSS_Search_SFI_004 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8

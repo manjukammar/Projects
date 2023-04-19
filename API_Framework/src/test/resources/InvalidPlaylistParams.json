@@ -1,0 +1,17 @@
+{
+	"playlist_id":"3zCIdLCGKOFa3XWq1yo5",
+	"additional_types":"track",
+	"user_id":"31lgs7ft5547fkaobzoin7fgvl",
+	"category_id":"dinner",
+
+
+  "seed_genres":"classical",
+  "seed_artists":"53XhwfbYqKCa1cC15pYq2q",
+  "seed_tracks":"7gsXdbcl2ndPAIj7auIGij",
+  "limit":10,
+  "offset":5,
+  "market":"IN",
+  "country":"IN",
+  "q":"remaster%20track:Doxy%20artist:Miles%20Davis",
+  "locale":"sv_IN"
+}

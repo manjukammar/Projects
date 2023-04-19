@@ -1,0 +1,16 @@
+2023-01-17 11:15:35,544 197  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 11:15:35,548 201  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_11_15_35
+2023-01-17 11:15:35,630 283  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 11:15:35,630 283  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 11:15:37,911 2564 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 11:15:37,914 2567 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 11:15:38,002 2655 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - Able to provide Authorization and fetch the token
+2023-01-17 11:15:38,406 3059 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - Response body value is: BQBRLbfKP7U5ioGSrpUEY8AIGgi8RpNdWCqB5TRrjwxBi6ZKdVK-yrETQXrY4KWYRqf2O-VMWLZnzNRcD_YPjhw1e94JgRGaPaldp-ffoHQasMuBmA2jQ1fnh_Cn2IEnj96VVG_mdXedqKOlS-a7Cfyqq_7TkT_W8rU5ENn2nrCc-iW3UK-PqyPZtKrnFLOG5MydLB_ODvddKLf_hdhfsKr3oWErOgNqV1YCWCJbKLyIg_C3IHc8QNe4OBd7_uKlFCji4Aja66_pTvLuxkoBagTok_cVTSudGQvupjNa0aLeFoX2UFgcZKQfhx4I6aOzNFfnoaRz9WC_ifgRLeqL
+2023-01-17 11:15:38,506 3159 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - Able to write data into json file
+2023-01-17 11:15:38,529 3182 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - Able to read data from json file
+2023-01-17 11:15:38,535 3188 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - Able to add headers for authentication
+2023-01-17 11:15:38,540 3193 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - This request do not have Path parameters
+2023-01-17 11:15:38,541 3194 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - Path parameters added to the request
+2023-01-17 11:15:38,541 3194 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - This reuest do not have Query Parameters
+2023-01-17 11:15:38,541 3194 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - Able to add query parameter
+2023-01-17 11:15:38,991 3644 [main] INFO  com.spotify.player.TYSS_Player_GPS_001 - Able to get request using parameters

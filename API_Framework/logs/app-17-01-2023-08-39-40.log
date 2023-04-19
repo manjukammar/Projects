@@ -1,0 +1,15 @@
+2023-01-17 08:39:40,998 500  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 08:39:41,008 510  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\API Workspace\API_Framework/reports/Automation Report- 01_17_2023_08_39_41
+2023-01-17 08:39:41,241 743  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 08:39:41,242 744  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 08:39:46,146 5648 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 08:39:46,151 5653 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 08:39:46,314 5816 [main] INFO  com.spotify.tracks.TYSS_Tracks_STCU_001 - Able to provide Authorization and fetch the token
+2023-01-17 08:39:47,043 6545 [main] INFO  com.spotify.tracks.TYSS_Tracks_STCU_001 - Response body value is: BQDKvXGZC6reC_brkomnifKsdWCLx4VaQ7gl1M3naUFuAQs5xNbmwye04wZ41oswgPb2_nuohOikRmP1G9tyWwG9k-I6kIrNzkFzBuF_P2uB6-25aZpINizfkmR47QqZNkElDHVqKYDaSKtWQl1m7ZkoSaT9s9nbpydi3A22dvR2Dw3e3GgHktPjYXrmffIQ0Z0uCpAIyQNC5NWtYpkE6304JbPkNNpmictF13_FeT0kj2_Uf3fQ8XqgVcrQaNR-8nRK63I_UDjawsxbZ_CtwhPwN9JGvtmTFp3w0oDKuQCLM0PbqmW1IDvLVwJpQ5nSfe3-aXblsVplbQt4WiVi
+2023-01-17 08:39:47,328 6830 [main] INFO  com.spotify.tracks.TYSS_Tracks_STCU_001 - Able to write data into json file
+2023-01-17 08:39:47,383 6885 [main] INFO  com.spotify.tracks.TYSS_Tracks_STCU_001 - Able to read data from json file
+2023-01-17 08:39:47,400 6902 [main] INFO  com.spotify.tracks.TYSS_Tracks_STCU_001 - Able to add headers for authentication
+2023-01-17 08:39:47,416 6918 [main] INFO  com.spotify.tracks.TYSS_Tracks_STCU_001 - This request do not have Path parameters
+2023-01-17 08:39:47,417 6919 [main] INFO  com.spotify.tracks.TYSS_Tracks_STCU_001 - Path parameters added to the request
+2023-01-17 08:39:47,425 6927 [main] INFO  com.spotify.tracks.TYSS_Tracks_STCU_001 - Able to add query parameter
+2023-01-17 08:39:48,046 7548 [main] INFO  com.spotify.tracks.TYSS_Tracks_STCU_001 - Able to put request using parameters

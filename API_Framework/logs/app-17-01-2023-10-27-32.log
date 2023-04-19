@@ -1,0 +1,23 @@
+2023-01-17 10:27:32,537 200  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:27:32,542 205  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_27_32
+2023-01-17 10:27:32,637 300  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:27:32,638 301  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:27:35,171 2834 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:27:35,174 2837 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:27:35,257 2920 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Able to provide Authorization and fetch the token
+2023-01-17 10:27:35,658 3321 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Response body value is: BQDBgSLoG1flPgdQ3zOJm66i1ZXqurY7rmppbp5DQkqJFcyTeS-TZfhh5qoBitByb2EB-o36n3KzKS-JWkhJyyjdkq5wx1mFPCchgLAoQjdWpExDCEEXcNPB28ib1W4s1uOnkIhC3hjjzSPkjaVxwJmWWOyO1F4nXgp5ynO01THEMt8hg0Xvs_W_eh546UbBFsEDdh1o4gtw9nb7pbdlEKy3eqxXX4v9R4FPRNqPdB6uH-_7wMIIbMrR1B2BVcTYlneactHSoy2hCSKlEVn7H6NzqHsckQTi6eF7Ruyqe2mBPFl0M9AE-jZCmD4S83MTr-SFFJmaV_RKf7zUp2AJ
+2023-01-17 10:27:35,766 3429 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Able to write data into json file
+2023-01-17 10:27:35,787 3450 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Able to read data from json file
+2023-01-17 10:27:35,791 3454 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Able to add headers for authentication
+2023-01-17 10:27:35,796 3459 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - This request do not have Path parameters
+2023-01-17 10:27:35,796 3459 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Path parameters added to the request
+2023-01-17 10:27:35,796 3459 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - This reuest do not have Query Parameters
+2023-01-17 10:27:35,796 3459 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Able to add query parameter
+2023-01-17 10:27:36,139 3802 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 10:27:36,141 3804 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:27:36,152 3815 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Able to get request using parameters
+2023-01-17 10:27:36,155 3818 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-17 10:27:36,155 3818 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Actual Response Time: 326 is less than Expected Response Time: 2000
+2023-01-17 10:27:36,201 3864 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Response body contains AZ: AZ
+2023-01-17 10:27:36,202 3865 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-17 10:27:36,629 4292 [main] INFO  com.spotify.markets.TYSS_Markets_GAM_002 - Schema validation is done

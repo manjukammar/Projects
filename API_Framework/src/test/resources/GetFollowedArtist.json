@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "artists": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {}
+        },
+        "next": {
+          "type": "null"
+        },
+        "total": {
+          "type": "integer"
+        },
+        "cursors": {
+          "type": "object",
+          "properties": {
+            "after": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "after"
+          ]
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "href": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "items",
+        "next",
+        "total",
+        "cursors",
+        "limit",
+        "href"
+      ]
+    }
+  },
+  "required": [
+    "artists"
+  ]
+}

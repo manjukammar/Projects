@@ -1,0 +1,4 @@
+2023-01-16 17:43:12,178 304  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-16 17:43:12,196 322  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\SHIVANANDA T S\API_FW\API_Framework/reports/Automation Report- 01_16_2023_17_43_12
+2023-01-16 17:43:12,358 484  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-16 17:43:12,359 485  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created

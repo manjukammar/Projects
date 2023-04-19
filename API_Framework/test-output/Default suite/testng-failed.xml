@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+<<<<<<< HEAD
+      <class name="com.spotify.playlist.TYSS_TC_Playlists_UPI_001">
+=======
+<<<<<<< HEAD
+      <class name="com.spotify.users.TYSS_Users_CUFP_001">
+=======
+<<<<<<< HEAD
+      <class name="com.spotify.albums.TYSS_Albums_GAS_006">
+>>>>>>> b2db8b45f04188e429a24839fa2c448ad53bc713
+        <methods>
+          <include name="TC_TYSS_Albums_GAS_006" invocation-numbers="0"/>
+          <include name="setExtentReport"/>
+          <include name="createFiles"/>
+          <include name="launchApp"/>
+        </methods>
+<<<<<<< HEAD
+      </class> <!-- com.spotify.users.TYSS_Users_CUFP_001 -->
+=======
+      </class> <!-- com.spotify.albums.TYSS_Albums_GAS_006 -->
+=======
+      <class name="com.spotify.playlist.TYSS_TC_Playlists_AITP_003">
+>>>>>>> 692ea4785f084d773ddd0b0cd33173c59e54321f
+        <methods>
+          <include name="TC_Playlists_UPI_001" invocation-numbers="0"/>
+          <include name="setExtentReport"/>
+          <include name="createFiles"/>
+          <include name="launchApp"/>
+        </methods>
+<<<<<<< HEAD
+      </class> <!-- com.spotify.playlist.TYSS_TC_Playlists_UPI_001 -->
+=======
+      </class> <!-- com.spotify.playlist.TYSS_TC_Playlists_AITP_003 -->
+>>>>>>> 8e0d3ef0b7add269c37806a385031acbe0f09dab
+>>>>>>> b2db8b45f04188e429a24839fa2c448ad53bc713
+>>>>>>> 692ea4785f084d773ddd0b0cd33173c59e54321f
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

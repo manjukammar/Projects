@@ -1,0 +1,21 @@
+2023-01-17 09:19:53,392 374  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 09:19:53,402 384  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\API Workspace\API_Framework/reports/Automation Report- 01_17_2023_09_19_53
+2023-01-17 09:19:53,564 546  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 09:19:53,564 546  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 09:19:57,579 4561 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 09:19:57,588 4570 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 09:19:57,770 4752 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Able to provide Authorization and fetch the token
+2023-01-17 09:19:58,434 5416 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Response body value is: BQDqicXEFu-AQM2GUIAzruoXWqGd9UUrD2ejXEpyxmGTKDEBVu_Is7nUhiekgWOd1h4GJOfjcbnCayVPDBhVNHENAOcSomi8O4Ec8jwExpRnGEBUJvbJEVcbjr-Enpfn1KpjupgQim2V-R1h9ZxSOCWa6jzJsIKmvXQblBAEMdTGE7wx7EJzoH0VgfKMvuqB1z9R3Jcfdsh0Wv1UnWZ5pfgykOaOeFJgv79pKgEUQCdJaidySWPkCYId08V2Ku1DiIgyimxROx87xthGxRwoFF2xBna5Rjx1RLoiGyCWmR8eZqaDTU4HA8-IR6XuvJrUQrrr8YEx9zjTcRBKHuJv
+2023-01-17 09:19:58,666 5648 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Able to write data into json file
+2023-01-17 09:19:58,701 5683 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Able to read data from json file
+2023-01-17 09:19:58,712 5694 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Able to add headers for authentication
+2023-01-17 09:19:58,724 5706 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Path parameters added to the request
+2023-01-17 09:19:58,729 5711 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Able to add query parameter
+2023-01-17 09:19:59,290 6272 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 09:19:59,291 6273 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 09:19:59,311 6293 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Able to get request using parameters
+2023-01-17 09:19:59,314 6296 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-17 09:19:59,315 6297 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Actual Response Time: 494 is less than Expected Response Time: 2000
+2023-01-17 09:19:59,316 6298 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-17 09:19:59,888 6870 [main] INFO  com.spotify.tracks.TYSS_Tracks_GT_001 - Schema validation is done
+2023-01-17 09:19:59,890 6872 [main] ERROR com.spotify.tracks.TYSS_Tracks_GT_001 - null

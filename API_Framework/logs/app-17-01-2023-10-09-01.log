@@ -1,0 +1,21 @@
+2023-01-17 10:09:01,660 392  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:09:01,673 405  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\User\git\API_Framework/reports/Automation Report- 01_17_2023_10_09_01
+2023-01-17 10:09:01,838 570  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:09:01,839 571  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:09:06,612 5344 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:09:06,637 5369 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:09:06,970 5702 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Able to provide Authorization and fetch the token
+2023-01-17 10:09:08,168 6900 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Response body value is: BQBAKZ9gguddUwsBiHGAQ5wUtc535aQRAsxBlBZD7LwkKRaBUS2x8hE0xmaEw7_JU53z3DjnZD1XAMD-Kh2wL2UfbnmyDDFcGZ6MfMXh3czjTsqouhEF5mZcZ9LHVqCwkLnVbdb4q8zNTXdw8W8asaVlD0JXhju9CZDD-0oG8TdxnKRVH6LGKdy2QGVzZbPnp2T9HQQpFoHLc7iBqQ4eD-M4N9hZOwPlVCSxEl-Z6zqwsYcLPsZFm2BQtDLBHDW9kUxt1qM6uaed1tn3RZ7_cO9ZbBnb1uAkXemEEjWLmWbDi5CZffFSPuZDiPQgq0-mdsEwCMf_zESuIpIkHJZt
+2023-01-17 10:09:08,507 7239 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Able to write data into json file
+2023-01-17 10:09:08,558 7290 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Able to read data from json file
+2023-01-17 10:09:08,571 7303 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Able to add headers for authentication
+2023-01-17 10:09:08,597 7329 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Path parameters added to the request
+2023-01-17 10:09:08,599 7331 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - This reuest do not have Query Parameters
+2023-01-17 10:09:08,600 7332 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Able to add query parameter
+2023-01-17 10:09:10,034 8766 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 10:09:10,035 8767 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:09:10,039 8771 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Able to post request using json file
+2023-01-17 10:09:10,048 8780 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Actual Response Time: 1359 is less than Expected Response Time: 2000
+2023-01-17 10:09:10,049 8781 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Expected Status code is: 201 is matching with actual status code: 201
+2023-01-17 10:09:10,072 8804 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Response body contains Snap shot id is :: Niw1ZTJhMGU2ZTc2MTBjM2IyZDg5NmY2OGM1YTYwNjllODcyMTgyYjc2
+2023-01-17 10:09:10,818 9550 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_002 - Schema validation is done

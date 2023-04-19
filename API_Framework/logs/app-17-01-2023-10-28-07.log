@@ -1,0 +1,19 @@
+2023-01-17 10:28:08,068 197  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:28:08,072 201  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_28_08
+2023-01-17 10:28:08,148 277  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:28:08,149 278  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:28:10,382 2511 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:28:10,386 2515 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:28:10,469 2598 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Able to provide Authorization and fetch the token
+2023-01-17 10:28:10,852 2981 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Response body value is: BQBK_wK_PSZVBSijTsBGN2UUzowZ8uV1eieBi4oqKZZ-Lm3IMl3xGeCpzQW_NEnG_1n9Gy-qETBChYQOOTqOJpZyGPaMNx5D2MdzWgONXcNByfj0_8F5K00DaRxGFUEpaQ1aTasKNCAvxJckCVXfgHXvDgul3dZpbPSVGnf1y1g7StEo5GErqMKxLFIf2I9NAVzDZRYIijzDjpx18BpWbPa36QH_26N8KtQ8fEwtyYwWgKj63xGkfJELRcuXja5CFST_iO1z6ZjRfHe1cJ89JZKINrnc0GWAqQYdaBDeSpuPyFf5SO_2gri8SWoNHwwlbioOR1E8RX8EIWH5ChrN
+2023-01-17 10:28:10,951 3080 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Able to write data into json file
+2023-01-17 10:28:10,973 3102 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Able to read data from json file
+2023-01-17 10:28:10,978 3107 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Able to add headers for authentication
+2023-01-17 10:28:10,981 3110 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - This request do not have Path parameters
+2023-01-17 10:28:10,982 3111 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Path parameters added to the request
+2023-01-17 10:28:10,982 3111 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - This reuest do not have Query Parameters
+2023-01-17 10:28:10,982 3111 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Able to add query parameter
+2023-01-17 10:28:11,469 3598 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Able to get request using parameters
+2023-01-17 10:28:11,473 3602 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-17 10:28:11,474 3603 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Actual Response Time: 458 is less than Expected Response Time: 2000
+2023-01-17 10:28:11,474 3603 [main] INFO  com.spotify.player.TYSS_Player_GAD_002 - Response contains error message: Service not found

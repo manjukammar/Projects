@@ -1,0 +1,18 @@
+2023-01-17 10:24:41,628 214  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:24:41,631 217  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_24_41
+2023-01-17 10:24:41,715 301  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:24:41,716 302  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:24:43,915 2501 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:24:43,918 2504 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:24:44,003 2589 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Able to provide Authorization and fetch the token
+2023-01-17 10:24:44,397 2983 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Response body value is: BQCnAaBnFOpEtMfcIe0msGmUSds72Huabcacnekqrczeg6uXT27jzfV14c9iXmmZRW_IRxAG071QYFXzOQUm2CsgWFtI1j1xVJQa2HY2tCCYnex0MdFmWn4soIr-fVRkwljK7PvwzyWZO9w_07Ais0NjcK8mkXQW7p9NEO8INVWlhUIRG2FJTwH437EHRDMLNTUNCy4KycuuHyy99qb5_FIoLGWRVjLoNyOwn9LO_kU63_MdSyyfwr5TTxX4WT6EoD86y3QrTpNY3SNoTYn2STnZuAJZoXduFkfgorkv4Xaok8jezh6rHsiQMfmRyRUOo60BIBxn7uY-hybnNH7O
+2023-01-17 10:24:44,497 3083 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Able to write data into json file
+2023-01-17 10:24:44,519 3105 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Able to read data from json file
+2023-01-17 10:24:44,523 3109 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Able to add headers for authentication
+2023-01-17 10:24:44,529 3115 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Path parameters added to the request
+2023-01-17 10:24:44,529 3115 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - This reuest do not have Query Parameters
+2023-01-17 10:24:44,529 3115 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Able to add query parameter
+2023-01-17 10:24:44,880 3466 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Able to get request using parameters
+2023-01-17 10:24:44,884 3470 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-17 10:24:44,885 3471 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Actual Response Time: 318 is less than Expected Response Time: 2000
+2023-01-17 10:24:44,885 3471 [main] INFO  com.spotify.albums.TYSS_Albums_GAT_005 - Response contains error message: Service not found

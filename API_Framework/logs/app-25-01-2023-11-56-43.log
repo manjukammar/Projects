@@ -1,0 +1,22 @@
+2023-01-25 11:56:43,883 136  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-25 11:56:43,888 141  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\User\git\API_Framework/reports/Automation Report- 01_25_2023_11_56_43
+2023-01-25 11:56:43,953 206  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-25 11:56:43,953 206  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-25 11:56:46,330 2583 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-25 11:56:46,332 2585 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:56:46,489 2742 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Able to provide Authorization and fetch the token
+2023-01-25 11:56:46,898 3151 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Response body value is: BQAhj9_u7Vhfvu5DSAK5r8Hkq2wk6-wN0WZbuBJkin9b0qr9dRkQdBR_npz4HNvfJPUjMudxbymcaxcXA4Xyu13sIoXZgC_tPUC28gJHlHCBDFO_9L__tddI8bMvpkyOx2dfrVDd8igrl-boHdPdbJvGnfv2bKktrQWb4xldkQ4rXUyXeVDvI22QZwvdPZxlCn4uYdLwnhxWpdd3XJlIXBRIPZCPd1uKxTt6TbVq-06epTvUga9wwL3aqjQPdpGcwOFEXcjtCvADR5DSEKZYP4QmTgDL_pfdthnPCC366PtkYZUwdXDH_3uN1BUAaDZ-ktbHqafvqJsTzWRL8-Fc7g
+2023-01-25 11:56:47,013 3266 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Able to write data into json file
+2023-01-25 11:56:47,031 3284 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Able to read data from json file
+2023-01-25 11:56:47,036 3289 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Able to add headers for authentication
+2023-01-25 11:56:47,042 3295 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - This request do not have Path parameters
+2023-01-25 11:56:47,042 3295 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Path parameters added to the request
+2023-01-25 11:56:47,046 3299 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Able to add query parameter
+2023-01-25 11:56:47,832 4085 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-25 11:56:47,833 4086 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:56:47,842 4095 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Able to get request using parameters
+2023-01-25 11:56:47,844 4097 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-25 11:56:47,844 4097 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Actual Response Time: 771 is less than Expected Response Time: 2000
+2023-01-25 11:56:47,844 4097 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-25 11:56:47,862 4115 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Response body contains artist the user: [items:[[external_urls:[spotify:https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we], followers:[href:null, total:38399060], genres:[dance pop, pop, uk pop], href:https://api.spotify.com/v1/artists/6M2wZ9GZgrQXHCFfjv46we, id:6M2wZ9GZgrQXHCFfjv46we, images:[[height:640, url:https://i.scdn.co/image/ab6761610000e5ebd42a27db3286b58553da8858, width:640], [height:320, url:https://i.scdn.co/image/ab67616100005174d42a27db3286b58553da8858, width:320], [height:160, url:https://i.scdn.co/image/ab6761610000f178d42a27db3286b58553da8858, width:160]], name:Dua Lipa, popularity:89, type:artist, uri:spotify:artist:6M2wZ9GZgrQXHCFfjv46we]], next:null, total:3, cursors:[after:null], limit:20, href:https://api.spotify.com/v1/me/following?type=artist&after=1mYsTxnqsietFxj1OgoGbG&limit=20]
+2023-01-25 11:56:48,179 4432 [main] INFO  com.spotify.users.TYSS_Users_GFA_001 - Schema validation is done

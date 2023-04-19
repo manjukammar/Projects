@@ -1,0 +1,17 @@
+2023-01-17 10:34:17,944 211  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:34:17,948 215  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_34_17
+2023-01-17 10:34:18,027 294  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:34:18,027 294  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:34:20,305 2572 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:34:20,315 2582 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:34:20,408 2675 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Able to provide Authorization and fetch the token
+2023-01-17 10:34:20,769 3036 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Response body value is: BQCDSsO3OgsYIMIatDkCuaib1wwG03l0ENoDurqpxUxBw3DEhKH0Zpmc9nzqivuUOSjvF580k8D0eefVdSdX2rdOjBrlCiojzacXXeET_C8nHcuvQKy71cbxjUlz14vcQOlfXT-OepSWnDcd4l_-6VJgkHHKPJR7VNLfHxgs5mWtCMNYFDmsQPyW28pzbG4cz_nYXUeblK8mO8OEwYfx_8PYW88qkC12Bsyi__EvA6M-9BcKfnLt0ohUCztMLMYIdrhutRLZBK6BVCa98wm776XyZpJhhk0ALz6GEwiOsLyCUFlZ5vA8M2mPczOTlvGwyN3-O3mOUxzeYQ-wEmHS
+2023-01-17 10:34:20,875 3142 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Able to write data into json file
+2023-01-17 10:34:20,899 3166 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Able to read data from json file
+2023-01-17 10:34:20,904 3171 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Able to add headers for authentication
+2023-01-17 10:34:20,908 3175 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - This request do not have Path parameters
+2023-01-17 10:34:20,909 3176 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Path parameters added to the request
+2023-01-17 10:34:20,910 3177 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Able to add query parameter
+2023-01-17 10:34:21,357 3624 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Able to put request using parameters
+2023-01-17 10:34:21,365 3632 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-17 10:34:21,365 3632 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_001 - Actual Response Time: 411 is less than Expected Response Time: 2000

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" name="Spotify">
+	<listeners>
+		<listener class-name="com.spotify.listener.TestListners" />
+	</listeners>
+	<test thread-count="1" name="API_Test">
+		<classes>
+			<class name="com.spotify.albums.TYSS_Albums_GAS_001" />
+			<class name="com.spotify.albums.TYSS_Albums_GAS_002" />
+			<class name="com.spotify.albums.TYSS_Albums_GAS_003" />
+			<class name="com.spotify.albums.TYSS_Albums_GAS_004" />
+			<class name="com.spotify.albums.TYSS_Albums_GAS_005" />
+			<class name="com.spotify.albums.TYSS_Albums_GAS_006" />
+			<class name="com.spotify.albums.TYSS_Albums_GAS_007" />
+
+			<class name="com.spotify.albums.TYSS_Albums_RUSA_001" />
+			<class name="com.spotify.albums.TYSS_Albums_RUSA_002" />
+			<class name="com.spotify.albums.TYSS_Albums_RUSA_003" />
+			<class name="com.spotify.albums.TYSS_Albums_RUSA_004" />
+
+			<class name="com.spotify.tracks.TYSS_Tracks_GST_001" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GST_002" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GST_003" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GST_004" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GST_005" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GST_006" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GST_007" />
+
+
+			<class name="com.spotify.tracks.TYSS_Tracks_GUST_001" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GUST_002" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GUST_003" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GUST_004" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GUST_005" />
+
+			<class name="com.spotify.tracks.TYSS_Tracks_GR_001" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GR_002" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GR_003" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GR_004" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GR_005" />
+			<class name="com.spotify.tracks.TYSS_Tracks_GR_006" />
+
+			<class name="com.spotify.episodes.TYSS_Episodes_CUSE_001" />
+			<class name="com.spotify.episodes.TYSS_Episodes_CUSE_002" />
+			<class name="com.spotify.episodes.TYSS_Episodes_CUSE_003" />
+
+			<class name="com.spotify.episodes.TYSS_Episodes_GE_001" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GE_002" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GE_003" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GE_004" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GE_005" />
+
+
+			<class name="com.spotify.episodes.TYSS_Episodes_GSE_001" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GSE_002" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GSE_003" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GSE_004" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GSE_005" />
+
+			<class name="com.spotify.episodes.TYSS_Episodes_RUSE_001" />
+			<class name="com.spotify.episodes.TYSS_Episodes_RUSE_001" />
+
+			<class name="com.spotify.episodes.TYSS_Episodes_SECU_001" />
+			<class name="com.spotify.episodes.TYSS_Episodes_SECU_002" />
+			<class name="com.spotify.episodes.TYSS_Episodes_SECU_003" />
+			
+			<class name="com.spotify.episodes.TYSS_Episodes_GUSE_001" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GUSE_002" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GUSE_003" />
+			<class name="com.spotify.episodes.TYSS_Episodes_GUSE_004" />
+
+			<class name="com.spotify.shows.TYSS_Shows_GS_001"/>
+			<class name="com.spotify.shows.TYSS_Shows_GS_002"/>
+			<class name="com.spotify.shows.TYSS_Shows_GS_003"/>
+			<class name="com.spotify.shows.TYSS_Shows_GS_004"/>
+			<class name="com.spotify.shows.TYSS_Shows_GS_005"/>
+			<class name="com.spotify.shows.TYSS_Shows_GS_006"/>
+			
+			<class name="com.spotify.shows.TYSS_Shows_GUSS_001"/>
+			<class name="com.spotify.shows.TYSS_Shows_GUSS_002"/>
+			<class name="com.spotify.shows.TYSS_Shows_GUSS_003"/>
+			<class name="com.spotify.shows.TYSS_Shows_GUSS_004"/>
+			<class name="com.spotify.shows.TYSS_Shows_GUSS_005"/>
+			
+			<class name="com.spotify.shows.TYSS_Shows_RUSS_001"/>
+			<class name="com.spotify.shows.TYSS_Shows_RUSS_002"/>
+			<class name="com.spotify.shows.TYSS_Shows_RUSS_003"/>
+			
+			
+		</classes>
+	</test> <!-- PROJECT_Test1 -->
+</suite> <!-- RestAssured -->

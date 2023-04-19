@@ -1,0 +1,18 @@
+2023-01-17 10:26:39,361 241  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:26:39,366 246  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_26_39
+2023-01-17 10:26:39,444 324  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:26:39,445 325  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:26:41,620 2500 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:26:41,634 2514 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:26:41,716 2596 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Able to provide Authorization and fetch the token
+2023-01-17 10:26:42,129 3009 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Response body value is: BQCUuTj092M4OOvw7nYdOssrSf9HDxB7CTfKur1fH6j_iKVR4Aey2t9A5uhhNUkuNj4rqSczJrpLk_FQyfhDltZwQEbQx496UacYLZcJZDNXHycKy5PWuqPhhU8UoYq3FlYJg8eTVIsULbgoHCwjYMKiwBnfR4MrpcIfp6dqeWcUMGBKrZ0TDsXu9RaAyOPJYBHLWtvf8D35t2LYsYMvkzP8A6-1aVWnh9nt96-MX3zjMA_yOIIfMPXNM4D44GP7Zhtux62QM7baiEUdVcmpUonGv2I5kB9GlFPWkfHZjeI1R5eFAQDEQaILC6Jznrhjt1WItRbwZTMBqUAp2-5I
+2023-01-17 10:26:42,234 3114 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Able to write data into json file
+2023-01-17 10:26:42,257 3137 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Able to read data from json file
+2023-01-17 10:26:42,262 3142 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Able to add headers for authentication
+2023-01-17 10:26:42,267 3147 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - This request do not have Path parameters
+2023-01-17 10:26:42,267 3147 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Path parameters added to the request
+2023-01-17 10:26:42,267 3147 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - This reuest do not have Query Parameters
+2023-01-17 10:26:42,268 3148 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Able to add query parameter
+2023-01-17 10:26:42,750 3630 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Able to get request using parameters
+2023-01-17 10:26:42,755 3635 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-17 10:26:42,756 3636 [main] INFO  com.spotify.categories.TYSS_Categories_GSIBC_002 - Actual Response Time: 452 is less than Expected Response Time: 2000

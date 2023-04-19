@@ -1,0 +1,20 @@
+2023-01-17 10:37:30,276 210  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:37:30,281 215  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_37_30
+2023-01-17 10:37:30,366 300  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:37:30,367 301  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:37:32,569 2503 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:37:32,572 2506 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:37:32,656 2590 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Able to provide Authorization and fetch the token
+2023-01-17 10:37:33,045 2979 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Response body value is: BQD4ZhtdOc5GS7iSo4V2ggQP-FJW7W5TZnqTLTR4Kjkm63-EmoPdJRiUsPQOC6nciP1MwEtoqEnFvYvtq9JaErpesCqteraPdO3y5ismOIElFnIMnaSZvk8CdQymAuIaMeLHO7o-Yt7Qv-L1ZZwOoHcICZ-_iMmSaDiw0oMstVRBqs0c0M9KeOOQhsVM8BGAamUDn-BkAS4z_0DqphR3iqzhkrf9hKukcfb9lOREfekf5pl80gemwB8fswc2Lz_SHG4fH-A4Cx5qTk9zhoJUH3yMAe0Fywm6lL954Y6IjdR3u4cnCMvKARTMjTsmaKeEZWs219rKmcApxHXyrPxQ
+2023-01-17 10:37:33,151 3085 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Able to write data into json file
+2023-01-17 10:37:33,174 3108 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Able to read data from json file
+2023-01-17 10:37:33,180 3114 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Able to add headers for authentication
+2023-01-17 10:37:33,184 3118 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - This request do not have Path parameters
+2023-01-17 10:37:33,184 3118 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Path parameters added to the request
+2023-01-17 10:37:33,186 3120 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Able to add query parameter
+2023-01-17 10:37:33,507 3441 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:37:33,507 3441 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:37:33,511 3445 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Able to delete request using parameters
+2023-01-17 10:37:33,517 3451 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-17 10:37:33,518 3452 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Actual Response Time: 294 is less than Expected Response Time: 2000
+2023-01-17 10:37:33,518 3452 [main] INFO  com.spotify.tracks.TYSS_Tracks_RUST_004 - Response contains error message: Service not found

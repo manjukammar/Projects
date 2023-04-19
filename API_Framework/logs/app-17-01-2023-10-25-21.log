@@ -1,0 +1,25 @@
+2023-01-17 10:25:21,364 208  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:25:21,368 212  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_25_21
+2023-01-17 10:25:21,447 291  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:25:21,447 291  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:25:23,655 2499 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:25:23,658 2502 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:25:23,734 2578 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Able to provide Authorization and fetch the token
+2023-01-17 10:25:24,177 3021 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Response body value is: BQAqvlGbLitMtuzqa0xF21HGrAGgDHG1O9Tj9XghitbCJoVxH7WaOUGzZrxQIhb9j4rvVIristhi54u8u0gdoy_sJ4kEha_EgfP_tB4bvNzW_QNVkfTlmymZcxaE2m7Dbp4fsv17t-W19ytnEE26eGrEjvCcZ3iR8jbQHLOkMpc1DDG7JyKL2CR_NqLwVX-CFqY4uxrsVaQN1QIuOWaXPamf2kBQq1-MJa-MjYqkJ1AQFjXtKncK3cIjEYRoAj8Ozt8F4W2jS87Z0iq8ZBPfVtWGhludCGTqe8jOVJ-hNuVeCIGmFLD6QLY6kUZrLx2YXR1oLijUe_CPsym0fEdM
+2023-01-17 10:25:24,272 3116 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Able to write data into json file
+2023-01-17 10:25:24,295 3139 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Able to read data from json file
+2023-01-17 10:25:24,299 3143 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Able to add headers for authentication
+2023-01-17 10:25:24,304 3148 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - This request do not have Path parameters
+2023-01-17 10:25:24,305 3149 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Path parameters added to the request
+2023-01-17 10:25:24,305 3149 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - This reuest do not have Query Parameters
+2023-01-17 10:25:24,305 3149 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Able to add query parameter
+2023-01-17 10:25:24,794 3638 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 10:25:24,796 3640 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:25:24,827 3671 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Able to get request using parameters
+2023-01-17 10:25:24,870 3714 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Response body contains name: [Jalabulajangu (From "Don"), Pathala Pathala (From "Vikram")]
+2023-01-17 10:25:24,893 3737 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Response body contains release_date: [2021-12-16, 2022-05-11]
+2023-01-17 10:25:24,917 3761 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Response body contains total_tracks: [1, 1]
+2023-01-17 10:25:24,919 3763 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-17 10:25:24,919 3763 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Actual Response Time: 467 is less than Expected Response Time: 2000
+2023-01-17 10:25:24,919 3763 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-17 10:25:25,456 4300 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_003 - Schema validation is done

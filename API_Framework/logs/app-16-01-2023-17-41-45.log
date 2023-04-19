@@ -1,0 +1,21 @@
+2023-01-16 17:41:45,730 318  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-16 17:41:45,738 326  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-D:\Api_FW\API_Framework/reports/Automation Report- 01_16_2023_17_41_45
+2023-01-16 17:41:45,826 414  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-16 17:41:45,827 415  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-16 17:41:49,571 4159 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 17:41:49,574 4162 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 17:41:49,697 4285 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Able to provide Authorization and fetch the token
+2023-01-16 17:41:50,531 5119 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Response body value is: BQCvxvJHElq_bWEnb_uyqAypBTxlA_ZIWBtSsE4UfzPH2FbNoEKNy8u6IZKYsKJwHA4wFmGHeG9O1t-wwW4p4d6QGU4X6dPeHfUe62k2s2e0cHxu3VNKaE3dx6yoyN_mEamuBzHarMQf7kAmx73vRQFo7SmTd8LZW_Y0m8eHvhzxHeKlokHem9jX1du67a64ZKYhAsFA9IFwCUDHCa23teotM6dDu_hDCPhbY--g4moxd81wah8iUzs9z3XwVae3t9oBCJpQ5bqo2lYpP0c7FS4uol9jJC30wScklsrCQ7sUB8RcXnIhXxA1pjyFhvRnrhSanhoU-CBeHNbtlR26
+2023-01-16 17:41:50,765 5353 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Able to write data into json file
+2023-01-16 17:41:50,796 5384 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Able to read data from json file
+2023-01-16 17:41:50,802 5390 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Able to add headers for authentication
+2023-01-16 17:41:50,808 5396 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Path parameters added to the request
+2023-01-16 17:41:50,808 5396 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - This reuest do not have Query Parameters
+2023-01-16 17:41:50,808 5396 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Able to add query parameter
+2023-01-16 17:41:51,348 5936 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 17:41:51,350 5938 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 17:41:51,369 5957 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Able to get request using parameters
+2023-01-16 17:41:51,372 5960 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 17:41:51,373 5961 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 17:41:51,373 5961 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Actual Response Time: 495 is less than Expected Response Time: 2000
+2023-01-16 17:41:51,391 5979 [main] INFO  com.spotify.artists.TYSS_TC_Artists_GA_003 - Response body contains name: Arijit Singh

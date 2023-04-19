@@ -1,0 +1,17 @@
+2023-01-25 11:24:46,315 498  [main] INFO  com.tyss.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-25 11:24:46,332 515  [main] INFO  com.tyss.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\Abhishek\New folder\API_Framework/reports/Automation Report- 01_25_2023_11_24_46
+2023-01-25 11:24:46,653 836  [main] INFO  com.tyss.spotify.baseutil.BaseTest - Report Initiated
+2023-01-25 11:24:46,654 837  [main] INFO  com.tyss.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-25 11:24:52,357 6540 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-25 11:24:52,361 6544 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:24:52,545 6728 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - POST request executed for authorization
+2023-01-25 11:24:53,705 7888 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - Response body value is: BQAzCxJq-_zmlpAjQX-tKTMIIBBLntUrHfrZCNAbu6OibUvYmuAGg6rCEvHjGNH_MIm7l8FZk2oHRMlpI6bU-Y-xlro8oHGomxpV80rRb6P6Tz80BRMygW2E4lsj4WO19sCQf5pjNyRQdecbBKXc8su13lorpBZIlwOE2UvNnlj416qUACgtZ7jHIFejvpTEpVG7R38f6bM2LckJtuEwz0kfms4GYiKjOj7IL7OZM8gTTaKbiRfwa2ZRC4J4BFN2Q3PeZWSrb2kLtAZhcA_1d1W9uttp0NM-XI1cdnPmDCf9pxdgcHFgAfFVLX9EJfJu4WGAr1qCDKlKVbwm6RBfyw
+2023-01-25 11:24:54,108 8291 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - Data is updated in JSON file
+2023-01-25 11:24:54,160 8343 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - Data fetched from JSON file
+2023-01-25 11:24:54,173 8356 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - Headers added successfully for authentication
+2023-01-25 11:24:54,187 8370 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - This request do not have Path parameters
+2023-01-25 11:24:54,187 8370 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - Path parameters added to the request
+2023-01-25 11:24:54,192 8375 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - Query parameter added to the request
+2023-01-25 11:24:54,682 8865 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - GET request executed using parameters
+2023-01-25 11:24:54,687 8870 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - Actual Response Time: 429 is less than Expected Response Time: 2000
+2023-01-25 11:24:54,687 8870 [main] INFO  com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 - Expected Status code is: 404 matching with actual status code: 404

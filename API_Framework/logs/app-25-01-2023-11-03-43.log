@@ -1,0 +1,24 @@
+2023-01-25 11:03:43,099 181  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-25 11:03:43,103 185  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\API Workspace\API_Framework/reports/Automation Report- 01_25_2023_11_03_43
+2023-01-25 11:03:43,183 265  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-25 11:03:43,184 266  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-25 11:03:45,343 2425 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-25 11:03:45,352 2434 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:03:45,426 2508 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Able to provide Authorization and fetch the token
+2023-01-25 11:03:45,775 2857 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Response body value is: BQBtdExY1vZv84Sh7otfiu2u2RzfB5nlEd4meEsgFrwBB-affC-Rdng-i4dEBhqlyY5K9nNdELmYnVKf_pQN7zPT6GTpcXGycmG_kdNV3RkE_VceVuu7lq-BbvPEWYTJ28rkClZDZa_7PkN-58b156BQlobBR1rP_zeOqoYz2sc-9j8BMkfgBqx7CsDmOV9a9rsdbGzBlkN7nRe8jQ-XcYsf1Y9CYFeK9TquszdENZFodwJhroYnG9hjDRUtZOFZ6BXmTqcIt8Uw4BiyNA1gc2Hr6u5oD0c8X4JPUQCNtUQ1isya8uv-qwztC2gtB8499TYs9K51r08i69NXgjh3WQ
+2023-01-25 11:03:45,877 2959 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Able to write data into json file
+2023-01-25 11:03:45,897 2979 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Able to read data from json file
+2023-01-25 11:03:45,902 2984 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Able to add headers for authentication
+2023-01-25 11:03:45,906 2988 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - This request do not have Path parameters
+2023-01-25 11:03:45,906 2988 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Path parameters added to the request
+2023-01-25 11:03:45,907 2989 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Able to add query parameter
+2023-01-25 11:03:46,392 3474 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-25 11:03:46,395 3477 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:03:46,408 3490 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Able to get request using parameters
+2023-01-25 11:03:46,409 3491 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-25 11:03:46,410 3492 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Actual Response Time: 468 is less than Expected Response Time: 2000
+2023-01-25 11:03:46,410 3492 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-25 11:03:46,810 3892 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Schema validation is done
+2023-01-25 11:03:46,862 3944 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Expected body value: Krishna - The Supreme Soul is present in the Actual body Value
+2023-01-25 11:03:46,881 3963 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Expected body value: Bhavin is present in the Actual body Value
+2023-01-25 11:03:46,896 3978 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_003 - Expected body value: 17 is present in the Actual body Value

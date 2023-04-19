@@ -1,0 +1,17 @@
+2023-01-16 17:24:55,632 144  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-16 17:24:55,637 149  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\User\git\API_Framework/reports/Automation Report- 01_16_2023_17_24_55
+2023-01-16 17:24:55,701 213  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-16 17:24:55,702 214  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-16 17:24:58,967 3479 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 17:24:58,970 3482 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 17:24:59,112 3624 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Able to provide Authorization and fetch the token
+2023-01-16 17:24:59,538 4050 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Response body value is: BQDMkmy6YMUMKGeE8tpzoyVlpot0YRD7b8Mr7o_vVjkwwV0Jp9-x23CDAFTjBhzue4dBpy0GtBXBp6ws1ylsjjo6FsRBUFu-Db_glqgp5S0LQCHw8XH278PjeRi53QYdoyWQkkJVWmsOrPNHR76fP2qcTysKQn-k1LE1EA6qheDVzQnoJ6uMYaRv2Hey9RKSHZS-lZawGqow1GBqs9zOnKbsbxN4s_yEajhub8kC1We2Rkjh1HiTAQXFEBlxnZsqrySn4xaeV3TnMhFzKTrTNDxeh2xsnZjZiNNm90IxK90P2T8hRowcCVo0vx84JskhbzIB9ui-ivgsS5efQoyL
+2023-01-16 17:24:59,652 4164 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Able to write data into json file
+2023-01-16 17:24:59,669 4181 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Able to read data from json file
+2023-01-16 17:24:59,674 4186 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Able to add headers for authentication
+2023-01-16 17:24:59,681 4193 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - This request do not have Path parameters
+2023-01-16 17:24:59,681 4193 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Path parameters added to the request
+2023-01-16 17:24:59,683 4195 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Able to add query parameter
+2023-01-16 17:25:01,702 6214 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Able to put request using parameters
+2023-01-16 17:25:01,708 6220 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Actual Response Time: 1990 is less than Expected Response Time: 2000
+2023-01-16 17:25:01,708 6220 [main] INFO  com.spotify.users.TYSS_Users_FA_001 - Expected Status code is: 204 is matching with actual status code: 204

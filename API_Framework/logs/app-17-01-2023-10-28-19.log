@@ -1,0 +1,21 @@
+2023-01-17 10:28:20,072 201  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:28:20,076 205  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_28_20
+2023-01-17 10:28:20,156 285  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:28:20,158 287  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:28:22,391 2520 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:28:22,393 2522 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:28:22,470 2599 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Able to provide Authorization and fetch the token
+2023-01-17 10:28:22,879 3008 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Response body value is: BQABKexEn4mDTZhCEPvAMwkY_An_Zg9UFyN_qMmUhE1yMrurTgVzNejOWjtEqJ0eqg_bD43mDwF9pzfjGRGEL0ex3sBCStvSN5UIZiG8VdRK56t6VyRR2GuaeXLzGfeHQK-Mgs2JzEKKmpwihw-D93OQzXqDg3Sr4UdYSuBSgq1iobDySkYFX2qvv3m6fzvTQ7XaKd2Wm2WlCtrkAuCDVOXvo7hbSDm25ra8M5jJ1OepLEUGK9dPnpnUU6zMNdOgQVc2z2YEpJFmuwgg2XO6HlIEtAc2FDyPtOlhNZVKN404H15d_TedBv5t8YKCYtz0v7urzyC2FqpkqhbeTeE6
+2023-01-17 10:28:22,996 3125 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Able to write data into json file
+2023-01-17 10:28:23,018 3147 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Able to read data from json file
+2023-01-17 10:28:23,024 3153 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Able to add headers for authentication
+2023-01-17 10:28:23,028 3157 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - This request do not have Path parameters
+2023-01-17 10:28:23,028 3157 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Path parameters added to the request
+2023-01-17 10:28:23,028 3157 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - This reuest do not have Query Parameters
+2023-01-17 10:28:23,029 3158 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Able to add query parameter
+2023-01-17 10:28:23,435 3564 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:28:23,437 3566 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:28:23,445 3574 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Able to get request using parameters
+2023-01-17 10:28:23,452 3581 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-17 10:28:23,452 3581 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Actual Response Time: 381 is less than Expected Response Time: 2000
+2023-01-17 10:28:23,453 3582 [main] INFO  com.spotify.player.TYSS_Player_GPS_002 - Response contains error message: Service not found

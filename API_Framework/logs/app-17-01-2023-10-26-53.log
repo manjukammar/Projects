@@ -1,0 +1,22 @@
+2023-01-17 10:26:53,800 196  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:26:53,804 200  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_26_53
+2023-01-17 10:26:53,883 279  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:26:53,884 280  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:26:56,022 2418 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:26:56,024 2420 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:26:56,107 2503 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Able to provide Authorization and fetch the token
+2023-01-17 10:26:56,487 2883 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Response body value is: BQC4TzEPjcXCIMLWZy6yfvIgqub031qwd4sASemGTbwJGB3a-8-IrQhEyhzy5g--dTPUYL0CnDsfhWaHR7_xwhQXJR8p-_XPXt_SykrADV_7RHBn8dTu1u1dgaIySlDaU2pO7ZuCrz5sVn8qr_9tfJ7yebtMVFTuBRMViI6W5DaLLd6xn4vk-3h6EurM8CChQmtr4rayt8djMgOjpi2ei1QcU3C4MFPOnIU1TIa_5ifZHh9FxjfeqWKzSV5SXjk9D7UwhJoSa6396Behy7_te4EEQuw_fM0MKq4b6X4HevOip0pd__hxHSMDA-knUe5LGb2WqDNHYY81RIkC8EwZ
+2023-01-17 10:26:56,606 3002 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Able to write data into json file
+2023-01-17 10:26:56,630 3026 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Able to read data from json file
+2023-01-17 10:26:56,635 3031 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Able to add headers for authentication
+2023-01-17 10:26:56,639 3035 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - This request do not have Path parameters
+2023-01-17 10:26:56,640 3036 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Path parameters added to the request
+2023-01-17 10:26:56,640 3036 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - This reuest do not have Query Parameters
+2023-01-17 10:26:56,640 3036 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Able to add query parameter
+2023-01-17 10:26:56,977 3373 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 10:26:56,978 3374 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:26:56,989 3385 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Able to get request using parameters
+2023-01-17 10:26:56,990 3386 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-17 10:26:56,991 3387 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Actual Response Time: 316 is less than Expected Response Time: 2000
+2023-01-17 10:26:56,991 3387 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-17 10:26:57,371 3767 [main] INFO  com.spotify.genres.TYSS_Genres_GAGS_001 - Schema validation is done

@@ -1,0 +1,12 @@
+2023-01-16 17:05:47,427 390  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-16 17:05:47,444 407  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\User\git\API_Framework/reports/Automation Report- 01_16_2023_17_05_47
+2023-01-16 17:05:47,597 560  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-16 17:05:47,598 561  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-16 17:05:52,427 5390 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 17:05:52,452 5415 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 17:05:52,791 5754 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_001 - Able to provide Authorization and fetch the token
+2023-01-16 17:05:53,972 6935 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_001 - Response body value is: BQB8ABVhYQhtX6hO3b1JFYcq-Kqs_42Xk_4At3wn1K3xc7ad9RQp43bSdKkVNZUyr7uqIihoHxSWnODT48ajRtJkllEsOU4nj6lh3T6-SpTF2SrhM_4Lfjgg-rbV1VOgoVzKyq_QKjlQBjRtt7A1NX53LaCwLVGob7AcHPsdfVlYp2Q91Z7wGu_U4dxznXpo1s_emw3bzy4m8wDfBiueINtv8PCO4PFLDfvgzIKBCZp9eWdW0lab8RPgtQDTKDFWtbyycxXzRxLWPEMuQ4UH50Ob3KneFfbj5DnY9s-PGMQbqHtRL9eGCu5pqkmnrX4dC36FdknrKfaITVDpWhah
+2023-01-16 17:05:54,285 7248 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_001 - Able to write data into json file
+2023-01-16 17:05:54,332 7295 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_001 - Able to read data from json file
+2023-01-16 17:05:54,345 7308 [main] INFO  com.spotify.playlist.TYSS_Playlists_AITP_001 - Able to add headers for authentication
+2023-01-16 17:05:54,359 7322 [main] ERROR com.spotify.playlist.TYSS_Playlists_AITP_001 - null

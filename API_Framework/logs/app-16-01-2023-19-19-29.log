@@ -1,0 +1,19 @@
+2023-01-16 19:19:29,143 374  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-16 19:19:29,153 384  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\Abhishek\New folder\API_Framework/reports/Automation Report- 01_16_2023_19_19_29
+2023-01-16 19:19:29,343 574  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-16 19:19:29,343 574  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-16 19:19:34,232 5463 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:19:34,237 5468 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:19:34,446 5677 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - Able to provide Authorization and fetch the token
+2023-01-16 19:19:35,432 6663 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - Response body value is: BQAvJE_w-UlIz88Qn1yGHNOS8Hrkfu-KU0_6MM8aqHjFQNW1Fdafoiyf-m4zuydiY9nkzkuQT6JgtQo3R3tBx3ebshdzYhWv158-hxsgxZJlu84a8mLM5OBth6w-NOE0mnO8y3AVq_rpnlcdGpa9Jkkt8Tap43u5R7Avfm_-4EBsBM4R9LdNWUCoM7u_o87UgVHTfv1qgj8wrORs9MlWg7UD8iwh7qnzkYPCFJA659n--_NVD-qMzul24m09LyVycml66hwifJUUnOq58KFmuOW5DWxXP6n_tnDhXoI20vsrIzhkOGJ2SsND5uYm0lAd7xVIyDqxzl5zFP3wvNnr
+2023-01-16 19:19:35,737 6968 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - Able to write data into json file
+2023-01-16 19:19:35,770 7001 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - Able to read data from json file
+2023-01-16 19:19:35,781 7012 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - Able to add headers for authentication
+2023-01-16 19:19:35,796 7027 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - This request do not have Path parameters
+2023-01-16 19:19:35,798 7029 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - Path parameters added to the request
+2023-01-16 19:19:35,803 7034 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - Able to add query parameter
+2023-01-16 19:19:36,433 7664 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:19:36,434 7665 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:19:36,445 7676 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - Able to get request using parameters
+2023-01-16 19:19:36,450 7681 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:19:36,451 7682 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_006 - Actual Response Time: 577 is less than Expected Response Time: 2000

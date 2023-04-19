@@ -1,0 +1,23 @@
+2023-01-17 10:45:28,175 205  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:45:28,179 209  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\API Workspace\API_Framework/reports/Automation Report- 01_17_2023_10_45_28
+2023-01-17 10:45:28,272 302  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:45:28,273 303  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:45:30,589 2619 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:45:30,597 2627 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:45:30,681 2711 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Able to provide Authorization and fetch the token
+2023-01-17 10:45:31,030 3060 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Response body value is: BQCNeLYxr8TCTCHgjFJf1_lsoRkK2jrk7P1QuDFLOwqwWIoQ3vVhBMf13Bu7E6O_EPxNC3-MhAY1Kt-2GVdOK4-ENr1fp9EKLk8NuzcD9fjTASP9eyMNkWdfbVDpTdEHKPaXiKhy6LXZfsIwT3hKXkybgrTyKIj03UfswjAc99yx3CiomhsXuqV02QnwMBLc2R1AOZy30BAg05Xo0v5dUkxURhfwHM4VlzjbFbKbKMaYjC7W5IAOfbp0tFsxnZ7N1ukpxVsaVVQ3iOzIqLpPumlQdTAADllak8KDuRCksg1z3fdZdWUGaW5OEFs2W1vhIT0vQnuKSvjb5q2HyDrK
+2023-01-17 10:45:31,149 3179 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Able to write data into json file
+2023-01-17 10:45:31,173 3203 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Able to read data from json file
+2023-01-17 10:45:31,179 3209 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Able to add headers for authentication
+2023-01-17 10:45:31,185 3215 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - This request do not have Path parameters
+2023-01-17 10:45:31,185 3215 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Path parameters added to the request
+2023-01-17 10:45:31,187 3217 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Able to add query parameter
+2023-01-17 10:45:31,653 3683 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 10:45:31,653 3683 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:45:31,667 3697 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Able to get request using parameters
+2023-01-17 10:45:31,670 3700 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-17 10:45:31,670 3700 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Actual Response Time: 429 is less than Expected Response Time: 2000
+2023-01-17 10:45:31,670 3700 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-17 10:45:32,052 4082 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Schema validation is done
+2023-01-17 10:45:32,074 4104 [main] INFO  com.spotify.shows.TYSS_Shows_GSS_002 - Response body value is: null
+2023-01-17 10:45:32,074 4104 [main] ERROR com.spotify.shows.TYSS_Shows_GSS_002 - Cannot invoke "String.split(String)" because "availableMarkets" is null

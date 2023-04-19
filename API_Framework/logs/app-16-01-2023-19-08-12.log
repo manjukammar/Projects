@@ -1,0 +1,1087 @@
+2023-01-16 19:08:12,709 568  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-16 19:08:12,721 580  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\Abhishek\New folder\API_Framework/reports/Automation Report- 01_16_2023_19_08_12
+2023-01-16 19:08:12,972 831  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-16 19:08:12,973 832  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-16 19:08:17,745 5604 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:17,752 5611 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:17,935 5794 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:18,858 6717 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Response body value is: BQD8MRp-fc0Rw8YWElqTKp606zBEZr40i7qoPjMTJ5xEu4laWpLBVxDGW3qlYwNKe1aJgvQ_YUXEIPGIRs2OoSJcAFPQsWu_5jjphO1IUMgWvlAKoYuJ6h2Vq9hVonQJyTuytY0PEjkuMEQGKCnsAav9PLua1Amz_leS2175hjv1dvz2bY8n7GXAXKQnmRT7Z-1XRe-NqLPClunJjdVpk0cz7gIImSmjNfE_I2-eSbPsJnz0e144QU1PkBo5ddZs2T_XsfSZgBT4a-bQf8dSp62Ey5M4aYAU2lJH3n0MMFu_llTAPRrf0ZMosI9oSr0EmfDKqqTGSf_o-gMG3a7-
+2023-01-16 19:08:19,165 7024 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Able to write data into json file
+2023-01-16 19:08:19,201 7060 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Able to read data from json file
+2023-01-16 19:08:19,210 7069 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Able to add headers for authentication
+2023-01-16 19:08:19,220 7079 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - This request do not have Path parameters
+2023-01-16 19:08:19,221 7080 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Path parameters added to the request
+2023-01-16 19:08:19,225 7084 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Able to add query parameter
+2023-01-16 19:08:19,738 7597 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:19,740 7599 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:19,768 7627 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Able to get request using parameters
+2023-01-16 19:08:19,773 7632 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:19,773 7632 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:19,774 7633 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Actual Response Time: 469 is less than Expected Response Time: 2000
+2023-01-16 19:08:19,824 7683 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Response body value is: [5oiVMF5rYRr9irTr5rvIzG, 41DFtugomlAL2wB8SgjIyw]
+2023-01-16 19:08:19,824 7683 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Response contains two ids: [5oiVMF5rYRr9irTr5rvIzG, 41DFtugomlAL2wB8SgjIyw]
+2023-01-16 19:08:20,791 8650 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_001 - Schema validation is done
+2023-01-16 19:08:21,446 9305 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:21,448 9307 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:21,457 9316 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:21,477 9336 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Response body value is: BQDGbaGeyVyDpp5flEukz_Tw1Ovs1eufm-wA6YsCWtHmCFBzyMGb2UHREUeOctk3aPX0Nqq1pv_ArPNHJSeaaHnLKqqYnu2nabwe-yoaJhexW1YX7cVHQkHTjpEAbYXzmaSy6IaO8qh4aj5SCVBjhYgHoTDa3ntVG5mW4JlXJCFt7dFthv0j7gutX5c6UiQaUNYg0QDI_TAUwepOXElRN1eEAWgvVi88FaqSq3lk5VkUZ-q6rMdGmFIq9dz_kb8-FadnqJG7hR-EF0Btm9pN8z0GnIXaAwvI3E1qtzvL4Nmmvy4-6s6VAo8wUi52-ucVcF025lbrWmyVkq9rmNNr
+2023-01-16 19:08:21,501 9360 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Able to write data into json file
+2023-01-16 19:08:21,504 9363 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Able to read data from json file
+2023-01-16 19:08:21,507 9366 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Able to add headers for authentication
+2023-01-16 19:08:21,508 9367 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - This request do not have Path parameters
+2023-01-16 19:08:21,509 9368 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Path parameters added to the request
+2023-01-16 19:08:21,511 9370 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Able to add query parameter
+2023-01-16 19:08:22,068 9927 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:22,070 9929 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:22,086 9945 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Able to get request using parameters
+2023-01-16 19:08:22,087 9946 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:22,087 9946 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:22,088 9947 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Actual Response Time: 549 is less than Expected Response Time: 2000
+2023-01-16 19:08:22,183 10042 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Response body contains name: Azhage (feat. Thenuja)
+2023-01-16 19:08:22,221 10080 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Response body contains release_date: 2017-02-03
+2023-01-16 19:08:22,267 10126 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Response body contains total_tracks: 1
+2023-01-16 19:08:22,374 10233 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_002 - Schema validation is done
+2023-01-16 19:08:23,082 10941 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:23,083 10942 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:23,087 10946 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:23,108 10967 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Response body value is: BQBVLHLWWUCtaeRkHYXi3QtX_6K856ApsAgXRLZvqkiz6_64tAyaca3wJkrXPGFp_S9NRc75SgDVBlSmyUruy_bIfD1Y0qXJGPYERO5JjSJ4MbwToSs2TqxdaJewTN5iGLqKzK24IBDfkqQu8dqq6e0ciuV7RZmAXO9phMGf1t5mqc2Tt1Fk5bx7z0wr26HwNb-k59YKVa66hywWC_MOaF8-L6YhNVfnZMcddCknOs1WZN4wTOXAu6PXekubtStM2prr8Ib6IE7qhrmUVp5uF8o61znl4c0AqROcZ3-6R2fCNTXtYfmrmvgFMqzUEkQCrQ9iPhmzNpRX5rBLRK0c
+2023-01-16 19:08:23,121 10980 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Able to write data into json file
+2023-01-16 19:08:23,124 10983 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Able to read data from json file
+2023-01-16 19:08:23,127 10986 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Able to add headers for authentication
+2023-01-16 19:08:23,129 10988 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - This request do not have Path parameters
+2023-01-16 19:08:23,130 10989 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Path parameters added to the request
+2023-01-16 19:08:23,132 10991 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Able to add query parameter
+2023-01-16 19:08:23,491 11350 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:23,493 11352 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:23,501 11360 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Able to get request using parameters
+2023-01-16 19:08:23,501 11360 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:23,501 11360 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:23,502 11361 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Actual Response Time: 352 is less than Expected Response Time: 2000
+2023-01-16 19:08:23,530 11389 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Response body contains name: Azhage (feat. Thenuja)
+2023-01-16 19:08:23,561 11420 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Response body contains release_date: 2017-02-03
+2023-01-16 19:08:23,591 11450 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Response body contains total_tracks: 1
+2023-01-16 19:08:23,610 11469 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Response body contains name: Adi Penne
+2023-01-16 19:08:23,673 11532 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Response body contains release_date: 2021-03-08
+2023-01-16 19:08:23,708 11567 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Response body contains total_tracks: 1
+2023-01-16 19:08:23,767 11626 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_003 - Schema validation is done
+2023-01-16 19:08:24,314 12173 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:24,315 12174 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:24,320 12179 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:24,341 12200 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Response body value is: BQAv5fxHht-c4cbhGwi3Ra6XGXzcjZ3Zo2TN3YtDc3vzdYwnLAqmPrPI3cB8mg-eCzhiFUuEdrkI_kq4M9bosGMVwaMgeA_GOA3n5lZf2GWM-vD0o4ReGWT2UN1dVDqXbunUjVodzFQwGggm-wBbDuaTWrRbK898OnC83D7XoWv2Kutt0Ylhd3OCByEYJcoUMyH29YBKQ4M9RsiV9boy382UAw8GoqxDYB1KNsUM1aR54Ubch67ICqcvHgW5G5gy5hMkb2Ucbj8l4wpitKtb-oBGYn-OO7FmCYgtAojC1UiYIqFqTaRTN1IXla0DOKRSI9UPbnBkN0y63_wjEl6a
+2023-01-16 19:08:24,374 12233 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Able to write data into json file
+2023-01-16 19:08:24,376 12235 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Able to read data from json file
+2023-01-16 19:08:24,381 12240 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Able to add headers for authentication
+2023-01-16 19:08:24,382 12241 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - This request do not have Path parameters
+2023-01-16 19:08:24,383 12242 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Path parameters added to the request
+2023-01-16 19:08:24,384 12243 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Able to add query parameter
+2023-01-16 19:08:24,744 12603 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:24,746 12605 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:24,758 12617 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Able to get request using parameters
+2023-01-16 19:08:24,759 12618 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:24,760 12619 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:24,760 12619 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Actual Response Time: 354 is less than Expected Response Time: 2000
+2023-01-16 19:08:24,784 12643 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Response body contains type: [album, album]
+2023-01-16 19:08:24,855 12714 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_004 - Schema validation is done
+2023-01-16 19:08:25,435 13294 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:25,435 13294 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:25,437 13296 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:25,460 13319 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Response body value is: BQCyQ-8zxtMwiNj98P99li0TILfznH1-qkrHNptByoMTWSZshOMFGLisXUea7sMZ5IcZVhB7tcUe_hCGBOUfayyR2yw49JDL3tDH0AWiBEe7JHD97taPry8ySGzqWdgTity5TkigP6xW10orMGcnQrz2u-UAwKOAs_5WbV5bgUGIWJUSu5qruVimEXWObugFkWErRU_MSRWa6nSYs__CmFUzkBFBWHsbKQBHm0GR8FcY9YBEStQnzrwKnkoU7uuO5Ij6sYGaQfAQ6ZZnuYDlnmE9IRe_kSZVl6DX3ptxYtpuH2E7E-NRXb7ToBpFRJQ5PpYHOJ_cSiRi3g5XafAO
+2023-01-16 19:08:25,487 13346 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Able to write data into json file
+2023-01-16 19:08:25,490 13349 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Able to read data from json file
+2023-01-16 19:08:25,493 13352 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Able to add headers for authentication
+2023-01-16 19:08:25,495 13354 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - This request do not have Path parameters
+2023-01-16 19:08:25,495 13354 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Path parameters added to the request
+2023-01-16 19:08:25,495 13354 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - This reuest do not have Query Parameters
+2023-01-16 19:08:25,495 13354 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Able to add query parameter
+2023-01-16 19:08:25,831 13690 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:25,832 13691 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:25,836 13695 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Able to get request using parameters
+2023-01-16 19:08:25,837 13696 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:25,837 13696 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Actual Response Time: 332 is less than Expected Response Time: 2000
+2023-01-16 19:08:25,838 13697 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:25,858 13717 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_005 - Response body contains error: [status:400, message:invalid id]
+2023-01-16 19:08:26,563 14422 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:26,563 14422 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:26,570 14429 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:26,590 14449 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Response body value is: BQAY3G8VdVZXuXPr1WtnuTaSWwyXyjq_DR1eleFG2d3akJhQSZYoTJ2mffQEIV4K2lO67_xZU243pjYoutSpetVDmQ51EiSL8X1ApYoM0hhcChKmdtB9OtiGSEDcByvhzkugV3siuz68oUminGSl-nF9xKgaxPJ4yYxGbgo3uqb5-IRTU-SPmrMA92PxbYfLQHbjq-rJ5uMaHQ0LlQBel3rpMcac0naoyVFyaojHUzZeSvHKFhr5iOgHI3R7J6aRY1qHd7HZO9xRECEa2784SmE_HNIqrjZcVjqmjR5g9cizE4qmENSKaGeTe_IKWF9IkeGS4mKVy7E0zxZ5sK8Y
+2023-01-16 19:08:26,602 14461 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Able to write data into json file
+2023-01-16 19:08:26,605 14464 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Able to read data from json file
+2023-01-16 19:08:26,608 14467 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Able to add headers for authentication
+2023-01-16 19:08:26,609 14468 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - This request do not have Path parameters
+2023-01-16 19:08:26,610 14469 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Path parameters added to the request
+2023-01-16 19:08:26,610 14469 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - This reuest do not have Query Parameters
+2023-01-16 19:08:26,611 14470 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Able to add query parameter
+2023-01-16 19:08:26,945 14804 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:26,945 14804 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:26,950 14809 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Able to get request using parameters
+2023-01-16 19:08:26,950 14809 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:26,965 14824 [main] INFO  com.spotify.albums.TYSS_Albums_GAS_007 - Response body contains error: [status:400, message:invalid id]
+2023-01-16 19:08:27,488 15347 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:27,489 15348 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:27,492 15351 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:27,506 15365 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Response body value is: BQBZ2d3J1VxItpFvzuUqJUSSF5pyunk_R2yEXPkzSrVZjokAZBFAI5Lux_xAU9jPZU7YCZHwIddrkW76eoGfAI_fibIR5OZhy9qwYzP7OxQNFlmW9aexXUTjbZeymAfQREPbuWo6c6WFZJ4bnN1AcTAAvjhurcLs-4GeAx4hWnGcyqpRJ4_tr8BYdNk7WuvmbEjVhTAV0bBNQ77oOid-m_NxApbey6B95-BPK3kmC3Wmp6jwnnuqvGJi6udah70OH1PKr0LCiLUxQsLqnzevgIJBwx-4HCJxbJjzIXDbtBZ5J2NiAWwoEzYNzlGI7oSwyYIe39xwRMjTL35gT6sG
+2023-01-16 19:08:27,534 15393 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Able to write data into json file
+2023-01-16 19:08:27,537 15396 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Able to read data from json file
+2023-01-16 19:08:27,539 15398 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Able to add headers for authentication
+2023-01-16 19:08:27,540 15399 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - This request do not have Path parameters
+2023-01-16 19:08:27,540 15399 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Path parameters added to the request
+2023-01-16 19:08:27,542 15401 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Able to add query parameter
+2023-01-16 19:08:28,000 15859 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Able to delete request using parameters
+2023-01-16 19:08:28,001 15860 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:28,002 15861 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_001 - Actual Response Time: 451 is less than Expected Response Time: 2000
+2023-01-16 19:08:28,509 16368 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:28,510 16369 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:28,517 16376 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:28,537 16396 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Response body value is: BQCmRUGYhPT-WdvEpwpON_mv7f8sTM65g3rqtHi-qCz3iZjtEFtuCVn6w42hQ4m7cPK3sRqAREY1nKatJzpkMJTWDk7ev-SjQrF7thg3mroEju6szYt40dSO6iybedfn-rKyzzKW6gUj6I8sestvdF-Qfvup3DnRiSYoHLvakyIjReVL426xiANL3jwEfq06k_gbsK5LN2t3KYmPQebxyUiNIXr6RnZ1Qnrydk0lpmBWoCcL2q9fq2xU7vDA224XwM7vviQXwa8Z318L1rGrsQYgeqBNohXdH7BiIeNetTz-5LtlI5wWxhCH3hXZeFBR9JvM0mKhKgMp-UkXQ4HD
+2023-01-16 19:08:28,549 16408 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Able to write data into json file
+2023-01-16 19:08:28,552 16411 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Able to read data from json file
+2023-01-16 19:08:28,554 16413 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Able to add headers for authentication
+2023-01-16 19:08:28,558 16417 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - This request do not have Path parameters
+2023-01-16 19:08:28,558 16417 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Path parameters added to the request
+2023-01-16 19:08:28,559 16418 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Able to add query parameter
+2023-01-16 19:08:28,965 16824 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:28,966 16825 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:28,972 16831 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Able to delete request using parameters
+2023-01-16 19:08:28,973 16832 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:28,973 16832 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Actual Response Time: 397 is less than Expected Response Time: 2000
+2023-01-16 19:08:28,988 16847 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_002 - Response body contains error: [status:400, message:Bad request.]
+2023-01-16 19:08:29,536 17395 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:29,537 17396 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:29,542 17401 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:29,562 17421 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Response body value is: BQB8lJ7KvJKzWqCEiG8bI9jViLfUO6F40IF2gn2rdABrfR9J923eG_clSoOmQaq7-AzOyh7SROg1c5Hvsris93701RZLOXOsVIR9epJqz6Ueuuj_e0ha1_hde6rIGVjV7UFED461eLZzeyIrKp6A7iIy4K0S99VWxGq_fTcFuDNwNyl0lAcUs6QDDLbX6fjp3ZDwRDpP7LZUM--P1HqXG2kBMFPeXT-yr38lzHRoOey9N5Cl4oTo6tMATWFaNJGY1PIaLAiRiK_O8ND_oWPnY6S17G4ddifeYO8w_lAPFP0M2eITSzb8lKWPdSgH7QibqDaovLGIgdIO_qPvW7la
+2023-01-16 19:08:29,587 17446 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Able to write data into json file
+2023-01-16 19:08:29,590 17449 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Able to read data from json file
+2023-01-16 19:08:29,593 17452 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Able to add headers for authentication
+2023-01-16 19:08:29,595 17454 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - This request do not have Path parameters
+2023-01-16 19:08:29,595 17454 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Path parameters added to the request
+2023-01-16 19:08:29,596 17455 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Able to add query parameter
+2023-01-16 19:08:29,988 17847 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:29,988 17847 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:29,990 17849 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Able to delete request using parameters
+2023-01-16 19:08:29,991 17850 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:29,991 17850 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Actual Response Time: 387 is less than Expected Response Time: 2000
+2023-01-16 19:08:30,008 17867 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_003 - Response body contains error: [status:400, message:Bad request.]
+2023-01-16 19:08:30,476 18335 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:30,477 18336 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:30,479 18338 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:30,490 18349 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Response body value is: BQAKQsFKRxzs88AJAAJo7BBNmGAW3_guYnmLymCLwhK0YjZ1kcvoWjbKvVFf_OAuW6koaD5S8dg2MaysC0r2V0RBocVI816x7M7NlEN-rJb5slqgoXTYWIv8w1O8Tcc-JGPY3gj4por4Iu053HNFrPUSJ07b5DIDZc11QN0eM297xvbhl3cMbM1DbzA1aeXkmCgX_BGuLtc3IWPReJt4uhYKmVSEJeLzggCtQqnVJ19YOiuEmfXGoz-VRj1Th0oFjChXEr4nz_ATLx8o1v8rNbWgwdoh_3PnYDDaSJ_yRpCA1NcUfjVQlJ3z8PWKI9yPwNoCR5y23ZyZzt5cF4MV
+2023-01-16 19:08:30,519 18378 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Able to write data into json file
+2023-01-16 19:08:30,522 18381 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Able to read data from json file
+2023-01-16 19:08:30,525 18384 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Able to add headers for authentication
+2023-01-16 19:08:30,527 18386 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - This request do not have Path parameters
+2023-01-16 19:08:30,527 18386 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Path parameters added to the request
+2023-01-16 19:08:30,529 18388 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Able to add query parameter
+2023-01-16 19:08:30,875 18734 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:30,876 18735 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:30,879 18738 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Able to delete request using parameters
+2023-01-16 19:08:30,879 18738 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:08:30,880 18739 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Actual Response Time: 342 is less than Expected Response Time: 2000
+2023-01-16 19:08:30,897 18756 [main] INFO  com.spotify.albums.TYSS_Albums_RUSA_004 - Response body contains error: [status:404, message:Service not found]
+2023-01-16 19:08:31,445 19304 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:31,446 19305 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:31,449 19308 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:31,466 19325 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Response body value is: BQC-S_N4I17KrNL9ss-7_SFGbY4tKFUz6K6HyOaScorwkzytPbMqQ5cfdX2aIyKFzcff09BxCqSCcSr8ePanxdBAG3tjTrjtsjd4yle-L458SA7XLwrqDrHTDuINF5-3TYPygRSF61ZzlGxT39JDZy6-VJ9R3caCK3a5sco6pCBN49sKuDeNUT2q5kj-RkT5uapP9EZZb7iKpsYAtkoqNqOgWkOrj2TFcqgGJcgVqoNFtow8OyIJuavo9RLSmd-uVwdYEPFL6O0bB9D_olLLWxULTI7rlOSTjfd3IuFuEs9WlcVhVS3BXyU3C0wNd7q1WDAMXBk1RvMD1UE9Hi1D
+2023-01-16 19:08:31,492 19351 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Able to write data into json file
+2023-01-16 19:08:31,494 19353 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Able to read data from json file
+2023-01-16 19:08:31,496 19355 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Able to add headers for authentication
+2023-01-16 19:08:31,497 19356 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - This request do not have Path parameters
+2023-01-16 19:08:31,498 19357 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Path parameters added to the request
+2023-01-16 19:08:31,501 19360 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Able to add query parameter
+2023-01-16 19:08:31,888 19747 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:31,889 19748 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:31,896 19755 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Able to get request using parameters
+2023-01-16 19:08:31,899 19758 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:31,899 19758 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:31,899 19758 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Actual Response Time: 383 is less than Expected Response Time: 2000
+2023-01-16 19:08:31,919 19778 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Response body value is: [2RB3zzgxWc2RRBaJOkSEka, 2cbRVHdH6ab9sPsnQjFRx6]
+2023-01-16 19:08:31,920 19779 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Response contains two ids: [2RB3zzgxWc2RRBaJOkSEka, 2cbRVHdH6ab9sPsnQjFRx6]
+2023-01-16 19:08:31,962 19821 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_001 - Schema validation is done
+2023-01-16 19:08:32,387 20246 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:32,388 20247 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:32,392 20251 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:32,404 20263 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Response body value is: BQBM-ALjqGp-lrnQA04bPp7b65wq6lJjOs5k0fi1UqcIvr95GG2rLooKPp_dThxL5VTYeyYxLBuJV4bhf3fOGYwqvoUM2GfIHoABTXLxs386gT3npXvr5WjvowIljQpNloIutLvphhd6rZI_VqojYyx2lHvtc7Ck1hZV899TcJTn7gZCQyVtpnYd1BEqSKBvqtvlpvHqI8KnSmcrwcjYlQkM2jVXI2FLR7-Dn0UD5efbzlTKN_4bqV6bK_ZYR8IvIRkacOhwE3CqdNxn97t-2J0BmWQPVLsfqM22wO4PETEYAAJRepARv6kE0cQzKXmB8aWXH8-WEPRM7MhOJvrH
+2023-01-16 19:08:32,413 20272 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Able to write data into json file
+2023-01-16 19:08:32,416 20275 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Able to read data from json file
+2023-01-16 19:08:32,418 20277 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Able to add headers for authentication
+2023-01-16 19:08:32,419 20278 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - This request do not have Path parameters
+2023-01-16 19:08:32,419 20278 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Path parameters added to the request
+2023-01-16 19:08:32,420 20279 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Able to add query parameter
+2023-01-16 19:08:32,913 20772 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:32,914 20773 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:32,921 20780 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Able to get request using parameters
+2023-01-16 19:08:32,921 20780 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:32,921 20780 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:32,922 20781 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Actual Response Time: 491 is less than Expected Response Time: 2000
+2023-01-16 19:08:32,943 20802 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Response body contains name: Remo (Original Motion Picture Soundtrack)
+2023-01-16 19:08:32,967 20826 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Response body contains release_date: 2016-09-05
+2023-01-16 19:08:33,006 20865 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Response body contains type: album
+2023-01-16 19:08:33,033 20892 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_002 - Schema validation is done
+2023-01-16 19:08:33,528 21387 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:33,529 21388 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:33,531 21390 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:33,547 21406 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Response body value is: BQDAGijSzfQQyf20IBURdCCFHWx6vpKfF2U7eXx3XHvT0Dni1zKuDoUG-FO7YWcH2Z9S2XPqo1WdPoReLjENRH0vjv_bxcoV6dRh7Sb5m4NJJscFL5-mFvgCQ4kQksS5nTW2RDaDvVurN3GjfjwZz8iiijxokuatTHgHL6Gy4_ag2UgR6VQNEg9GFC6-QHOMcRzLORA5BUJ9SoMw4TSlSxxRvAD37Uwcrwi9NAkFpBW4VsjNmoVnaOkOZSLl0zcfHAyny6WOObJbWHeQc2u4cCJkNoM2R-_nUL9QLbZo9JUNCxcuLLE_ntDhinV4jhuEXaAS4x6eG5OJGvyiitYw
+2023-01-16 19:08:33,570 21429 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Able to write data into json file
+2023-01-16 19:08:33,572 21431 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Able to read data from json file
+2023-01-16 19:08:33,574 21433 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Able to add headers for authentication
+2023-01-16 19:08:33,575 21434 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - This request do not have Path parameters
+2023-01-16 19:08:33,575 21434 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Path parameters added to the request
+2023-01-16 19:08:33,575 21434 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Able to add query parameter
+2023-01-16 19:08:34,039 21898 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:34,040 21899 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:34,046 21905 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Able to get request using parameters
+2023-01-16 19:08:34,046 21905 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:34,046 21905 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:34,046 21905 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Actual Response Time: 462 is less than Expected Response Time: 2000
+2023-01-16 19:08:34,063 21922 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Response body contains name: Remo (Original Motion Picture Soundtrack)
+2023-01-16 19:08:34,075 21934 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Response body contains release_date: 2016-09-05
+2023-01-16 19:08:34,089 21948 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Response body contains name: Paiya (Original Motion Picture Soundtrack)
+2023-01-16 19:08:34,106 21965 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Response body contains release_date: 2010-11-22
+2023-01-16 19:08:34,126 21985 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_003 - Schema validation is done
+2023-01-16 19:08:34,675 22534 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:34,676 22535 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:34,678 22537 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:34,696 22555 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Response body value is: BQCX4yD3ApULG1fFRgfwQNOPeB4KQa_R3uif7QPB9m7N_sl8CPyq5Xh9Vh6iKcKQZfrRX87weHGJheIKQEr7Ocp9Ya2VayO3tWhiq7pl3p4FJZsA5N_m6Mfe5LkomFZ7df6lXdx19Cq6QUBZI3hWp7odQcxRIo7v6lLQdCiQv0j6NtECyzwoGDWqHel5TMHtUZQgW-DVTc_zNA6kfUHehj8NPdcXGL29NnfImOhpxNI7x3KftFIgnGjfIaygLj-XjXF6IEWzS9wjmGqpcDeyS_aOTgAzAg5HhXeNh_arZJW02xMICdt9Db7m3tunJCu5_eEVNHZSDP11lPVWl3p3
+2023-01-16 19:08:34,708 22567 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Able to write data into json file
+2023-01-16 19:08:34,710 22569 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Able to read data from json file
+2023-01-16 19:08:34,713 22572 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Able to add headers for authentication
+2023-01-16 19:08:34,713 22572 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - This request do not have Path parameters
+2023-01-16 19:08:34,714 22573 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Path parameters added to the request
+2023-01-16 19:08:34,715 22574 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Able to add query parameter
+2023-01-16 19:08:35,165 23024 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:35,169 23028 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:35,172 23031 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Able to get request using parameters
+2023-01-16 19:08:35,172 23031 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:35,173 23032 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:35,173 23032 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Actual Response Time: 449 is less than Expected Response Time: 2000
+2023-01-16 19:08:35,189 23048 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Response body contains type: [album, album]
+2023-01-16 19:08:35,209 23068 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_004 - Schema validation is done
+2023-01-16 19:08:35,762 23621 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:35,763 23622 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:35,766 23625 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:35,778 23637 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Response body value is: BQCbQh-EFnA1UIXog8Ii_UC9NcZyceE6iSWI1RHecg1KXn96drD9jTcyYP_v_PTtoyAjzjuejoUR4H8Y1NIY7TiT0wYqatkaMCgrb9CSj506OsKLvdRVa-jtqEpeOJQOZkqFkanVkHh4T5lLN0vJ5l7aex81l2sIJGGlKcyMthkWKyBOcfee2mRDTJKkvggFFIlPN-ODR_hBERzECUJHvsg2dsB4F-Qx_Zvld8fcJN80wRdbTSgeaTlAHlF_C9RmG4dktDgb_4oC-RAd4jfPR8n3SpBQjLiSz39Hy0jpQqbMcEyXDpfUoZhHolWq0B1P6VOCb0W02bZaouBG5BOj
+2023-01-16 19:08:35,791 23650 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Able to write data into json file
+2023-01-16 19:08:35,794 23653 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Able to read data from json file
+2023-01-16 19:08:35,795 23654 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Able to add headers for authentication
+2023-01-16 19:08:35,796 23655 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - This request do not have Path parameters
+2023-01-16 19:08:35,796 23655 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Path parameters added to the request
+2023-01-16 19:08:35,796 23655 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - This reuest do not have Query Parameters
+2023-01-16 19:08:35,796 23655 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Able to add query parameter
+2023-01-16 19:08:36,166 24025 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:36,168 24027 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:36,169 24028 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Able to get request using parameters
+2023-01-16 19:08:36,169 24028 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:36,170 24029 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Actual Response Time: 369 is less than Expected Response Time: 2000
+2023-01-16 19:08:36,170 24029 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:36,185 24044 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_005 - Response body contains error: invalid id
+2023-01-16 19:08:36,700 24559 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:36,701 24560 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:36,704 24563 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:36,715 24574 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Response body value is: BQCtgQPwVrV8lpg8QSxGKhbufD4qJ2An9oexcYmmsvPqFqr32WljjSmmcByZ4K6phUZJ1qv8WTdH1KEFnjX6_aLvj0F89fH5DbTKxwK58MJlmmJEMkNs968VvDchAq4F5ESHQzp2twBMVJSTV9FlwSJwefOBqqXAbRklRHtlf3u1_tev0zn82EckYhSWxR-lSazhYED1viXJx2K-QeZRGDyrjXvqmLoG-T_gr0G9_cfnJaynwxITnAnP-pCZ3_O032KF8EjZ-RDYddz6fsumPWMJCjuO3IO4LNt1JnPp28AYxK834Q5fIhZ1zER6zvMHH7juegaxm0a4SgAegrq4
+2023-01-16 19:08:36,741 24600 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Able to write data into json file
+2023-01-16 19:08:36,745 24604 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Able to read data from json file
+2023-01-16 19:08:36,746 24605 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Able to add headers for authentication
+2023-01-16 19:08:36,747 24606 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - This request do not have Path parameters
+2023-01-16 19:08:36,748 24607 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Path parameters added to the request
+2023-01-16 19:08:36,749 24608 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Able to add query parameter
+2023-01-16 19:08:37,186 25045 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:37,186 25045 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:37,188 25047 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Able to get request using parameters
+2023-01-16 19:08:37,189 25048 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:37,190 25049 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Actual Response Time: 427 is less than Expected Response Time: 2000
+2023-01-16 19:08:37,190 25049 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:37,207 25066 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_006 - Response body contains error: too many ids requested
+2023-01-16 19:08:37,650 25509 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:37,650 25509 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:37,652 25511 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:37,671 25530 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Response body value is: BQCdrphAdBihl9oD-YJ-NPXkW6Sesah6QknVKQAfgDYHzOl44r-YJ5SUSs0-uwE2FVPcJIAFjQfY_BbmZB2qJ-pTtcKKM1bnsr4oJEcSvclTHOT5A4JARLGMRswxlkaJyz-TkHhewTZDuDDhqLA8oJLTRMltLBCUEM5wjp_Vq_XPlLRBK7KbwMJfID-nHis1icd0LtxK2IcQwlyqN5qMZ8Svm666f4tRncBj2E1b0cwpcuEYGM6tlJOkUz-1en5jtdt_g7Jc-B8zjgNXdGYOccFEh1WRnHz2yoqAJFW7_E3HxOc2-iYB_KyILeZARsPRFcIZNlkegua1vfuL3hGN
+2023-01-16 19:08:37,700 25559 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Able to write data into json file
+2023-01-16 19:08:37,703 25562 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Able to read data from json file
+2023-01-16 19:08:37,705 25564 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Able to add headers for authentication
+2023-01-16 19:08:37,707 25566 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - This request do not have Path parameters
+2023-01-16 19:08:37,708 25567 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Path parameters added to the request
+2023-01-16 19:08:37,709 25568 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Able to add query parameter
+2023-01-16 19:08:38,099 25958 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:38,100 25959 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:38,103 25962 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Able to get request using parameters
+2023-01-16 19:08:38,103 25962 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:08:38,103 25962 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Actual Response Time: 387 is less than Expected Response Time: 2000
+2023-01-16 19:08:38,103 25962 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:08:38,119 25978 [main] INFO  com.spotify.tracks.TYSS_Tracks_GST_007 - Response body contains error: Service not found
+2023-01-16 19:08:38,646 26505 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:38,647 26506 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:38,652 26511 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:38,667 26526 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Response body value is: BQAUdrvbWshQiZPm_DT_vVED2T1Vnuxp59MkrKIR3I5tsVEwW-_cWkG6qGXj7Nra60V3lCDIL43FURLHOYYzUNmJ6iGOEzg_lsboTKoM3YyKp4fLTrvYNPat5iCgYgVV-hbxzrf52UDhH7a6QtHGEClSZdEUyih3mzKJvgyFV-cMWIUelgtY39kw5gR4oclcCBv7RiWs1b9nk4FF6v8XOwXrehPNGaPAQhi8LhiAzacIkAh0g8mQJFy4SWKU3e2Y4X-pmxcw2dy0ICQ-xk0_Y_NvHOoiFbNbdx6cyIOrxliJGlO0fvJXr_lGDQPssxjY0TVVB0BAYqsVid19hA2z
+2023-01-16 19:08:38,677 26536 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Able to write data into json file
+2023-01-16 19:08:38,680 26539 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Able to read data from json file
+2023-01-16 19:08:38,682 26541 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Able to add headers for authentication
+2023-01-16 19:08:38,683 26542 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - This request do not have Path parameters
+2023-01-16 19:08:38,683 26542 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Path parameters added to the request
+2023-01-16 19:08:38,684 26543 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Able to add query parameter
+2023-01-16 19:08:39,106 26965 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:39,108 26967 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:39,112 26971 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Able to get request using parameters
+2023-01-16 19:08:39,113 26972 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:39,113 26972 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:39,114 26973 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Actual Response Time: 420 is less than Expected Response Time: 2000
+2023-01-16 19:08:39,132 26991 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Response body value is: [2RB3zzgxWc2RRBaJOkSEka, 2cbRVHdH6ab9sPsnQjFRx6]
+2023-01-16 19:08:39,133 26992 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_001 - Response contains two ids: [2RB3zzgxWc2RRBaJOkSEka, 2cbRVHdH6ab9sPsnQjFRx6]
+2023-01-16 19:08:39,564 27423 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:39,565 27424 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:39,569 27428 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:39,587 27446 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Response body value is: BQDDuOUnrljelVi670TK3bNO8DP5c-daPs4xVfY0msLj1sGKzbdZSPpnQQqVlizHeMrgsCUrW7P0KRinfa6BigVEz-gz2sLlGYXbMcRyrdeCzk75ZF-i19DBBuZBh9FNHjVHHe3ulw9BTNSAesu_OYQx1YlhVUfo5rr3Ix0UnNZqmxZdHB7JPfvtbCp9TBn5c7fpJOefJKiy1Q6i6ekMKlMNKDapH7sVhm9jHFfgGgpxTS7m-kLz9kYnWvmrH5e7lNGzB_87jbCLIL7ku2KNUJcMUQHbfY7GKYLYNXJ0tLlTYxd3Iv3w6ng4b8aP3DC8Fabn-Urd3TBo33a4UgGP
+2023-01-16 19:08:39,610 27469 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Able to write data into json file
+2023-01-16 19:08:39,612 27471 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Able to read data from json file
+2023-01-16 19:08:39,613 27472 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Able to add headers for authentication
+2023-01-16 19:08:39,614 27473 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - This request do not have Path parameters
+2023-01-16 19:08:39,614 27473 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Path parameters added to the request
+2023-01-16 19:08:39,615 27474 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Able to add query parameter
+2023-01-16 19:08:40,081 27940 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:40,081 27940 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:40,085 27944 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Able to get request using parameters
+2023-01-16 19:08:40,085 27944 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:40,086 27945 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:40,086 27945 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Actual Response Time: 463 is less than Expected Response Time: 2000
+2023-01-16 19:08:40,105 27964 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Response body contains name: Senjitaley
+2023-01-16 19:08:40,122 27981 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Response body contains type: track
+2023-01-16 19:08:40,138 27997 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Response body contains name: Poongatre Poongatre
+2023-01-16 19:08:40,157 28016 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_002 - Response body contains type: track
+2023-01-16 19:08:40,694 28553 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:40,695 28554 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:40,697 28556 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:40,714 28573 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Response body value is: BQCBdDXhYjY1aAZpcq3V9Q7l0yo8JUTmDgtpZpdS90fsTd6DzJtQUtPL3_2nblXl1qrvEkcLdnb5p6TgWfjxskgy88tVwykevf1ZMMQ8KNdpn8jr2zAHjMXh0MiAOfnMMEqBbkb9i8FPBqf6GhmjKUainajr56xD69I4jIp7F4Urkk1z5RO-XtV1zJoIDdBfkQ4PptV4NJ-t8K_xCZR8U4lnQG0ZVKzQDBkrbWWonGu9S2eKWicNKm_1AhJ4f5rnf4X4yDT5kpddfhxgmfsKZXthC-bU4ZMzFg0XMLvHaHFjqdfxbNYOlOLGOITFAsvTZwfdAsyDbzN81GzE-VXz
+2023-01-16 19:08:40,736 28595 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Able to write data into json file
+2023-01-16 19:08:40,739 28598 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Able to read data from json file
+2023-01-16 19:08:40,740 28599 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Able to add headers for authentication
+2023-01-16 19:08:40,741 28600 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - This request do not have Path parameters
+2023-01-16 19:08:40,742 28601 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Path parameters added to the request
+2023-01-16 19:08:40,742 28601 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Able to add query parameter
+2023-01-16 19:08:41,167 29026 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:41,167 29026 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:41,172 29031 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Able to get request using parameters
+2023-01-16 19:08:41,173 29032 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:41,173 29032 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:41,174 29033 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Actual Response Time: 422 is less than Expected Response Time: 2000
+2023-01-16 19:08:41,194 29053 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - Response body value is: [2RB3zzgxWc2RRBaJOkSEka, 2cbRVHdH6ab9sPsnQjFRx6]
+2023-01-16 19:08:41,195 29054 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_003 - The order are matching
+2023-01-16 19:08:41,637 29496 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:41,638 29497 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:41,642 29501 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:41,659 29518 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Response body value is: BQA1gY8IUC7_-RDfVUNFHHUq_RR8gTVcQvryccZz9j4XTXFRabQ-Yt3C3pirX3XN7hiInRr3mCyPurbnPk2HvkVBs4om7BRZrYz80jwPIoTM9ThanMT9Z4kWQeQwALQR5TiOP12NFbifUg1ZlZFh_BsalH5Q2J86JxfIEKScaj417NwSmbMf6qzTkvhYyIS5XFou6uPhowKr2vPzTg7ehHpiEhfvAuRErX2TusI4PJ3WxMPg5sf27-fk3H9oWU6gWua0THmiJLFS8EGl3B15Zm5Q0iVdUxjpj-rHbsveSZHRd5KJ-VUcUudjrUyd1Guiw3sfRzlGnVfhmO4MBHg5
+2023-01-16 19:08:41,678 29537 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Able to write data into json file
+2023-01-16 19:08:41,680 29539 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Able to read data from json file
+2023-01-16 19:08:41,682 29541 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Able to add headers for authentication
+2023-01-16 19:08:41,683 29542 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - This request do not have Path parameters
+2023-01-16 19:08:41,683 29542 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Path parameters added to the request
+2023-01-16 19:08:41,684 29543 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Able to add query parameter
+2023-01-16 19:08:42,017 29876 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:42,018 29877 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:42,020 29879 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Able to get request using parameters
+2023-01-16 19:08:42,020 29879 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:08:42,020 29879 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Actual Response Time: 331 is less than Expected Response Time: 2000
+2023-01-16 19:08:42,021 29880 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:08:42,036 29895 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_004 - Response body contains error: Service not found
+2023-01-16 19:08:42,538 30397 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:42,539 30398 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:42,542 30401 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:42,553 30412 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Response body value is: BQDzL0jOyXZ6rkT3dW3Me0iywqZFowtXHEfCAn8HxOeEWlqFtdBvdWLxSmuv-Sox9QqEzhfiIWumCGc8hzCQV18fatxdt8Zl5nWcY1jgUIeOrAtKJ9QCcIi0FVMsNV8gWi1zVjxCQqU4SUIYlOYSFcxVdEamcO_cRuVdA1zhLcmCDdwhOzuL18kDnU0nqwHIaaSVjPp9cQQsKU3OojZzBlLSvNpPkTaDi52s6vGu6OolWTlP5rpVlDhNSxrs1JTgZ9xefP9kLlSU-vEei0bo89gntlzA7HGoszdAaZSDnRldzA-5USqcB1nmxbscjFLdLmY_3Od_npqk3wWvHvQU
+2023-01-16 19:08:42,571 30430 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Able to write data into json file
+2023-01-16 19:08:42,574 30433 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Able to read data from json file
+2023-01-16 19:08:42,575 30434 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Able to add headers for authentication
+2023-01-16 19:08:42,577 30436 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - This request do not have Path parameters
+2023-01-16 19:08:42,577 30436 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Path parameters added to the request
+2023-01-16 19:08:42,584 30443 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Able to add query parameter
+2023-01-16 19:08:42,962 30821 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:42,963 30822 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:42,964 30823 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Able to get request using parameters
+2023-01-16 19:08:42,965 30824 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:42,965 30824 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Actual Response Time: 372 is less than Expected Response Time: 2000
+2023-01-16 19:08:42,965 30824 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:42,978 30837 [main] INFO  com.spotify.tracks.TYSS_Tracks_GUST_005 - Response body contains error: Invalid limit
+2023-01-16 19:08:43,413 31272 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:43,414 31273 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:43,416 31275 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:43,427 31286 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Response body value is: BQBupxzxzJPBE2WsqtNCZWIcFu_n2wN4YluRSXK6NqWUXKEr0-24JIk6JuPgfMQEdKJbiZmF0Y3wNGTXXxz6huNRnllCpQeT6yVW-aGrNSWs6hex5s2o8y7nzwy2mrpfjiwYKEvejJXr7GDEXlwuB14rfthr54ZmNSQd7TSEMMhhOBauXiwJ8NX4MN1DWghwQ-POJRHhGOaCcvEvkejjJpEDAxOnbcmKKYM2Iz4fOccA4DHlL6tjNtrKR5sPUD5h78bssV4EQ8OF1RSERaHdAziRTfSi8APTT9UobcVUyihbfE2MQkik1Ec_J3mrJ8Y-uulOEwqYIPHYPKXso-Ai
+2023-01-16 19:08:43,453 31312 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Able to write data into json file
+2023-01-16 19:08:43,456 31315 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Able to read data from json file
+2023-01-16 19:08:43,457 31316 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Able to add headers for authentication
+2023-01-16 19:08:43,458 31317 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - This request do not have Path parameters
+2023-01-16 19:08:43,458 31317 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Path parameters added to the request
+2023-01-16 19:08:43,459 31318 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Able to add query parameter
+2023-01-16 19:08:44,179 32038 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:44,181 32040 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:44,235 32094 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Able to get request using parameters
+2023-01-16 19:08:44,235 32094 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:44,236 32095 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Actual Response Time: 719 is less than Expected Response Time: 2000
+2023-01-16 19:08:44,236 32095 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:44,272 32131 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Actual value: seed_artists 53XhwfbYqKCa1cC15pYq2q equals expected value: seed_artists 53XhwfbYqKCa1cC15pYq2q
+2023-01-16 19:08:44,309 32168 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Actual value: seed_tracks 7gsXdbcl2ndPAIj7auIGij equals expected value: seed_tracks 7gsXdbcl2ndPAIj7auIGij
+2023-01-16 19:08:44,378 32237 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_001 - Actual value: seed_genres classical equals expected value: seed_genres classical
+2023-01-16 19:08:44,872 32731 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:44,872 32731 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:44,875 32734 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:44,885 32744 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Response body value is: BQCxmjKkn94JnWHLOI6pubA6GFZW5wjW0ZO0dyn8gsx4ONDv1KL0JsHHzqPSHZgAXE6EZQRJekBl3pDpgWftWu6DrphbYIDaUdmTLwUY-B4pZzJ7XVyf-e8ziOVEmLYRRBZ03CLedD2H27MIHHhoEUIB2Lv8ycZeQ1F6UjbMYJgHs2IFmmA0eWAqJYER6ZiCg0g3-IFGjU0nbBv3opm-b-2g-MphgF9y9LCcpY8FdQxGICZz3O3M36NFm2uPDv2htUKywIqbAISS2HP-lvUl51fWMHEIxug80olC8tbcvJU2M-XE6-aUArpOPGk6shCuLRyceuRKl61yyRb-0xSs
+2023-01-16 19:08:44,894 32753 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Able to write data into json file
+2023-01-16 19:08:44,896 32755 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Able to read data from json file
+2023-01-16 19:08:44,898 32757 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Able to add headers for authentication
+2023-01-16 19:08:44,898 32757 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - This request do not have Path parameters
+2023-01-16 19:08:44,899 32758 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Path parameters added to the request
+2023-01-16 19:08:44,899 32758 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Able to add query parameter
+2023-01-16 19:08:45,599 33458 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:45,602 33461 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:45,675 33534 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Able to get request using parameters
+2023-01-16 19:08:45,676 33535 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:45,676 33535 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Actual Response Time: 700 is less than Expected Response Time: 2000
+2023-01-16 19:08:45,676 33535 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:45,784 33643 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Actual value: seed_artists 53XhwfbYqKCa1cC15pYq2q equals expected value: seed_artists 53XhwfbYqKCa1cC15pYq2q
+2023-01-16 19:08:45,864 33723 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Actual value: seed_tracks 7gsXdbcl2ndPAIj7auIGij equals expected value: seed_tracks 7gsXdbcl2ndPAIj7auIGij
+2023-01-16 19:08:45,943 33802 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_002 - Actual value: seed_genres classical equals expected value: seed_genres classical
+2023-01-16 19:08:46,429 34288 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:46,429 34288 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:46,435 34294 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:46,451 34310 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Response body value is: BQDgKfqmV0ZBMpgsMXVFJbh8b2dpFy-HQlzjmnAPLk3XvUy6IC9Ngr7X30XsXOup_cA6eYPC9KwKAbmdD6JFjA_u4YsvGLEiakDNAE9q-touw9dp_Si1z46mdphSHq07hqmDk2QxIpRBASqJDWus6yQM27RkSNLrYi2PdpLosxQ4Q4zz5NM7V4T2KNiuk7OABMflcIZHhoeBK8V13BaSlncxzI_U5iW9wdAjayZhBx5yYuL0GxhhNaYWmv3Fh5Qh1qji3id46g3iwiDyHG6XVTgThtKyN0VmT8iFj1No6x57bUatbSmxKCiWfkeYqnWleJUuay2XNDIAMaZFcd4w
+2023-01-16 19:08:46,478 34337 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Able to write data into json file
+2023-01-16 19:08:46,480 34339 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Able to read data from json file
+2023-01-16 19:08:46,482 34341 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Able to add headers for authentication
+2023-01-16 19:08:46,483 34342 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - This request do not have Path parameters
+2023-01-16 19:08:46,484 34343 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Path parameters added to the request
+2023-01-16 19:08:46,485 34344 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Able to add query parameter
+2023-01-16 19:08:47,353 35212 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:47,354 35213 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:47,456 35315 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Able to get request using parameters
+2023-01-16 19:08:47,457 35316 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:47,457 35316 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Actual Response Time: 865 is less than Expected Response Time: 2000
+2023-01-16 19:08:47,457 35316 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:47,522 35381 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Response body contains duration: 211560
+2023-01-16 19:08:47,572 35431 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Response body contains id: 3Wrjm47oTz2sjIgck11l5e
+2023-01-16 19:08:47,625 35484 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_003 - Response body contains name: Beggin'
+2023-01-16 19:08:48,036 35895 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:48,037 35896 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:48,039 35898 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:48,051 35910 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Response body value is: BQBlQxDwz-HsHwi9umPBbVtzIe2Fh-JFu48ILvNfwrIABKnwX_o-1m5ymoLu53dJ2oF54uwBxeMX9H6ugrd3_r8PcBW5AKuklTlLi0ebBzKMe2-jOPu02Mi1-tbAeAbeKL1gwPHWcBwu0ad-Bi5xoO1wTAHp_bUAGEi9vpm9waX_M_BhrXDAaLEwGgqV2-fpUd4i1Rc5iR_e8bqSiIevst8JGYQs_BChw1hTsi6OA6KYqI36Y4cj-bVI4L1w0cXhUAnRcBn-n-Qe7PglPTR6LuMn3exVE0pEGWtkiDh-M-mvpaA8VzSU39jLAj-vflIu51WXoTQxwKqLGG1acOP5
+2023-01-16 19:08:48,068 35927 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Able to write data into json file
+2023-01-16 19:08:48,070 35929 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Able to read data from json file
+2023-01-16 19:08:48,071 35930 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Able to add headers for authentication
+2023-01-16 19:08:48,072 35931 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - This request do not have Path parameters
+2023-01-16 19:08:48,073 35932 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Path parameters added to the request
+2023-01-16 19:08:48,074 35933 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Able to add query parameter
+2023-01-16 19:08:48,421 36280 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:48,422 36281 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:48,424 36283 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Able to get request using parameters
+2023-01-16 19:08:48,424 36283 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:48,424 36283 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Actual Response Time: 346 is less than Expected Response Time: 2000
+2023-01-16 19:08:48,425 36284 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:48,439 36298 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_004 - Response body contains error: invalid request
+2023-01-16 19:08:48,854 36713 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:48,855 36714 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:48,857 36716 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:48,870 36729 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Response body value is: BQCpTVezyOv8wZQ90EJHgeqreS9HfFDhWvuC-NFlElSGPfNSVLEncNLyjH1kTpkvM3DgFUqv1dWGIwES57G5xTHirikUo9cBR8lJt0g_GlF1etDM-NTQlur0b7YGbu3k4TUR3oY6XvIY5k8zIDkgdvzGG6fj_IcPDSoxIutWRWVQAZYgaETO4ayg7apm-vWJKx9_50zNWcylIpBPbCmNwB2bYPRPSl3dqZX9pbZ4mLj0DUjo-uOnYJ8_LtHqPfIZEGD6laxoE5FU0tlOWRIXB-jiIjoF_5yQbpA58w_1N8WNutr7ip13AXsp8uGDWWiLoa6W4tZ05iWmn-hIwNX8
+2023-01-16 19:08:48,893 36752 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Able to write data into json file
+2023-01-16 19:08:48,895 36754 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Able to read data from json file
+2023-01-16 19:08:48,897 36756 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Able to add headers for authentication
+2023-01-16 19:08:48,898 36757 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - This request do not have Path parameters
+2023-01-16 19:08:48,898 36757 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Path parameters added to the request
+2023-01-16 19:08:48,902 36761 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Able to add query parameter
+2023-01-16 19:08:49,213 37072 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:49,213 37072 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:49,215 37074 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Able to get request using parameters
+2023-01-16 19:08:49,215 37074 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:49,215 37074 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Actual Response Time: 310 is less than Expected Response Time: 2000
+2023-01-16 19:08:49,216 37075 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:49,226 37085 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_005 - Response body contains error: invalid request
+2023-01-16 19:08:49,629 37488 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:49,630 37489 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:49,632 37491 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:49,647 37506 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Response body value is: BQDr7mFXeXJFDAd5Tik4QzHYlerGLqbU4h0BTgTdUyT97qm-W5zmrNC4phTE2oX5oPGTnM3ClXKb2iHsnoK-C7ZcCv3uNcwAKc9QuMMGRgCLynaA8JOHWfVqlLs--O3KFf5_gIcHufFdc5a1_kPJ0DM6QEaKI-oO1Fzpvb24wD7EqqZ4CV-Q1tRfxikcpEyroTBK7fbaG6bFhlrkIqwjUrkGkHTnJhnpkaRgGlWoYhQMSN2dMW8zO2hfRE9Xx2JLnu2GHuTiOjlm0d1r-U4znOHb2bK24tNWGYLpYRyXoxKLS2zIeDVpzlsgUyZ4Puy8NnK8bLmYoMN0j3bpYTde
+2023-01-16 19:08:49,672 37531 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Able to write data into json file
+2023-01-16 19:08:49,675 37534 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Able to read data from json file
+2023-01-16 19:08:49,677 37536 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Able to add headers for authentication
+2023-01-16 19:08:49,678 37537 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - This request do not have Path parameters
+2023-01-16 19:08:49,678 37537 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Path parameters added to the request
+2023-01-16 19:08:49,679 37538 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Able to add query parameter
+2023-01-16 19:08:50,019 37878 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:50,019 37878 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:50,021 37880 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Able to get request using parameters
+2023-01-16 19:08:50,021 37880 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:08:50,022 37881 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Actual Response Time: 338 is less than Expected Response Time: 2000
+2023-01-16 19:08:50,022 37881 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:08:50,032 37891 [main] INFO  com.spotify.tracks.TYSS_Tracks_GR_006 - Response body contains error: Service not found
+2023-01-16 19:08:50,524 38383 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:50,525 38384 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:50,527 38386 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:50,549 38408 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Response body value is: BQDRdAqRthML7ygUv-bThaH7UHrad84h_winMsC54FEu-zSdl3y78gvm3ZBLFo9EQ38Zp84ofJ4IEyl9NqIRC-9mmE0uspFHncsUzOZXxj7GkRSMyyQvFQzXYvWxo5BQUAdGvxX9jUZN4DP92ab6eYTzlb5eK5yF7oVOIzwULb0AIazY56nPw_YAXULxOVcv1TU4UwD9B4_8YQH4JwU5UIBepLEAYRbk3O5rimZxHsVgv4viZfhDInD9A9K-t_BF544Xv4vGAUbNO4yEhgiGcQKmiZoqpVVKu-aQhRMH0_yhH1ynyBrPzeRCr2BGDb8eCkdvCFrKHCQPWxjMErnI
+2023-01-16 19:08:50,566 38425 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Able to write data into json file
+2023-01-16 19:08:50,570 38429 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Able to read data from json file
+2023-01-16 19:08:50,571 38430 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Able to add headers for authentication
+2023-01-16 19:08:50,572 38431 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - This request do not have Path parameters
+2023-01-16 19:08:50,573 38432 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Path parameters added to the request
+2023-01-16 19:08:50,574 38433 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Able to add query parameter
+2023-01-16 19:08:50,921 38780 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:50,921 38780 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:50,923 38782 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Able to get request using parameters
+2023-01-16 19:08:50,924 38783 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:50,924 38783 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Actual Response Time: 344 is less than Expected Response Time: 2000
+2023-01-16 19:08:50,924 38783 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:50,924 38783 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_001 - Response body contains true 
+2023-01-16 19:08:51,446 39305 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:51,447 39306 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:51,449 39308 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:51,463 39322 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Response body value is: BQDQJ8eD4GoWoTSvGr8jCS6fe4q1gSiQqIyrtLHpqhGeF-GHvcYVo8lGpHCgY6vvjawtCGQUMIf_haLrWHyyHnzJBy8Hy5y_BWvlk3OpQ5NIkN7WGR0w9-_xtOyZsmcN0YaWrZuJehQNliGVzI4bHafDQ8A2ZJntTBdJ1qJMQZr6ctyk2AUAzeFyWw6DQYRVdNYnntFLFeEX5KTXY1hc3XffMG2aPD08fFUaanwo5I2va6DpVejtTNqe8ROpFtwUrxMGF-oTci4qqTHhhNF6pMCoy6_Th_HELP-KROHJ5yF4eWZD9YQwM29DQDuRlCxyEgUMOvz9CaKqm72UPTvn
+2023-01-16 19:08:51,485 39344 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Able to write data into json file
+2023-01-16 19:08:51,487 39346 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Able to read data from json file
+2023-01-16 19:08:51,489 39348 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Able to add headers for authentication
+2023-01-16 19:08:51,490 39349 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - This request do not have Path parameters
+2023-01-16 19:08:51,490 39349 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Path parameters added to the request
+2023-01-16 19:08:51,491 39350 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Able to add query parameter
+2023-01-16 19:08:51,838 39697 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Able to get request using parameters
+2023-01-16 19:08:51,839 39698 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Actual Response Time: 343 is less than Expected Response Time: 2000
+2023-01-16 19:08:51,839 39698 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_002 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:08:52,368 40227 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:52,369 40228 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:52,372 40231 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:52,385 40244 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Response body value is: BQDptQ7eQ3TIUbt-RMDdvTZB8VuLNeEus63pCxI3BL-ZHanPo1rcrUzkQ74BxqoIstxzrlAusX1Nykmjb6iTvGcWuqE5ToyCSkS2yiBGiK0zcqxG3GycMu69INslqmvwyZlEerOKuvW7D3X7MPyQKL2SmQQD7ivcg__hpuFFTWsmlJTKik314fXaK8zxC8z091x38LovSMYUhed84UrZUU-JxuhMoHM-mn4XLq8ZIgWqUTiKhckxkmmpj_rli1hcUjjKOlPwxVnDQN2oq3Xe5yAne8XxvrvfEl7eDAuqsggbX2ACf5txRrj9DKvacL1_JCQnPE3j807qQ9k8Dmm9
+2023-01-16 19:08:52,403 40262 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Able to write data into json file
+2023-01-16 19:08:52,404 40263 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Able to read data from json file
+2023-01-16 19:08:52,406 40265 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Able to add headers for authentication
+2023-01-16 19:08:52,407 40266 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - This request do not have Path parameters
+2023-01-16 19:08:52,407 40266 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Path parameters added to the request
+2023-01-16 19:08:52,407 40266 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - This reuest do not have Query Parameters
+2023-01-16 19:08:52,408 40267 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Able to add query parameter
+2023-01-16 19:08:52,758 40617 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:52,759 40618 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:52,762 40621 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Able to get request using parameters
+2023-01-16 19:08:52,762 40621 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:52,763 40622 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Actual Response Time: 350 is less than Expected Response Time: 2000
+2023-01-16 19:08:52,763 40622 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:08:52,778 40637 [main] INFO  com.spotify.episodes.TYSS_Episodes_CUSE_003 - Response body contains error: No ids provided
+2023-01-16 19:08:53,291 41150 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:53,291 41150 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:53,293 41152 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:53,308 41167 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Response body value is: BQCHRU_qKqXK0A47YMX-F31XlqysZ0cjrrBesau2Woyqgn_fmX9t2IF096VuS35xbEVBbX9CvJ9Aab0UO2vX4PkGbXLltsEsh2yDNz8D4EYg1EoScIiI5fYWa2rOMP9NvrpoqVPyoRVi3jAo4W8SspCr05mqEjk-uNiNUlLPeCbSom88hNnflkVsoWpf-9WN2DkXzNmYALn10NggTTP2H4KfzfJbij0PhgMLsVcVCJgP_HO68EoLfCzLx_vxD_LJnfYRKPUaZvCLFyhS7BZ8-OH1YyBjfYQkc1vrJqmXlKpAa84iAXQsJJ6xuGruBsE0ksvtJiagbfGflftVAOxx
+2023-01-16 19:08:53,319 41178 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Able to write data into json file
+2023-01-16 19:08:53,321 41180 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Able to read data from json file
+2023-01-16 19:08:53,323 41182 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Able to add headers for authentication
+2023-01-16 19:08:53,325 41184 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Path parameters added to the request
+2023-01-16 19:08:53,325 41184 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Able to add query parameter
+2023-01-16 19:08:53,801 41660 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:53,802 41661 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:53,817 41676 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Able to get request using parameters
+2023-01-16 19:08:53,818 41677 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:53,819 41678 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Actual Response Time: 469 is less than Expected Response Time: 2000
+2023-01-16 19:08:53,819 41678 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:53,843 41702 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Response body contains available_markets: [AD, AE, AG, AL, AM, AO, AR, AT, AU, AZ, BA, BB, BE, BF, BG, BH, BI, BJ, BN, BO, BR, BS, BT, BW, BZ, CA, CH, CI, CL, CM, CO, CR, CV, CW, CY, CZ, DE, DJ, DK, DM, DO, DZ, EC, EE, EG, ES, FI, FJ, FM, FR, GA, GB, GD, GE, GH, GM, GN, GQ, GR, GT, GW, GY, HK, HN, HR, HT, HU, ID, IE, IL, IN, IS, IT, JM, JO, JP, KE, KH, KI, KM, KN, KR, KW, LA, LB, LC, LI, LR, LS, LT, LU, LV, MA, MC, ME, MG, MH, MK, ML, MN, MO, MR, MT, MU, MV, MW, MX, MY, MZ, NA, NE, NG, NI, NL, NO, NP, NR, NZ, OM, PA, PE, PG, PH, PL, PS, PT, PW, PY, QA, RO, RS, RW, SA, SB, SC, SE, SG, SI, SK, SL, SM, SN, SR, ST, SV, SZ, TD, TG, TH, TL, TN, TO, TR, TT, TV, TW, TZ, UA, US, UY, UZ, VC, VN, VU, WS, XK, ZA, ZM, ZW]
+2023-01-16 19:08:53,843 41702 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_001 - Response contains market with country code: IN
+2023-01-16 19:08:54,315 42174 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:54,316 42175 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:54,318 42177 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:54,329 42188 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Response body value is: BQADUnlbVuuaFSKmDUtdJsGevMz_iK7RSc3KlCb6M4Zvf8_WBeziVyPwCUfCiyqxOcndZvMRR6g-Roagl0D-_mw8rASjw98gDzdkxpj4VYjG8fOHYcyFMutdlezhH-j3LOUj1M26Bm9veR2MMbwsiWFsn_kYTnAeKkV6hIL7dPFO7XEnv-wkjMgniCokFwhMrbTvV4khA1EjHcVReEYafo5EDKBcmLxGGy61fdLEdQ_zWok-PdJe7-LhVLPgJYWno9Iy4DyQgEc987xW0zbAWbEzDSWUtNvooSP-wLF_nO9WLMyoaP58VY14lgc57LyV8M3yLwKDHVsDgS1M-oz9
+2023-01-16 19:08:54,355 42214 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Able to write data into json file
+2023-01-16 19:08:54,357 42216 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Able to read data from json file
+2023-01-16 19:08:54,359 42218 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Able to add headers for authentication
+2023-01-16 19:08:54,359 42218 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Path parameters added to the request
+2023-01-16 19:08:54,360 42219 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Able to add query parameter
+2023-01-16 19:08:54,825 42684 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:54,826 42685 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:54,834 42693 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Able to get request using parameters
+2023-01-16 19:08:54,835 42694 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:54,835 42694 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Actual Response Time: 463 is less than Expected Response Time: 2000
+2023-01-16 19:08:54,835 42694 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:54,854 42713 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Response body value is: 3xErKr1LdVbnwDjmihoBbP
+2023-01-16 19:08:54,854 42713 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_002 - Response contains single id: 3xErKr1LdVbnwDjmihoBbP
+2023-01-16 19:08:55,280 43139 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:55,280 43139 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:55,283 43142 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:55,303 43162 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Response body value is: BQD1HaTCNWuqO1fRqEQDwqIpt1n9iwpKHppfKDwQAJ18e0bc3Fz-GbfqoJaC0KhqmdJdCcjO6sBsLWN1yd29ATKUH612ET1ckIziynGuT4NjLvlhD5Y1bhFS7AY7GwQiH5W4kB6sLU7unMr37bKRYD2u2ee2pLXCZ0XyQBFEk8wRoxBAu9XThM7GjEM0JStASuYy3cyo_8jPNhsS6af4eP4raeL-7D9O6suotvAztgp8WkCGwrr_NP0TQc2QRxLegH4wwg1b5xh5vsE_a16dFftefvY04fIfx1dow-nACY2h8EubrY1jBUUWYBU2nqnUjqAQKgq47ceM-6_Qhr5h
+2023-01-16 19:08:55,330 43189 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Able to write data into json file
+2023-01-16 19:08:55,332 43191 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Able to read data from json file
+2023-01-16 19:08:55,335 43194 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Able to add headers for authentication
+2023-01-16 19:08:55,335 43194 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Path parameters added to the request
+2023-01-16 19:08:55,336 43195 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Able to add query parameter
+2023-01-16 19:08:55,751 43610 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:55,752 43611 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:55,757 43616 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Able to get request using parameters
+2023-01-16 19:08:55,758 43617 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:55,758 43617 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Actual Response Time: 409 is less than Expected Response Time: 2000
+2023-01-16 19:08:55,758 43617 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:55,778 43637 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Response body contains name: Praveen Mohan - Indian History Retold & Rethought | The Ranveer Show 259
+2023-01-16 19:08:55,794 43653 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_003 - Response body contains release_date: 2022-12-02
+2023-01-16 19:08:56,249 44108 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:56,250 44109 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:56,253 44112 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:56,277 44136 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Response body value is: BQDO5PpkPmRwhl4N4ZxNbHfNfRuULsevOVc6Zax366TFqDQQlYKthbw57fT5n1hV5ElwZhATZb4F5kmLtycIXEjHzVhb6AQMIoeWARnekp0uR2tUXU8AUjYqOciH1JlDwGDm-nWDUm4Y2VTZgGWI7U8Ka26J8bz8a0aAbc9xcDMlBjOIAxr7Z4K2c7w-bd_qvm5O7BpIkZObp1arUuciZv-dXmnXhyiQlZWRHTK4QiIHc__a58LtEJjESNCmyNgjQ82D0cb4ldA5bPSaQ1N52NJFCrQMrkoEpQD7sFIKAEF49invH2_lWHV7dVdLOvzhh4vDJ9D4leTeJ1V26XP-
+2023-01-16 19:08:56,284 44143 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Able to write data into json file
+2023-01-16 19:08:56,286 44145 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Able to read data from json file
+2023-01-16 19:08:56,290 44149 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Able to add headers for authentication
+2023-01-16 19:08:56,291 44150 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Path parameters added to the request
+2023-01-16 19:08:56,293 44152 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Able to add query parameter
+2023-01-16 19:08:56,648 44507 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:56,649 44508 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:56,650 44509 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Able to get request using parameters
+2023-01-16 19:08:56,651 44510 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:56,651 44510 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Actual Response Time: 353 is less than Expected Response Time: 2000
+2023-01-16 19:08:56,651 44510 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:08:56,666 44525 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_004 - Response body value is: [status:404, message:non existing id]
+2023-01-16 19:08:57,102 44961 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:57,102 44961 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:57,105 44964 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:57,115 44974 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Response body value is: BQBzZJY2wrxggPdNhH4oiJilREECrmrETJatZ5o68D5SmSYDkujdqFhdjemj9lrYzVlV60cYHHSl-DQYTGAIpx6kYBWWq0uxDerbw_SeccTnN4AALMWaAsoH3ghMiqkoCoSCAdSPqtUwgloQliA5YQwvzDVbvjrsGt2HIxj4JGHsAcfziWoSFb5UQBqptqBC52rEzeRW4x8s6vJC1WgyRzYSpLU87M1hYow_7OtY2zc9tIFZgue7xHrXyNJ8ekQT8qUwr1iS9EIQjkosjz6Wl1PEp4avsOuSANdo0PCgFUr7KzmDNQhMNG4w2LgppCF3A0Z27P2SfGiDRG2Uxn7L
+2023-01-16 19:08:57,141 45000 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Able to write data into json file
+2023-01-16 19:08:57,143 45002 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Able to read data from json file
+2023-01-16 19:08:57,145 45004 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Able to add headers for authentication
+2023-01-16 19:08:57,147 45006 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Path parameters added to the request
+2023-01-16 19:08:57,149 45008 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Able to add query parameter
+2023-01-16 19:08:57,491 45350 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:57,492 45351 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:57,494 45353 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Able to get request using parameters
+2023-01-16 19:08:57,494 45353 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:08:57,494 45353 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Actual Response Time: 342 is less than Expected Response Time: 2000
+2023-01-16 19:08:57,494 45353 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:08:57,507 45366 [main] INFO  com.spotify.episodes.TYSS_Episodes_GE_005 - Response body value is: [status:404, message:Service not found]
+2023-01-16 19:08:57,890 45749 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:57,891 45750 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:57,892 45751 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:57,908 45767 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Response body value is: BQD5PqYAvwz37fgdoorTeUYEqRK9thZrJ2tL6uFPSYrJA_MQydZ3lWsAvQjbikbtsDkF67WOFRFDJ2zqsBY2OrA-SfHwEK0Hg3FHTa-2_K3jnPBTWaKRcKlEbBpbZijovZXd8tGKhDbNq6nBOeIZRhf9ii_eR-yoYRU5EWw_StrqyW4tVcUpV9YDb_XJ3QJHKBQcHKmJXh1l5qgruUWY_S04w3TVNfcporzxot6arDLPUA4dJEIx7tWXQos_FaWScqxbfTOdWCFHutUdIBi2vh_NGQjf4fm4dt4T6lZ7o_VUUd6ERpV8qei6GR4L5uJRBIK3dIrN7C2xJ5LLOV3W
+2023-01-16 19:08:57,929 45788 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Able to write data into json file
+2023-01-16 19:08:57,932 45791 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Able to read data from json file
+2023-01-16 19:08:57,933 45792 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Able to add headers for authentication
+2023-01-16 19:08:57,933 45792 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - This request do not have Path parameters
+2023-01-16 19:08:57,934 45793 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Path parameters added to the request
+2023-01-16 19:08:57,934 45793 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Able to add query parameter
+2023-01-16 19:08:58,414 46273 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:58,414 46273 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:58,422 46281 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Able to get request using parameters
+2023-01-16 19:08:58,423 46282 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:58,423 46282 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Actual Response Time: 478 is less than Expected Response Time: 2000
+2023-01-16 19:08:58,423 46282 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:58,448 46307 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Response body contains ids: [3xErKr1LdVbnwDjmihoBbP, 6XNG7txDRaT0fVO5fGnPw3]
+2023-01-16 19:08:58,449 46308 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_001 - Response contains two ids: [3xErKr1LdVbnwDjmihoBbP, 6XNG7txDRaT0fVO5fGnPw3]
+2023-01-16 19:08:58,913 46772 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:58,914 46773 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:58,917 46776 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:58,933 46792 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Response body value is: BQC6Et6czTh55_p_Y2lTdeI_-kT1LeBnEWP3SvzQy-szDsIghu0i3r2UjQFMl12SzN1V4AFZ_OPzB-Vv4T5-iLyaQehNEMw2JApTEiaPqyBG523RU3cc0wZrXfIM6090HJrjqRaXahORuCW238S9f0Qk5ZlcfVe_JxqfKTUa7RJzqbnEKGJy-aSGgr-Ue03WgUxGIBRKqep1URszo4kz8BJtD-82M5QyiEINd14_d4GuB2qaWtmqcxuEKmkS_5dFIujOVcAMbtjxx_wY24oSEKpVddTsWfKUq1KyoILe4DIctRY1ToKz2-cEz36sYaY8qXwLzk8JJ8-7rf3snXI4
+2023-01-16 19:08:58,961 46820 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Able to write data into json file
+2023-01-16 19:08:58,963 46822 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Able to read data from json file
+2023-01-16 19:08:58,965 46824 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Able to add headers for authentication
+2023-01-16 19:08:58,966 46825 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - This request do not have Path parameters
+2023-01-16 19:08:58,966 46825 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Path parameters added to the request
+2023-01-16 19:08:58,967 46826 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Able to add query parameter
+2023-01-16 19:08:59,434 47293 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:08:59,435 47294 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:59,446 47305 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Able to get request using parameters
+2023-01-16 19:08:59,447 47306 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:08:59,447 47306 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Actual Response Time: 466 is less than Expected Response Time: 2000
+2023-01-16 19:08:59,448 47307 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:08:59,471 47330 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Response body value is: [[AD, AE, AG, AL, AM, AO, AR, AT, AU, AZ, BA, BB, BE, BF, BG, BH, BI, BJ, BN, BO, BR, BS, BT, BW, BZ, CA, CH, CI, CL, CM, CO, CR, CV, CW, CY, CZ, DE, DJ, DK, DM, DO, DZ, EC, EE, EG, ES, FI, FJ, FM, FR, GA, GB, GD, GE, GH, GM, GN, GQ, GR, GT, GW, GY, HK, HN, HR, HT, HU, ID, IE, IL, IN, IS, IT, JM, JO, JP, KE, KH, KI, KM, KN, KR, KW, LA, LB, LC, LI, LR, LS, LT, LU, LV, MA, MC, ME, MG, MH, MK, ML, MN, MO, MR, MT, MU, MV, MW, MX, MY, MZ, NA, NE, NG, NI, NL, NO, NP, NR, NZ, OM, PA, PE, PG, PH, PL, PS, PT, PW, PY, QA, RO, RS, RW, SA, SB, SC, SE, SG, SI, SK, SL, SM, SN, SR, ST, SV, SZ, TD, TG, TH, TL, TN, TO, TR, TT, TV, TW, TZ, UA, US, UY, UZ, VC, VN, VU, WS, XK, ZA, ZM, ZW], [AD, AE, AG, AL, AM, AO, AR, AT, AU, AZ, BA, BB, BE, BF, BG, BH, BI, BJ, BN, BO, BR, BS, BT, BW, BZ, CA, CH, CI, CL, CM, CO, CR, CV, CW, CY, CZ, DE, DJ, DK, DM, DO, DZ, EC, EE, EG, ES, FI, FJ, FM, FR, GA, GB, GD, GE, GH, GM, GN, GQ, GR, GT, GW, GY, HK, HN, HR, HT, HU, ID, IE, IL, IN, IS, IT, JM, JO, JP, KE, KH, KI, KM, KN, KR, KW, LA, LB, LC, LI, LR, LS, LT, LU, LV, MA, MC, ME, MG, MH, MK, ML, MN, MO, MR, MT, MU, MV, MW, MX, MY, MZ, NA, NE, NG, NI, NL, NO, NP, NR, NZ, OM, PA, PE, PG, PH, PL, PS, PT, PW, PY, QA, RO, RS, RW, SA, SB, SC, SE, SG, SI, SK, SL, SM, SN, SR, ST, SV, SZ, TD, TG, TH, TL, TN, TO, TR, TT, TV, TW, TZ, UA, US, UY, UZ, VC, VN, VU, WS, XK, ZA, ZM, ZW]]
+2023-01-16 19:08:59,471 47330 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_002 - Response contains market with country code: IN
+2023-01-16 19:08:59,946 47805 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:08:59,946 47805 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:08:59,949 47808 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:08:59,962 47821 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Response body value is: BQDpR2_PLnpbFzODxRPpirmCja_fo82U5sH7Khuj2Cx9cFXDk8-Wj6mH0FNirjChiBBslbEiGfnZvSepnhP1LA3ho3Ug22h-UkXzyGwp6tyym0wj3ThR5wvy-yHpQMR5FPeXnmcQzBUak3qGlNWUBHqF60H3kF0pCkhiuylrQKK6DB-YcyQ2UUOmhsaGtc0vFg6_fWbW39oH9EeoIR4sFEWBRp1ErHePo-66GnxtRkuGJU24UQR-Ua0nfyySsA_fbug2ddWAIpLRk7MZhpgV_302pnijsMMPrSZ05w3tRa0UEkOjlw8eMSIIh2BCvM6UB5Y5k9-3qhDRGbJ6iEkb
+2023-01-16 19:08:59,979 47838 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Able to write data into json file
+2023-01-16 19:08:59,981 47840 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Able to read data from json file
+2023-01-16 19:08:59,982 47841 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Able to add headers for authentication
+2023-01-16 19:08:59,983 47842 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - This request do not have Path parameters
+2023-01-16 19:08:59,983 47842 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Path parameters added to the request
+2023-01-16 19:08:59,983 47842 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Able to add query parameter
+2023-01-16 19:09:00,458 48317 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:00,459 48318 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:00,466 48325 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Able to get request using parameters
+2023-01-16 19:09:00,466 48325 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:00,467 48326 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Actual Response Time: 475 is less than Expected Response Time: 2000
+2023-01-16 19:09:00,467 48326 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:00,486 48345 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Response body contains name: Praveen Mohan - Indian History Retold & Rethought | The Ranveer Show 259
+2023-01-16 19:09:00,505 48364 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_003 - Response body contains release_date: 2022-12-02
+2023-01-16 19:09:00,969 48828 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:00,970 48829 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:00,972 48831 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:00,988 48847 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Response body value is: BQAlG37waA93RbXw_tyCYYmtqv0urZDqU7nU-wP5_SJCBpQWbaWZOKlp9F-xrKFa0zRRSaXKx3TBtaEn6qZUxoQ56IYWayz_lgAeO8qrpkVXtonaqNSjPdb7AIQXCvy0qweB7KrN6DMYrgcN8pmakYJLWCVmAYDNIJTP1Vqs8dSGXnisMtWeMMj6uvljzADvo175CNtxeqKadxg93yhglits7bqAsJDSziIx5rDWL4zhkYllRoPBTJbKXR4isWCqmXZJoAA0ygilsZp4qFlbnLch4Dq6elCkAVKvh-aM7hu0pzkiD3om2Vf2NJ4zr9zgUZHBFkwNd9LtjvcWiIrW
+2023-01-16 19:09:01,006 48865 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Able to write data into json file
+2023-01-16 19:09:01,009 48868 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Able to read data from json file
+2023-01-16 19:09:01,011 48870 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Able to add headers for authentication
+2023-01-16 19:09:01,012 48871 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - This request do not have Path parameters
+2023-01-16 19:09:01,013 48872 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Path parameters added to the request
+2023-01-16 19:09:01,013 48872 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - This reuest do not have Query Parameters
+2023-01-16 19:09:01,013 48872 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Able to add query parameter
+2023-01-16 19:09:01,347 49206 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:01,348 49207 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:01,350 49209 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Able to get request using parameters
+2023-01-16 19:09:01,350 49209 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:01,350 49209 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Actual Response Time: 332 is less than Expected Response Time: 2000
+2023-01-16 19:09:01,350 49209 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:09:01,363 49222 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_004 - Response body value is: [status:400, message:invalid id]
+2023-01-16 19:09:01,786 49645 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:01,793 49652 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:01,796 49655 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:01,808 49667 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Response body value is: BQBzBf70jgX4ix_cBoOJkDHORFL67UitjjSBDbXmKcUNjviMIdCFtYPaarUVeHnjW1HFp6KQ8VlLuow2U6Imp9Jop-k8-nTjIHReKzq7JrMP1lmUr3-r4KVzpwkoTFhtocWkkpX1xRpl5SOSkfYbsWzGEIBPibGRP0Xcb4gOtZ-2eLdHtMORR8ICOiC5zihazTROuhlZSHr8KorysU9T6n7fZaVYsY7BuMbyEwM8PVyt5ZKzNXjydFVi1VFqAOObGrBnRYkiT_CyMi35NqS8g6km-K6xLgCdeFBq_kBE8ALSaSLEPB_53NIR3zT36UhFriiqPoq6HHP5TtwwDPQ_
+2023-01-16 19:09:01,827 49686 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Able to write data into json file
+2023-01-16 19:09:01,829 49688 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Able to read data from json file
+2023-01-16 19:09:01,831 49690 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Able to add headers for authentication
+2023-01-16 19:09:01,832 49691 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - This request do not have Path parameters
+2023-01-16 19:09:01,832 49691 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Path parameters added to the request
+2023-01-16 19:09:01,833 49692 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Able to add query parameter
+2023-01-16 19:09:02,151 50010 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:02,151 50010 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:02,153 50012 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Able to get request using parameters
+2023-01-16 19:09:02,153 50012 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:02,153 50012 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Actual Response Time: 315 is less than Expected Response Time: 2000
+2023-01-16 19:09:02,155 50014 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:09:02,163 50022 [main] INFO  com.spotify.episodes.TYSS_Episodes_GSE_005 - Response body value is: [status:400, message:invalid id]
+2023-01-16 19:09:02,710 50569 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:02,711 50570 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:02,712 50571 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:02,727 50586 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Response body value is: BQCEIDJ57OQHWiEfHTLv2DqkdmM4y5bUm7y4u6EKAarSHNBrj4QhH-IqS-A-euNC6-hWZm5cIFcnwfiO_o8XhwCJzEd1wvzS3j3kZtr9SXIlLEaZxlXV-lEXC62X9iBoFuzkKMf83jZstv2hcPFUCEQG2gDlGp2bSK_N9Tyoxw41uYbi95Vz0t1EZD5VqWDM0qUFT0RoB_emiXKYNbvakLiSpiwJc8XqWj9EqbQ4hp_Ne4UOPtZTjbF4B5DWkY6k0Ab3XZw5Cckm-dq7xk2JAoeFGemY3HaflVqmnHuIt1ET3niVvi6c3gDmaN-PL_0oB15qpEkQ2952LfoTyQsu
+2023-01-16 19:09:02,741 50600 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Able to write data into json file
+2023-01-16 19:09:02,744 50603 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Able to read data from json file
+2023-01-16 19:09:02,746 50605 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Able to add headers for authentication
+2023-01-16 19:09:02,747 50606 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - This request do not have Path parameters
+2023-01-16 19:09:02,747 50606 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Path parameters added to the request
+2023-01-16 19:09:02,748 50607 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Able to add query parameter
+2023-01-16 19:09:03,224 51083 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Able to delete request using parameters
+2023-01-16 19:09:03,224 51083 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Actual Response Time: 472 is less than Expected Response Time: 2000
+2023-01-16 19:09:03,224 51083 [main] INFO  com.spotify.episodes.TYSS_Episodes_RUSE_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:03,743 51602 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:03,743 51602 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:03,745 51604 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:03,755 51614 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Response body value is: BQCOV7UbtoxWGlzLAz4_bVBU_AdfzlSX2YFSEQaLe-Tvm3VdKEIqCRaJ9R9kfp0MLtiyLyHf_txetKtgAuzqmxtmCpEnbM_bFpUZ6fUb3KatFpZ1E7Qa94oOjy8dgBjHEEV3zlk_FzA9VWRxazh0i44rfgwjklIqANdDjLucW1yrMFW_3cyxx9wOBscEYQZ6FLqqueobvMnpnBplFh2IJdkiCyFOIA9xYB8tg7hm6cJB8JcbrEoX6hF1XEoop6J7PwXDs5SO4eAkv3-Sp9XnAj3B4-O0WtC2Sd9FkWYVQOTLocJTGuAwDx6s0As3q_YMpkSmXWc1ijdCU1XNcYSg
+2023-01-16 19:09:03,774 51633 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Able to write data into json file
+2023-01-16 19:09:03,776 51635 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Able to read data from json file
+2023-01-16 19:09:03,777 51636 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Able to add headers for authentication
+2023-01-16 19:09:03,778 51637 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - This request do not have Path parameters
+2023-01-16 19:09:03,778 51637 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Path parameters added to the request
+2023-01-16 19:09:03,778 51637 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Able to add query parameter
+2023-01-16 19:09:04,247 52106 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Able to put request using parameters
+2023-01-16 19:09:04,248 52107 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Actual Response Time: 464 is less than Expected Response Time: 2000
+2023-01-16 19:09:04,249 52108 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:04,656 52515 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:04,657 52516 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:04,660 52519 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:04,672 52531 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Response body value is: BQA8J1SRXZ20nd6yp7pI79g7mm8som0C4yeqgLoJvnNya1U_lgENyMwESYiVQ0sxGWvJbpY3wrBUEuTKW6a80bDfCV0dsxNubs7Hi4pIC9JsBTL3B6wHaZUFXaDyIbKl024QJzqUaIYfDGxg3n7xzMkcpqwephiF-k1309t5U0ZJdfJtz_C33L8Aovl1wwZzZVJ-ZsqpO0L-5xXAsfOApR9zKpFcc1316pU22x8cM6wfMT96Aspc_OhW5kwjMAl8txLoUb2uR5XC6LPVMsGz48txrlyo0UVQKTgp1Qdpji-284AiBRjOOqma86Z0-xjYk02xXf-xSeuOHEhDcwUX
+2023-01-16 19:09:04,696 52555 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Able to write data into json file
+2023-01-16 19:09:04,698 52557 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Able to read data from json file
+2023-01-16 19:09:04,700 52559 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Able to add headers for authentication
+2023-01-16 19:09:04,700 52559 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - This request do not have Path parameters
+2023-01-16 19:09:04,701 52560 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Path parameters added to the request
+2023-01-16 19:09:04,701 52560 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Able to add query parameter
+2023-01-16 19:09:05,018 52877 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:05,019 52878 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:05,021 52880 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Able to put request using parameters
+2023-01-16 19:09:05,021 52880 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:09:05,022 52881 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Actual Response Time: 316 is less than Expected Response Time: 2000
+2023-01-16 19:09:05,022 52881 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_002 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:09:05,578 53437 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:05,579 53438 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:05,580 53439 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:05,593 53452 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Response body value is: BQCQyGX8X3LHVtcaEWUUiOEGNY6aY4XTXqLmbtuL22frrM_UL3QvQ0N9WNYkt4-ygJLIzmkuQZx8osqCxdSHUk0oeX-wGVvd4lXQzl0NUxwSsx_4LSEcJ3IjEc3NcU8qTATPcHSwzOdBfKl_ZhrWPk7EGS8ir6NaaLtw6fcRN5LjZKaXuxJ4UoYgnSheX3Lyh0IVvwhT9lzuAVxP-0KNPQAZLNXRT3VSiL_ljAPAuBA-4rJdvii4d876Q-Xk2BwrMkI4GYNthqQvMwfSpDSmzNcCoyOSybbbJqOEp48Fyoxm9mbH8GwMxLWgd1Zf7W7pxh_MTmoDhDvDiqDIhlCT
+2023-01-16 19:09:05,607 53466 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Able to write data into json file
+2023-01-16 19:09:05,610 53469 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Able to read data from json file
+2023-01-16 19:09:05,611 53470 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Able to add headers for authentication
+2023-01-16 19:09:05,612 53471 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - This request do not have Path parameters
+2023-01-16 19:09:05,612 53471 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Path parameters added to the request
+2023-01-16 19:09:05,612 53471 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - This reuest do not have Query Parameters
+2023-01-16 19:09:05,613 53472 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Able to add query parameter
+2023-01-16 19:09:05,937 53796 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:05,938 53797 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:05,940 53799 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Able to put request using parameters
+2023-01-16 19:09:05,940 53799 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:05,942 53801 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Actual Response Time: 323 is less than Expected Response Time: 2000
+2023-01-16 19:09:05,942 53801 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Expected Status code is: 400 is matching with actual status code: 400
+2023-01-16 19:09:05,955 53814 [main] INFO  com.spotify.episodes.TYSS_Episodes_SECU_003 - Response body contains error: Bad request.
+2023-01-16 19:09:06,397 54256 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:06,397 54256 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:06,399 54258 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:06,412 54271 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Response body value is: BQC26JXVROI_rDcOQMpp3jtQ_MDACWrTW_aTp60y9ZiLQdBlHR75bFB_vY74O9nenk9XXU8vF4WjpnJbFlkxGpb7IdzJSwyaObBdCUW9lha3sJwUvRF2tFmWm28gmAinFhxrwgwRyUIJQwheXU7s3INMskF3wtH9PrMTVTRlpq81REP1szuBfn6mUREDVKxdWvhCh0CnhlQqJ_KVrFfVqNvLMZ1CB77KSPg-YEprjp0AYpqhSOsiXWnzpyJ4d4Z7ZnM_hmi_oGShBC73nU6ZUuhUnDcFX1-6GBZM8e0_zBr7SCpVgZtVNIpZM9Ite_rwoQeqMnVdeIqn5QCeULbu
+2023-01-16 19:09:06,426 54285 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Able to write data into json file
+2023-01-16 19:09:06,429 54288 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Able to read data from json file
+2023-01-16 19:09:06,430 54289 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Able to add headers for authentication
+2023-01-16 19:09:06,431 54290 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - This request do not have Path parameters
+2023-01-16 19:09:06,431 54290 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Path parameters added to the request
+2023-01-16 19:09:06,431 54290 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - This reuest do not have Query Parameters
+2023-01-16 19:09:06,431 54290 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Able to add query parameter
+2023-01-16 19:09:06,911 54770 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:06,912 54771 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:06,921 54780 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Able to get request using parameters
+2023-01-16 19:09:06,921 54780 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:06,922 54781 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Actual Response Time: 479 is less than Expected Response Time: 2000
+2023-01-16 19:09:06,922 54781 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:06,939 54798 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_001 - Response body contains added_at: [2023-01-16T13:39:04Z, 2023-01-16T13:39:04Z]
+2023-01-16 19:09:07,419 55278 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:07,420 55279 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:07,421 55280 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:07,440 55299 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Response body value is: BQAoDQhBcTgJy_2u8g6fnKWWzLg2JwY1qTNK6rnUge2mFIGeRkCQtTQoYsfWCC6OxyFP4JED-MWy0wNl6ADzGnOA_sXwh0pHkqwgSouFRFmsew7OXDhK8WaMdb2QIZzskCCnXMmcZgYPGmsiCdmxOt5RvvCARTROuHLpsHpk6HCCFcesVOVpfGUUTlZARqjq-zMTbP11FUC9ZSLh69Qn88gDHQBLDx5CU72k37txE1_BIIpdnJ-W1msbpZ6T4vW--jP9Wtw9dO4Y16wvd3oJWsh6IyGVMbIdbWOjFPc6lMS_n48y6g99IZM71f2ulzgo0lkdgh-dXn5Exutxp1V9
+2023-01-16 19:09:07,469 55328 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to write data into json file
+2023-01-16 19:09:07,472 55331 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to read data from json file
+2023-01-16 19:09:07,474 55333 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to add headers for authentication
+2023-01-16 19:09:07,475 55334 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - This request do not have Path parameters
+2023-01-16 19:09:07,475 55334 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Path parameters added to the request
+2023-01-16 19:09:07,475 55334 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - This reuest do not have Query Parameters
+2023-01-16 19:09:07,475 55334 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to add query parameter
+2023-01-16 19:09:07,933 55792 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:07,933 55792 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:07,935 55794 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to get request using parameters
+2023-01-16 19:09:07,935 55794 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:07,935 55794 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Actual Response Time: 451 is less than Expected Response Time: 2000
+2023-01-16 19:09:08,449 56308 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:08,449 56308 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:08,452 56311 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:08,463 56322 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Response body value is: BQDYOT0H9xgh3NwaedzHo7hjI1NBj3GU5PA4TdFswSLOWD-utwozPkMBGiPxgbEh66aPDsK7TeQUA8W-U6BhF8Xt1MZO1BWWYHH_r9Fk-G8QknXfwp1lymTGqaExGyHvS3jz7Cf0AlWkoYDtC0Xsu8HUNavB3tc8aF8d9rRseMcWUKDkXo_qnP1KQEpi81pngYwlOqNWfqqUkL_B-pWw7V4fX2NUNXGHzsFQdT9whx5U9JBSF-Qe4oHINHg63kZCSyMrY4ENrPt6E5JGuN_3lWruU-jaoktJoBFXnEmYX5DoAAWPB4Vz-a_96wRhNAqMslpUpxCtWBTMnQ5Fpp16
+2023-01-16 19:09:08,481 56340 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Able to write data into json file
+2023-01-16 19:09:08,483 56342 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Able to read data from json file
+2023-01-16 19:09:08,485 56344 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Able to add headers for authentication
+2023-01-16 19:09:08,485 56344 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - This request do not have Path parameters
+2023-01-16 19:09:08,486 56345 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Path parameters added to the request
+2023-01-16 19:09:08,486 56345 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - This reuest do not have Query Parameters
+2023-01-16 19:09:08,486 56345 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Able to add query parameter
+2023-01-16 19:09:09,060 56919 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:09,061 56920 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:09,087 56946 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Able to get request using parameters
+2023-01-16 19:09:09,087 56946 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:09,088 56947 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Actual Response Time: 572 is less than Expected Response Time: 2000
+2023-01-16 19:09:09,088 56947 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:09,104 56963 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_003 - Response body contains type: [episode, episode]
+2023-01-16 19:09:09,495 57354 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:09,496 57355 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:09,498 57357 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:09,511 57370 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Response body value is: BQC20x78Bm8ahQlKnjIVNL7VOHZ_L9EX4h-8FJtRYe8LgvjUk-zUwEuVc9gb3agY8Wt-_IIskotYDfB0dgOVY0OvLyQmH1-5I0DJMLBpgLde6x-MSSgVCxGsQP1cE07akydWjyep69p13HBlRJgVv50l0kYnr4xxkKdglpxDT78uYbmiW511coFUwayv6DkAtMJH2qv3XOp87Y0lgLBy-aMBVeOnfoAYlvDehG0saqiyIyYP_KpOh-MS2XTPXT__jNdaEbcNunUXh3E0wDiLaBKaIJws0yufxV1j8YTwqk8tnl3i2iu4L-UThLCEz3O61-t29JtZzMy334VdahPZ
+2023-01-16 19:09:09,522 57381 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Able to write data into json file
+2023-01-16 19:09:09,523 57382 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Able to read data from json file
+2023-01-16 19:09:09,525 57384 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Able to add headers for authentication
+2023-01-16 19:09:09,525 57384 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - This request do not have Path parameters
+2023-01-16 19:09:09,525 57384 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Path parameters added to the request
+2023-01-16 19:09:09,525 57384 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - This reuest do not have Query Parameters
+2023-01-16 19:09:09,526 57385 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Able to add query parameter
+2023-01-16 19:09:09,831 57690 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:09,831 57690 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:09,833 57692 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Able to get request using parameters
+2023-01-16 19:09:09,833 57692 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:09:09,833 57692 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Actual Response Time: 305 is less than Expected Response Time: 2000
+2023-01-16 19:09:09,834 57693 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:09:09,850 57709 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_004 - Response body contains error: Service not found
+2023-01-16 19:09:10,280 58139 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:10,281 58140 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:10,283 58142 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:10,292 58151 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Response body value is: BQB2L9kwYcG-ITDkESX_AooNHk2hrxm27Tbua3Q4IfM4Cd57G6Tv_kadO07ACXgUwmYGeFQrOS93pw3Nqt1XJfFWzvD3VBTmSyi78igLSKvDuK8CfTgyhFDNJxc8tJcHLPVkSstgBbaxlijyAWM09ZMAN3w28ucKU1bXcFPtTwcWa8FBoyI_YHGHxqzdfKO6Me0JOhRL5N8MZtSyV9zZl7Z7EAdg2GULLj-nlrdJyqSjn0bpfToEDpM_zradTPI5deKnV24m2tO03bB1-wAj9bIj3LmHWiTZDIKiE9XAgC9CXKVC_gs92eooMLwYXM9C1Sy8Oo4fROogTfaMdGyT
+2023-01-16 19:09:10,311 58170 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Able to write data into json file
+2023-01-16 19:09:10,314 58173 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Able to read data from json file
+2023-01-16 19:09:10,315 58174 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Able to add headers for authentication
+2023-01-16 19:09:10,316 58175 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Path parameters added to the request
+2023-01-16 19:09:10,318 58177 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Able to add query parameter
+2023-01-16 19:09:10,803 58662 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:10,834 58693 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:10,872 58731 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Able to get request using parameters
+2023-01-16 19:09:10,873 58732 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:10,873 58732 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Actual Response Time: 514 is less than Expected Response Time: 2000
+2023-01-16 19:09:10,873 58732 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:10,918 58777 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Response body value is: 2vhxApfLLtI8yCd7hqPokR
+2023-01-16 19:09:10,919 58778 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Response contains single id: 2vhxApfLLtI8yCd7hqPokR
+2023-01-16 19:09:11,247 59106 [main] INFO  com.spotify.shows.TYSS_Shows_GS_001 - Schema validation is done
+2023-01-16 19:09:11,651 59510 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:11,652 59511 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:11,654 59513 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:11,663 59522 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Response body value is: BQD_W8pPZOVMTQ5SS6NC_v0yiughuCL_pDL4bq4ORYvMmnJIYGxNWboGOe1iUn_RT-fjukkD4uvBc9SRT7BhFbyJ5c853rb0-4lDrdSD7kd2tYtDZ5UxT_vH0VH6aD6wyeAMhYQSqEFhX2u2iH_kapQfdAfu9nRsT_DvSIrqrztOOa-dK66JzK1y7fGdMEZyPYj9KiA4KfEZVHMEl0dDkSMz5_UeO_XeZ8GXB25rAc3qm_BJ8a_lNgKr_wXRD_oMFXYkedWs54ISOu9Ovw5YIRtgX96XGr0CHrfxyFrm5tu_RkW3D7xImDKhJucDUId3V6ncFz_ZMC6yEebgvv6q
+2023-01-16 19:09:11,680 59539 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Able to write data into json file
+2023-01-16 19:09:11,682 59541 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Able to read data from json file
+2023-01-16 19:09:11,683 59542 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Able to add headers for authentication
+2023-01-16 19:09:11,685 59544 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Path parameters added to the request
+2023-01-16 19:09:11,686 59545 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Able to add query parameter
+2023-01-16 19:09:12,133 59992 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:12,202 60061 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:12,235 60094 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Able to get request using parameters
+2023-01-16 19:09:12,235 60094 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:12,236 60095 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Actual Response Time: 514 is less than Expected Response Time: 2000
+2023-01-16 19:09:12,236 60095 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:12,278 60137 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Response body value is: [AD, AE, AG, AL, AM, AO, AR, AT, AU, AZ, BA, BB, BE, BF, BG, BH, BI, BJ, BN, BO, BR, BS, BT, BW, BZ, CA, CH, CI, CL, CM, CO, CR, CV, CW, CY, CZ, DE, DJ, DK, DM, DO, DZ, EC, EE, EG, ES, FI, FJ, FM, FR, GA, GB, GD, GE, GH, GM, GN, GQ, GR, GT, GW, GY, HK, HN, HR, HT, HU, ID, IE, IL, IN, IS, IT, JM, JO, JP, KE, KH, KI, KM, KN, KR, KW, LA, LB, LC, LI, LR, LS, LT, LU, LV, MA, MC, ME, MG, MH, MK, ML, MN, MO, MR, MT, MU, MV, MW, MX, MY, MZ, NA, NE, NG, NI, NL, NO, NP, NR, NZ, OM, PA, PE, PG, PH, PL, PS, PT, PW, PY, QA, RO, RS, RW, SA, SB, SC, SE, SG, SI, SK, SL, SM, SN, SR, ST, SV, SZ, TD, TG, TH, TL, TN, TO, TR, TT, TV, TW, TZ, UA, US, UY, UZ, VC, VN, VU, WS, XK, ZA, ZM, ZW]
+2023-01-16 19:09:12,279 60138 [main] INFO  com.spotify.shows.TYSS_Shows_GS_002 - Response contains market with country code: IN
+2023-01-16 19:09:12,684 60543 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:12,684 60543 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:12,687 60546 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:12,700 60559 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Response body value is: BQBFj2ujwh6lZKcK7zEzu47h94lXSUiQKnVzEJoY-9eUl-e0aGgcmjeR9pGbd6wz_eyfx4Zq-LaBlDPk37VuBzNLWHeDKfUJTW6-oPRvK_4BuyCJPyLA0G68AJLscxCNUO2f8zabreSgRo1WvHN4BplkcmlfpKC2FaYlboRnUhoutRdgAln0K0FtVK59E6sxiNXsjSPZQtsa0E-EpdpGPANBLGKrpFXDpezY5a8x86tvrC-8KENefyFPB9KCigtPlIkmYwPGqn-2qST1XiNPwPmBMLBD7rfgf5zQT3cUKGhZNedvbFPNVrQeNrH6rvU2qIZORXD0uqbYVoGQeDWe
+2023-01-16 19:09:12,718 60577 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Able to write data into json file
+2023-01-16 19:09:12,719 60578 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Able to read data from json file
+2023-01-16 19:09:12,721 60580 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Able to add headers for authentication
+2023-01-16 19:09:12,722 60581 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Path parameters added to the request
+2023-01-16 19:09:12,723 60582 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Able to add query parameter
+2023-01-16 19:09:13,158 61017 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:13,223 61082 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:13,259 61118 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Able to get request using parameters
+2023-01-16 19:09:13,260 61119 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:13,261 61120 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Actual Response Time: 496 is less than Expected Response Time: 2000
+2023-01-16 19:09:13,261 61120 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:13,307 61166 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Response body contains name: The Horror Show by Khooni Monday - Scary Stories in Hindi
+2023-01-16 19:09:13,367 61226 [main] INFO  com.spotify.shows.TYSS_Shows_GS_003 - Response body contains release_date: 2023-01-13
+2023-01-16 19:09:13,794 61653 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:13,794 61653 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:13,797 61656 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:13,810 61669 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Response body value is: BQBoJyxj8_DqLiAWpR_liVftomDx-j7-v_pV0aJeGM15e_QoEJmSSVlZZhVJ7jrHdttcVtYOdw5lV8ZGjRR3DllDByPr4mA-BmZDnidTp3UdAP7KRJHVtemXOTR_XkHenbPOq-0WpletS7t4gRmhozeKzwKQoFmXOUUxc29IhxOwF6Yuz7qnc8aIypeTbS1zgpAPZgeUAA-pm-yaR0ybMasAzbaPPfAkWfYRw7Xj96Xw7vnvt5wNGrrzf1T22nin0UW6nl1XbY7JVNj5jXDU269aNrWqWSab46wS2kO5ABt5TQ5EwC7QyQfd1V3ikdn0moF-_2kzNRkaHBeFzb6N
+2023-01-16 19:09:13,842 61701 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Able to write data into json file
+2023-01-16 19:09:13,845 61704 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Able to read data from json file
+2023-01-16 19:09:13,847 61706 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Able to add headers for authentication
+2023-01-16 19:09:13,849 61708 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Path parameters added to the request
+2023-01-16 19:09:13,850 61709 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Able to add query parameter
+2023-01-16 19:09:14,283 62142 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:14,283 62142 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:14,285 62144 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Able to get request using parameters
+2023-01-16 19:09:14,285 62144 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:14,285 62144 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Actual Response Time: 430 is less than Expected Response Time: 2000
+2023-01-16 19:09:14,285 62144 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:09:14,301 62160 [main] INFO  com.spotify.shows.TYSS_Shows_GS_004 - Response body value is: [status:404, message:non existing id]
+2023-01-16 19:09:14,717 62576 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:14,718 62577 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:14,720 62579 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:14,736 62595 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Response body value is: BQD1XM39Odkd3xkoJGGp8gQ9DcD9HlkNkl8zZZmhO9i_PYLRyMq5VCfDKwdBjmkdFBzbKAGA3Zn2DvD4JIafUbj45O06J-jlYWeoSd9zf3Y_1Ia-jJSP7z0OicF5ggqwRzA1imJW7-iaLY6l6RIqMKmoTIDxRqLaxhRS4Y3mOPIrn6XV58IiHH9p6YXJt11t13UxbI0eaIiy9npMjSkRdUK6004A_TBYEDpyUuIoSIAx2VH2FJOTDbDjKb4ztqN8ZnaIRP6-1uSGky93qz2hi7V-VP3r-1LdXD3OPEesdmTskBa0wIEGTKgF7-V6NAEwQeAtdg5y_fvTGQB7hldR
+2023-01-16 19:09:14,755 62614 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Able to write data into json file
+2023-01-16 19:09:14,758 62617 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Able to read data from json file
+2023-01-16 19:09:14,760 62619 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Able to add headers for authentication
+2023-01-16 19:09:14,763 62622 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Path parameters added to the request
+2023-01-16 19:09:14,764 62623 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Able to add query parameter
+2023-01-16 19:09:15,100 62959 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:15,100 62959 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:15,102 62961 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Able to get request using parameters
+2023-01-16 19:09:15,102 62961 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:09:15,102 62961 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Actual Response Time: 333 is less than Expected Response Time: 2000
+2023-01-16 19:09:15,102 62961 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:09:15,115 62974 [main] INFO  com.spotify.shows.TYSS_Shows_GS_005 - Response body value is: [status:404, message:Service not found]
+2023-01-16 19:09:15,614 63473 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:15,614 63473 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:15,616 63475 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:15,630 63489 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Response body value is: BQAAbJuiJqKUO7uJT72dIxcxDcwb1VTCFxBv1QtJQ-cas0mj8vAT7ClLfucoqVTtrADx6b1sXA6bnMcejEF1LaeS1OwX2_Jc9BXhXBN4tDSiPUl6iXu9wl1ysF5HOiKMbMVgNXJaA4sL-lRBVFMwbKpktsl3V30Nqag5Ss7EWr12p5_ef-6pVYoPwe2cCz96UU1WJKP2QXrgZg-twBgXXpRZDiCQpLBBQ1jMl2z7_ZO00lot7QZ0ZGgC0StcqdSTjCzl3rETxZN-4DbsY63xdM07mz2sDS6Dgnc6hMaisDuxdEw2rGKrlKJ93t-C4_70xNa0Y_aFC36ZodayT6TM
+2023-01-16 19:09:15,650 63509 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Able to write data into json file
+2023-01-16 19:09:15,652 63511 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Able to read data from json file
+2023-01-16 19:09:15,653 63512 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Able to add headers for authentication
+2023-01-16 19:09:15,654 63513 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Path parameters added to the request
+2023-01-16 19:09:15,654 63513 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Able to add query parameter
+2023-01-16 19:09:16,136 63995 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:16,137 63996 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:16,138 63997 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Able to get request using parameters
+2023-01-16 19:09:16,138 63997 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:09:16,138 63997 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Actual Response Time: 481 is less than Expected Response Time: 2000
+2023-01-16 19:09:16,139 63998 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:09:16,149 64008 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Response body value is: [status:404, message:Service not found]
+2023-01-16 19:09:16,149 64008 [main] INFO  com.spotify.shows.TYSS_Shows_GS_006 - Response contains error message: Service not found
+2023-01-16 19:09:16,637 64496 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:16,637 64496 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:16,640 64499 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:16,682 64541 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Response body value is: BQAoiyNiqM_8QzZjm6ZbURu_ikEiWXoXiswqH15UoeiLe2fAndQssDcvabiZnGCEiaxh5uwSZ43ZDgPrUzcKriArowbpWkvWFI4vqdH1E7t4hezGdBPPWPaUagC83jDfZXJETi1xUSsunsEJVKA9PsUPLS4W8TaaXmBSaPqjNd2krPWTV1mfwG7dN0FKxUNrG8u2825Kqeo9kaJrPj4tjdq5Qci49dvqqqPqQQpWHbUfSVTRd9SoPq7aoYlzg1EI794IXJCqS1-7goiHV_5u4bbn2sttCUQ3XC4biuD7pVSaYZbU9BSyDApYYvwtk0uI5cqtDj_Eht305WnQDGNe
+2023-01-16 19:09:16,717 64576 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Able to write data into json file
+2023-01-16 19:09:16,719 64578 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Able to read data from json file
+2023-01-16 19:09:16,721 64580 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Able to add headers for authentication
+2023-01-16 19:09:16,722 64581 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - This request do not have Path parameters
+2023-01-16 19:09:16,723 64582 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Path parameters added to the request
+2023-01-16 19:09:16,723 64582 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - This reuest do not have Query Parameters
+2023-01-16 19:09:16,723 64582 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Able to add query parameter
+2023-01-16 19:09:17,144 65003 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:17,144 65003 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:17,145 65004 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Able to get request using parameters
+2023-01-16 19:09:17,146 65005 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:17,146 65005 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Actual Response Time: 418 is less than Expected Response Time: 2000
+2023-01-16 19:09:17,146 65005 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:17,185 65044 [main] ERROR com.spotify.shows.TYSS_Shows_GUSS_001 - null
+2023-01-16 19:09:17,764 65623 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:17,764 65623 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:17,766 65625 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:17,778 65637 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Response body value is: BQAbi9NIeSRcD9L2xVuS-AiYZDMKeouSsEYZTJXbh8A3zNNwVIwt6hYglTfL5roT5ApPmExHyReTzH2jhOsju9yqbLvUJpsg2SiCvi6K1mutvrkuPPU9TPjbiOD9xR_hPx4rk7-RpKdUCNFq7i1RtRsb5BwidbNbzY7kCbhstxk9Iuz9lcfArPwXLsGyaYxq-YirQj3RU3swsSAN38Auj45RrHTuVjGrreDxBQNquv-olgh45tvIkRYBtDzJjwRfhzUPIaJTBI_u9MHtjZ-Zo3Xh76YHLdALdn4wPBtpzvw3BsxfcnbyO-_GVkcOMqdc7pkd2584mFw56trAO-Mj
+2023-01-16 19:09:17,802 65661 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to write data into json file
+2023-01-16 19:09:17,804 65663 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to read data from json file
+2023-01-16 19:09:17,805 65664 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to add headers for authentication
+2023-01-16 19:09:17,807 65666 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - This request do not have Path parameters
+2023-01-16 19:09:17,807 65666 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Path parameters added to the request
+2023-01-16 19:09:17,807 65666 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - This reuest do not have Query Parameters
+2023-01-16 19:09:17,807 65666 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to add query parameter
+2023-01-16 19:09:18,275 66134 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:18,275 66134 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:18,277 66136 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to get request using parameters
+2023-01-16 19:09:18,277 66136 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:18,277 66136 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Actual Response Time: 466 is less than Expected Response Time: 2000
+2023-01-16 19:09:18,278 66137 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:18,300 66159 [main] ERROR com.spotify.shows.TYSS_Shows_GUSS_002 - null
+2023-01-16 19:09:18,917 66776 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:18,917 66776 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:18,919 66778 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:18,936 66795 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Response body value is: BQDsYZegw0yfj7gEiNao5oONSVl8-IZpqh-R1wPiNEwIJvpBCD23VXRY_98h2JOzEeesKGo-hj1fdvVegKx4HdjHGKZUcZPn_rtNXw2JFcezbvzhrz9CRoQPxm33p0iK2TdcgIjXlBOVtMdWFH96T1cwtgPXLRFvSXw9hhNAaTFZtWNKgioOTU1eMhPtwIGQym1F-OckHsRSOU6HJNPqWqHsh4G2neVDKB-mhM_9v-EmxKNhLpmB3nPx0PEQOg-vYrMotrxTzMvgnKFhiyYZo4EhcormqOhQ6_GHnqpA-WBtexIepX1WJ7K0pyMu5HqsSriVL3gngvnanmUCoyUQ
+2023-01-16 19:09:18,947 66806 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Able to write data into json file
+2023-01-16 19:09:18,948 66807 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Able to read data from json file
+2023-01-16 19:09:18,950 66809 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Able to add headers for authentication
+2023-01-16 19:09:18,951 66810 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - This request do not have Path parameters
+2023-01-16 19:09:18,951 66810 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Path parameters added to the request
+2023-01-16 19:09:18,951 66810 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - This reuest do not have Query Parameters
+2023-01-16 19:09:18,951 66810 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Able to add query parameter
+2023-01-16 19:09:19,342 67201 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:19,342 67201 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:19,344 67203 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Able to get request using parameters
+2023-01-16 19:09:19,345 67204 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:19,345 67204 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Actual Response Time: 389 is less than Expected Response Time: 2000
+2023-01-16 19:09:19,345 67204 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_003 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:19,358 67217 [main] ERROR com.spotify.shows.TYSS_Shows_GUSS_003 - null
+2023-01-16 19:09:19,811 67670 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:19,812 67671 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:19,814 67673 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:19,826 67685 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Response body value is: BQAEQx0rykWzjNAnYynXZFdEdxOpIQRVaLeIMe4HJUzrDBgh7KxzGjkvJt7vAwYl4pQ1UecKDW5kFjbVL9BUsLVl47Pin8brirklpKjWmxSsk6JBhrQ5lDekKH5g4Ttt1wTVxlOcMGUknmc_81-q9WlLK0TRsFPKxLQmzmHCJv4--ayzaZgFYz7Pe39A5dmb8d8dnquoU-K4CIx_-VlcrMjsF7ZQadDSnh5u66btKw5Q4fjYYzwZ0cYHtZhdhJOj1FcxddLheSodsWb338Qsz0YxbSdUAH9yEGJZlxDEvfzIOiCWuQLhhfRN2WHYjlKs5wnHeaPmotQy4N1-p8NB
+2023-01-16 19:09:19,850 67709 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Able to write data into json file
+2023-01-16 19:09:19,852 67711 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Able to read data from json file
+2023-01-16 19:09:19,853 67712 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Able to add headers for authentication
+2023-01-16 19:09:19,854 67713 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - This request do not have Path parameters
+2023-01-16 19:09:19,855 67714 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Path parameters added to the request
+2023-01-16 19:09:19,855 67714 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - This reuest do not have Query Parameters
+2023-01-16 19:09:19,855 67714 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Able to add query parameter
+2023-01-16 19:09:20,208 68067 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:20,209 68068 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:20,211 68070 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Able to get request using parameters
+2023-01-16 19:09:20,212 68071 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:09:20,212 68071 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Actual Response Time: 353 is less than Expected Response Time: 2000
+2023-01-16 19:09:20,212 68071 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_004 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:09:20,628 68487 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:20,629 68488 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:20,630 68489 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:20,647 68506 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Response body value is: BQB4vuARH3b7OIqHcfG2STX-zXzBCZYpsETdgyb_s2ksdNRFZgPUv5B3J99_U_KOkzquCWyNlfoLugKnl6Py2ivhcguBaPDMHgBWyxsSYWcmz-GsVb0AYIMZ6LGnNDbkopg_9IkMQOHulksY9JJzkArZ-5FRM-0Va8TPPjbBK08KybwHvvbgKUxDchU3yvs1vDZrrNLZ39HWfSVevbVdV0yC_93N3th_kCLxuUsUD_VLy0ZgS1SgqJdROt2PZgtQeZcj-6kiMI9jjTCW-Kdg5sDy0LI67jYPfwBGCPtraU4LS9VD8MSxpwB99CACAJ1GZtSm1QgSgpvylMEbjorg
+2023-01-16 19:09:20,655 68514 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Able to write data into json file
+2023-01-16 19:09:20,658 68517 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Able to read data from json file
+2023-01-16 19:09:20,661 68520 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Able to add headers for authentication
+2023-01-16 19:09:20,662 68521 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Path parameters added to the request
+2023-01-16 19:09:20,662 68521 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - This reuest do not have Query Parameters
+2023-01-16 19:09:20,663 68522 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Able to add query parameter
+2023-01-16 19:09:21,030 68889 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Able to get request using parameters
+2023-01-16 19:09:21,031 68890 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Actual Response Time: 362 is less than Expected Response Time: 2000
+2023-01-16 19:09:21,031 68890 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_005 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:09:21,553 69412 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:21,553 69412 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:21,555 69414 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:21,568 69427 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Response body value is: BQD64fbfSFVVB2z0A8BcNPPZQmOVig41Sdi7_AppjSVS0mGdvVYux3QbOjvjtlZES8B2Ju-aF5zy4-0d3RvkpwTt7UI9NhmC0uo3V5_e69Rbm9oc_y9aOmbt9cNr6-SorsRrR5om60Y9iUw8T9Pyl6y5tNedEmxPsXplvvXq6J2HK5Fo64Dfa5a4n-fEvOudbS8AoAJa00-XWhftwGRsfyd7g89nOSZr4_P9Qx5d8JP9jTHgqLFulc7JF_vZaHzlyfZg2g-tuPSR3k9KNry5nN55KsYIwMvYLhAHNmX37sXpg4viPpWsFyPYeiE_2oY0RNNFYLMGjdEvyalrQ420
+2023-01-16 19:09:21,584 69443 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Able to write data into json file
+2023-01-16 19:09:21,586 69445 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Able to read data from json file
+2023-01-16 19:09:21,588 69447 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Able to add headers for authentication
+2023-01-16 19:09:21,589 69448 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - This request do not have Path parameters
+2023-01-16 19:09:21,590 69449 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Path parameters added to the request
+2023-01-16 19:09:21,591 69450 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Able to add query parameter
+2023-01-16 19:09:21,951 69810 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Able to delete request using parameters
+2023-01-16 19:09:21,951 69810 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Actual Response Time: 355 is less than Expected Response Time: 2000
+2023-01-16 19:09:21,952 69811 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:09:22,372 70231 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:22,372 70231 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:22,374 70233 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:22,384 70243 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Response body value is: BQBBUKAA2j9Ab0CzLHlNk-TBKQ2uW6Tei5G2MZPqqDppG8You4EKBN6etXJu0eI8XmzGB4HmcHmF5Y5gOc2mzLgxmD9KVgah4HWvYLrmjhf0EyCKTXl4j3-nrphRixB-zd2xFfWqJw2ZPT-2LHNMqcQ0HxPHasTqPX8qdnyOSUtbwQkHP2sCdK-ixw0Dn65jg_uL8m5oKzf2T0vXXM0YZvM18x9GsA8ZAqsWfsaSzyftZCqX3P3HW2PGtCQG5WFyu4tpggAQJipXTNT4IvnoQTnR6X1ZQNkUZRyTVzBxMUsPsm2cR0hnqbarJgFG3KGwRiksA6XtVYlXzgHvPWcv
+2023-01-16 19:09:22,406 70265 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Able to write data into json file
+2023-01-16 19:09:22,408 70267 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Able to read data from json file
+2023-01-16 19:09:22,409 70268 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Able to add headers for authentication
+2023-01-16 19:09:22,410 70269 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - This request do not have Path parameters
+2023-01-16 19:09:22,411 70270 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Path parameters added to the request
+2023-01-16 19:09:22,412 70271 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Able to add query parameter
+2023-01-16 19:09:22,760 70619 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:22,760 70619 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:22,762 70621 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Able to delete request using parameters
+2023-01-16 19:09:22,762 70621 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-16 19:09:22,763 70622 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Actual Response Time: 346 is less than Expected Response Time: 2000
+2023-01-16 19:09:22,763 70622 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_002 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-16 19:09:23,152 71011 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:09:23,153 71012 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:23,155 71014 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Able to provide Authorization and fetch the token
+2023-01-16 19:09:23,167 71026 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Response body value is: BQCW8nBSF_HseGAbJI7-K2-tARrJbdEPFAL0-m-J7fq5piqBMXiaLshE4UQA5rs9j73YoAmTABDqvwlppDw-4kBgq9VCRE_3RfbGDPvjUu7ecCdxzpRyXgPia71yJGUxOv7GmFzsXnR8Ywoef7KhGaNDyY9hOXYmX09gxq7yC-DH8r8UIi7kYAMFiRwdy5Z8fv41KU19Qz9Oa-5M3LRBJ8aMreD2_8sD3MX5bfpccPIJprj8RLrRnUyBsWF0gSBsOMu_xkQ2vyVbQf9g3PDP4v9u9ahb-m_a1v2RYyTYNscm9p9RXo8P-jGe-r6yYJAxLBkYkAgeAHMydTXpN98w
+2023-01-16 19:09:23,188 71047 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Able to write data into json file
+2023-01-16 19:09:23,190 71049 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Able to read data from json file
+2023-01-16 19:09:23,192 71051 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Able to add headers for authentication
+2023-01-16 19:09:23,193 71052 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - This request do not have Path parameters
+2023-01-16 19:09:23,193 71052 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Path parameters added to the request
+2023-01-16 19:09:23,194 71053 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Able to add query parameter
+2023-01-16 19:09:23,632 71491 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:09:23,632 71491 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:09:23,633 71492 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Able to delete request using parameters
+2023-01-16 19:09:23,634 71493 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:09:23,634 71493 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Actual Response Time: 436 is less than Expected Response Time: 2000
+2023-01-16 19:09:23,634 71493 [main] INFO  com.spotify.shows.TYSS_Shows_RUSS_003 - Expected Status code is: 400 is matching with actual status code: 400

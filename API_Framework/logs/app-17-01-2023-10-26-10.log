@@ -1,0 +1,22 @@
+2023-01-17 10:26:10,809 199  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:26:10,814 204  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_26_10
+2023-01-17 10:26:10,895 285  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:26:10,896 286  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:26:13,254 2644 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:26:13,257 2647 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:26:13,337 2727 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Able to provide Authorization and fetch the token
+2023-01-17 10:26:13,708 3098 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Response body value is: BQBzpICVgq5tu2Ig91Rbtmj7FHfWnPLKIr4145QRnH6wWuWSa2at03tRUJlXXEOJ88iKpBdP3klUZlnmgHBBtfFC1EE_YGg5Ls1b_eHukgiuTaCbxDc8gmK9lJYOOgQPiXiNzmQr95LIeu29qY-lQxYoAH7_pxWrWjBYSTjeANQRvB-xZar-dAQz9sJxDmqgmVYTJlui7lDRgSg8rYZ_gLeSYMrcf_jSTCW1TzCalFbV9I-j3tDl9oOdudxrhCW31zfnE5CLYFybe8SyINMM8jj1y_IfqLkPqPSH0cRSIX7wz_4fpThtuPRDdjC5diP8RXDi4kAhmUtUjOcGarmN
+2023-01-17 10:26:13,807 3197 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Able to write data into json file
+2023-01-17 10:26:13,830 3220 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Able to read data from json file
+2023-01-17 10:26:13,834 3224 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Able to add headers for authentication
+2023-01-17 10:26:13,839 3229 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - This request do not have Path parameters
+2023-01-17 10:26:13,839 3229 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Path parameters added to the request
+2023-01-17 10:26:13,839 3229 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - This reuest do not have Query Parameters
+2023-01-17 10:26:13,839 3229 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Able to add query parameter
+2023-01-17 10:26:14,309 3699 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 10:26:14,310 3700 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:26:14,324 3714 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Able to get request using parameters
+2023-01-17 10:26:14,328 3718 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-17 10:26:14,328 3718 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Actual Response Time: 449 is less than Expected Response Time: 2000
+2023-01-17 10:26:14,329 3719 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-17 10:26:14,697 4087 [main] INFO  com.spotify.categories.TYSS_Categories_GSEBC_001 - Schema validation is done

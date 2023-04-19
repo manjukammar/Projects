@@ -1,0 +1,21 @@
+2023-01-17 10:25:41,405 211  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:25:41,410 216  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_25_41
+2023-01-17 10:25:41,499 305  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:25:41,500 306  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:25:43,723 2529 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:25:43,725 2531 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:25:43,805 2611 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Able to provide Authorization and fetch the token
+2023-01-17 10:25:44,195 3001 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Response body value is: BQD22NYulvpsKxvaQxO59zdZobGVzMGErWeBUjH9dZTfd7QWCmcpQonXnLh1FIsty7KLV6B-Wtgp1SlwmWoMYhy7XEnGT_m1nMos0Oe5JUpCRgWpv_lOAB4hQxmaasBGJ_v3YozCWixqoJvO5IweJJw71EuqRq8-yEGD9adV2INw2XcaE438xS3wOFz8_KenbvS4bo6i8AX6AVo6POX2na8tBz4vOT5_T_oT9sZnhBafHWDNqGk_Ua0Gx4-NcSyl_mvX8w3oUFeAxYsbW3CEVdq6yEkyw3vaMnUmaQGOoQTAbwomxHO5v6VA609GpCSS7wycGCa0zoZVn3yCP8vM
+2023-01-17 10:25:44,304 3110 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Able to write data into json file
+2023-01-17 10:25:44,327 3133 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Able to read data from json file
+2023-01-17 10:25:44,332 3138 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Able to add headers for authentication
+2023-01-17 10:25:44,336 3142 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - This request do not have Path parameters
+2023-01-17 10:25:44,337 3143 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Path parameters added to the request
+2023-01-17 10:25:44,337 3143 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - This reuest do not have Query Parameters
+2023-01-17 10:25:44,337 3143 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Able to add query parameter
+2023-01-17 10:25:44,675 3481 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:25:44,676 3482 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:25:44,685 3491 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Able to get request using parameters
+2023-01-17 10:25:44,689 3495 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-17 10:25:44,690 3496 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Actual Response Time: 315 is less than Expected Response Time: 2000
+2023-01-17 10:25:44,690 3496 [main] INFO  com.spotify.albums.TYSS_Albums_GUSA_005 - Response contains error message: Service not found

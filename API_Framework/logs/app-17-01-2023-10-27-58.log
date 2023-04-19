@@ -1,0 +1,22 @@
+2023-01-17 10:27:58,449 206  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:27:58,453 210  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_27_58
+2023-01-17 10:27:58,541 298  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:27:58,542 299  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:28:00,839 2596 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:28:00,855 2612 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:28:00,931 2688 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Able to provide Authorization and fetch the token
+2023-01-17 10:28:01,323 3080 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Response body value is: BQBUVHHchDl5c7JHb8Q9zF9Y69RyN-s1QRBDO9N77BHMHLneuqv8N1CRRYSVvfNHmbve_K3URCby2rrFH7iPQDsspRLoBxA5hVFgsMCA9FQVHNUILkWdXvc5vThAFHrTMCL9Pltw7hKuMyF1HOOfeAwICuZ_KHb3eakyIopLieZ7bJk9X41UfLAHNPwUc0jChH8QmP3y95etE27hGOKdecE1Wko8VFKSFepINkZW09lHTzNBIZpMzy1Z7Gp8DI-pk-BCn-4wlLz-xu4_jzxrbcbXic-WtTWNj7mIUxXBzM8ppCnVszi5Bpb2oCtvchES3Ooa8MXBsSn5GxKdip82
+2023-01-17 10:28:01,425 3182 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Able to write data into json file
+2023-01-17 10:28:01,508 3265 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Able to read data from json file
+2023-01-17 10:28:01,514 3271 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Able to add headers for authentication
+2023-01-17 10:28:01,519 3276 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - This request do not have Path parameters
+2023-01-17 10:28:01,519 3276 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Path parameters added to the request
+2023-01-17 10:28:01,519 3276 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - This reuest do not have Query Parameters
+2023-01-17 10:28:01,519 3276 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Able to add query parameter
+2023-01-17 10:28:01,886 3643 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 10:28:01,887 3644 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:28:01,891 3648 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Able to get request using parameters
+2023-01-17 10:28:01,893 3650 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-17 10:28:01,893 3650 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Actual Response Time: 341 is less than Expected Response Time: 2000
+2023-01-17 10:28:01,893 3650 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-17 10:28:02,181 3938 [main] INFO  com.spotify.player.TYSS_Player_GAD_001 - Schema validation is done

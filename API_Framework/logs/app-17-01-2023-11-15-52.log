@@ -1,0 +1,18 @@
+2023-01-17 11:15:52,780 368  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 11:15:52,796 384  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\User\git\API_Framework/reports/Automation Report- 01_17_2023_11_15_52
+2023-01-17 11:15:52,938 526  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 11:15:52,939 527  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 11:15:57,826 5414 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 11:15:57,852 5440 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 11:15:58,160 5748 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - Able to provide Authorization and fetch the token
+2023-01-17 11:15:59,308 6896 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - Response body value is: BQAuweoyVZ9XwWcPAonJafauvc-c-F3z_-qWMXu6LWajzUKTkZZxqXnmg5bLdhp25004qX1BWjE-TpaF52QBq5Xbo_L16laHcmwfHkxjRNYvjsSr4i2XnDFUemPocwSBp8mG82jNtJMLeyVld8PNePqwRqs9inpDVK8fPHa8BM6F9IXdANm97YzcNCiJ_Qk3E2GwEecQtb1E-cEQzk5f4Bnog4tccYjD6IBymfPiMAVpP0ZZM5B-i-6ViixH9TW5CBfIOlxaro1yW1cUYBpXygMiNXZIcREYsHUByI8Gjjlf0Ba96z4zCgpJXO8M7RVvTRdoh7uKck9lh4AZlUNm
+2023-01-17 11:15:59,639 7227 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - Able to write data into json file
+2023-01-17 11:15:59,686 7274 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - Able to read data from json file
+2023-01-17 11:15:59,701 7289 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - Able to add headers for authentication
+2023-01-17 11:15:59,719 7307 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - Path parameters added to the request
+2023-01-17 11:15:59,725 7313 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - Able to add query parameter
+2023-01-17 11:16:01,196 8784 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-17 11:16:01,197 8785 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 11:16:01,210 8798 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - Able to get request using parameters
+2023-01-17 11:16:01,216 8804 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-17 11:16:01,216 8804 [main] INFO  com.spotify.users.TYSS_Users_CUFP_001 - Actual Response Time: 1400 is less than Expected Response Time: 4000

@@ -1,0 +1,20 @@
+2023-01-17 10:34:28,814 210  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 10:34:28,818 214  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\putha\sreelatha_API\API_Framework/reports/Automation Report- 01_17_2023_10_34_28
+2023-01-17 10:34:28,900 296  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 10:34:28,901 297  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 10:34:31,340 2736 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:34:31,344 2740 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:34:31,431 2827 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Able to provide Authorization and fetch the token
+2023-01-17 10:34:31,825 3221 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Response body value is: BQCWHD5os5d8dLr25bSHG9CQhsii9tK8_JPa8eeQMXcxH19LgU9NxycST9_xGZNIwRxtGxVPSbzhcsgE5RF88a1kR3zTtI1jNhwGLhdQV91edMNh2N3qFJpAqiXId_ypH9DMg8N74UJNDY_Qmbr123t_DbmCk5nS5n_tVERDVItgLS5oCpxMXVhG8EoO7jsaNFj3J3dVbrADpIxymL7MYUfaAzWL8nefAlmRU90BNUzO-2rO3iNQLUB_0AJeaGMUQzyWglhN_g_Ydr68z2NFoJleFqtgqyhSkyPiCjUV695gBZ_YgfKe1Fhaq-rogtIbNcLYapYVnJpvEcVo9bhM
+2023-01-17 10:34:31,939 3335 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Able to write data into json file
+2023-01-17 10:34:31,965 3361 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Able to read data from json file
+2023-01-17 10:34:31,970 3366 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Able to add headers for authentication
+2023-01-17 10:34:31,975 3371 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - This request do not have Path parameters
+2023-01-17 10:34:31,975 3371 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Path parameters added to the request
+2023-01-17 10:34:31,977 3373 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Able to add query parameter
+2023-01-17 10:34:32,370 3766 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 10:34:32,371 3767 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 10:34:32,377 3773 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Able to put request using parameters
+2023-01-17 10:34:32,385 3781 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-17 10:34:32,385 3781 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Actual Response Time: 364 is less than Expected Response Time: 2000
+2023-01-17 10:34:32,385 3781 [main] INFO  com.spotify.shows.TYSS_Shows_SSFCU_002 - Response contains error message: Service not found

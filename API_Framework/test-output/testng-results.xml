@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-27T10:41:56 IST" name="Default suite" finished-at="2023-01-27T10:42:01 IST" duration-ms="4710">
+=======
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-25T11:12:52 IST" name="Default suite" finished-at="2023-01-25T11:13:01 IST" duration-ms="8849">
+    <groups>
+    </groups>
+    <test started-at="2023-01-25T11:12:52 IST" name="Default test" finished-at="2023-01-25T11:13:01 IST" duration-ms="8849">
+      <class name="com.spotify.playlist.TYSS_TC_Playlists_GP_002">
+        <test-method is-config="true" signature="createFiles()[pri:0, instance:com.spotify.playlist.TYSS_TC_Playlists_GP_002@7c51f34b]" started-at="2023-01-25T11:12:52 IST" name="createFiles" finished-at="2023-01-25T11:12:52 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiles -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.spotify.playlist.TYSS_TC_Playlists_GP_002@7c51f34b]" started-at="2023-01-25T11:12:52 IST" name="launchApp" finished-at="2023-01-25T11:12:52 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.spotify.playlist.TYSS_TC_Playlists_GP_002@7c51f34b]" started-at="2023-01-25T11:12:54 IST" name="setExtentReport" finished-at="2023-01-25T11:13:00 IST" duration-ms="5970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.playlist.TYSS_TC_Playlists_GP_002.TYSS_Playlists_GP_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+=======
+<<<<<<< HEAD
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3333" started-at="2023-01-25T11:59:19 IST" finished-at="2023-01-25T11:59:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3333" started-at="2023-01-25T11:59:19 IST" finished-at="2023-01-25T11:59:22 IST">
+      <class name="com.spotify.playlist.TYSS_Playlists_CP_004">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.spotify.playlist.TYSS_Playlists_CP_004@59d016c9]" name="createFiles" is-config="true" duration-ms="71" started-at="2023-01-25T11:59:19 IST" finished-at="2023-01-25T11:59:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiles -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.spotify.playlist.TYSS_Playlists_CP_004@59d016c9]" name="launchApp" is-config="true" duration-ms="4" started-at="2023-01-25T11:59:19 IST" finished-at="2023-01-25T11:59:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.spotify.playlist.TYSS_Playlists_CP_004@59d016c9]" name="setExtentReport" is-config="true" duration-ms="2305" started-at="2023-01-25T11:59:20 IST" finished-at="2023-01-25T11:59:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.playlist.TYSS_Playlists_CP_004.TC_Playlists_CP_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+=======
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+<<<<<<< HEAD
+  <suite started-at="2023-01-27T17:21:43 IST" name="Default suite" finished-at="2023-01-27T17:21:53 IST" duration-ms="9457">
+    <groups>
+    </groups>
+    <test started-at="2023-01-27T17:21:43 IST" name="Default test" finished-at="2023-01-27T17:21:53 IST" duration-ms="9457">
+      <class name="com.spotify.albums.TYSS_Albums_GA_001">
+        <test-method is-config="true" signature="createFiles()[pri:0, instance:com.spotify.albums.TYSS_Albums_GA_001@3d246ea3]" started-at="2023-01-27T17:21:43 IST" name="createFiles" finished-at="2023-01-27T17:21:43 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiles -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.spotify.albums.TYSS_Albums_GA_001@3d246ea3]" started-at="2023-01-27T17:21:43 IST" name="launchApp" finished-at="2023-01-27T17:21:43 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.spotify.albums.TYSS_Albums_GA_001@3d246ea3]" started-at="2023-01-27T17:21:45 IST" name="setExtentReport" finished-at="2023-01-27T17:21:51 IST" duration-ms="5855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.albums.TYSS_Albums_GA_001.TC_TYSS_Albums_GA_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+=======
+<<<<<<< HEAD
+  <suite started-at="2023-01-25T11:24:46 IST" name="Default suite" finished-at="2023-01-25T11:24:54 IST" duration-ms="8038">
+    <groups>
+    </groups>
+    <test started-at="2023-01-25T11:24:46 IST" name="Default test" finished-at="2023-01-25T11:24:54 IST" duration-ms="8038">
+      <class name="com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002">
+        <test-method is-config="true" signature="createFiles()[pri:0, instance:com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002@48d61b48]" started-at="2023-01-25T11:24:46 IST" name="createFiles" finished-at="2023-01-25T11:24:46 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiles -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002@48d61b48]" started-at="2023-01-25T11:24:46 IST" name="launchApp" finished-at="2023-01-25T11:24:46 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002@48d61b48]" started-at="2023-01-25T11:24:48 IST" name="setExtentReport" finished-at="2023-01-25T11:24:54 IST" duration-ms="5632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002.TC_TYSS_Episodes_GE_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+=======
+<<<<<<< HEAD
+  <suite started-at="2023-01-27T10:29:51 IST" name="Default suite" finished-at="2023-01-27T10:29:55 IST" duration-ms="3886">
+    <groups>
+    </groups>
+    <test started-at="2023-01-27T10:29:51 IST" name="Default test" finished-at="2023-01-27T10:29:55 IST" duration-ms="3886">
+      <class name="com.spotify.albums.TYSS_Albums_CUSA_001">
+        <test-method is-config="true" signature="createFiles()[pri:0, instance:com.spotify.albums.TYSS_Albums_CUSA_001@59cba5a]" started-at="2023-01-27T10:29:51 IST" name="createFiles" finished-at="2023-01-27T10:29:51 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiles -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.spotify.albums.TYSS_Albums_CUSA_001@59cba5a]" started-at="2023-01-27T10:29:51 IST" name="launchApp" finished-at="2023-01-27T10:29:51 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.spotify.albums.TYSS_Albums_CUSA_001@59cba5a]" started-at="2023-01-27T10:29:52 IST" name="setExtentReport" finished-at="2023-01-27T10:29:54 IST" duration-ms="2395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.albums.TYSS_Albums_CUSA_001.TC_TYSS_Albums_CUSA_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,org.json.simple.parser.ParseException,java.lang.Exception]]>
+=======
+  <suite started-at="2023-01-27T10:37:39 IST" name="Default suite" finished-at="2023-01-27T10:37:45 IST" duration-ms="6340">
+>>>>>>> 692ea4785f084d773ddd0b0cd33173c59e54321f
+    <groups>
+    </groups>
+    <test started-at="2023-01-27T10:41:56 IST" name="Default test" finished-at="2023-01-27T10:42:01 IST" duration-ms="4710">
+      <class name="com.spotify.playlist.TYSS_TC_Playlists_UPI_001">
+        <test-method is-config="true" signature="createFiles()[pri:0, instance:com.spotify.playlist.TYSS_TC_Playlists_UPI_001@68d279ec]" started-at="2023-01-27T10:41:56 IST" name="createFiles" finished-at="2023-01-27T10:41:56 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiles -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.spotify.playlist.TYSS_TC_Playlists_UPI_001@68d279ec]" started-at="2023-01-27T10:41:56 IST" name="launchApp" finished-at="2023-01-27T10:41:56 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.spotify.playlist.TYSS_TC_Playlists_UPI_001@68d279ec]" started-at="2023-01-27T10:41:57 IST" name="setExtentReport" finished-at="2023-01-27T10:42:01 IST" duration-ms="3280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+<<<<<<< HEAD
+                <![CDATA[public void com.spotify.playlist.TYSS_TC_Playlists_UPI_001.TC_Playlists_UPI_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+=======
+                <![CDATA[public void com.spotify.artists.TYSS_TC_Artists_GAA_002.TC_Artists_GAA_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+>>>>>>> 177e2149eeaae530baed8bc3e2a90bc4030d1be8
+>>>>>>> 8e0d3ef0b7add269c37806a385031acbe0f09dab
+>>>>>>> 26a05544a29d31635566512c3c8992605628f721
+>>>>>>> b2db8b45f04188e429a24839fa2c448ad53bc713
+>>>>>>> 411e2bee8b9fe2ff1476be9ca5f88908ef55ed70
+>>>>>>> 692ea4785f084d773ddd0b0cd33173c59e54321f
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+<<<<<<< HEAD
+        <test-method signature="TC_Playlists_UPI_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.spotify.playlist.TYSS_TC_Playlists_UPI_001@68d279ec]" started-at="2023-01-27T10:42:01 IST" name="TC_Playlists_UPI_001" description="Verify the status code in response of playlist" data-provider="data1" finished-at="2023-01-27T10:42:01 IST" duration-ms="486" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_Playlists_UPI_001]]>
+=======
+<<<<<<< HEAD
+        <test-method signature="TYSS_Playlists_GP_002(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.spotify.playlist.TYSS_TC_Playlists_GP_002@7c51f34b]" started-at="2023-01-25T11:13:00 IST" name="TYSS_Playlists_GP_002" description="Verify that the response contains playlist name" data-provider="data1" finished-at="2023-01-25T11:13:01 IST" duration-ms="673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TYSS_Playlists_GP_002]]>
+=======
+<<<<<<< HEAD
+        <test-method status="PASS" signature="TC_Playlists_CP_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.spotify.playlist.TYSS_Playlists_CP_004@59d016c9]" name="TC_Playlists_CP_001" duration-ms="460" started-at="2023-01-25T11:59:22 IST" description="Verify that the response contains error when provided invalid format" data-provider="data1" finished-at="2023-01-25T11:59:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Playlists_CP_004]]>
+=======
+<<<<<<< HEAD
+        <test-method signature="TC_TYSS_Albums_GA_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.spotify.albums.TYSS_Albums_GA_001@3d246ea3]" started-at="2023-01-27T17:21:51 IST" name="TC_TYSS_Albums_GA_001" description="verify that the response contains exactly one album" data-provider="data1" finished-at="2023-01-27T17:21:53 IST" duration-ms="1551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TYSS_Albums_GA_001]]>
+=======
+<<<<<<< HEAD
+        <test-method signature="TC_TYSS_Episodes_GE_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002@48d61b48]" started-at="2023-01-25T11:24:54 IST" name="TC_TYSS_Episodes_GE_002" description="Verify that the response contains error when provide invalid endpoint" data-provider="data1" finished-at="2023-01-25T11:24:54 IST" duration-ms="528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_Episodes_CUSE_002]]>
+=======
+<<<<<<< HEAD
+        <test-method signature="TC_TYSS_Albums_CUSA_001(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.spotify.albums.TYSS_Albums_CUSA_001@59cba5a]" started-at="2023-01-27T10:29:54 IST" name="TC_TYSS_Albums_CUSA_001" description="Verify that the response contains true for the user having the track" data-provider="data1" finished-at="2023-01-27T10:29:55 IST" duration-ms="825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_Albums_CUSA_001]]>
+=======
+        <test-method signature="TC_Artists_GAA_002(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.spotify.artists.TYSS_TC_Artists_GAA_002@68d279ec]" started-at="2023-01-27T10:37:43 IST" name="TC_Artists_GAA_002" description="Verify that the response contains albums related to artist" data-provider="data1" finished-at="2023-01-27T10:37:45 IST" duration-ms="1936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_Artists_GAA_002]]>
+>>>>>>> 177e2149eeaae530baed8bc3e2a90bc4030d1be8
+>>>>>>> 8e0d3ef0b7add269c37806a385031acbe0f09dab
+>>>>>>> 26a05544a29d31635566512c3c8992605628f721
+>>>>>>> b2db8b45f04188e429a24839fa2c448ad53bc713
+>>>>>>> 411e2bee8b9fe2ff1476be9ca5f88908ef55ed70
+>>>>>>> 692ea4785f084d773ddd0b0cd33173c59e54321f
+              </value>
+            </param>
+            <param index="1">
+              <value>
+<<<<<<< HEAD
+                <![CDATA[file]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[params]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[file]]>
+=======
+                <![CDATA[params]]>
+>>>>>>> b2db8b45f04188e429a24839fa2c448ad53bc713
+>>>>>>> 411e2bee8b9fe2ff1476be9ca5f88908ef55ed70
+>>>>>>> 692ea4785f084d773ddd0b0cd33173c59e54321f
+              </value>
+            </param>
+            <param index="2">
+              <value>
+<<<<<<< HEAD
+                <![CDATA[playlist_id]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[user_id]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[id]]>
+=======
+                <![CDATA[null]]>
+>>>>>>> 26a05544a29d31635566512c3c8992605628f721
+>>>>>>> b2db8b45f04188e429a24839fa2c448ad53bc713
+>>>>>>> 692ea4785f084d773ddd0b0cd33173c59e54321f
+              </value>
+            </param>
+            <param index="3">
+              <value>
+<<<<<<< HEAD
+                <![CDATA[null]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[null]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[null]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[ids]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[ids]]>
+=======
+                <![CDATA[null]]>
+>>>>>>> 177e2149eeaae530baed8bc3e2a90bc4030d1be8
+>>>>>>> 8e0d3ef0b7add269c37806a385031acbe0f09dab
+>>>>>>> 26a05544a29d31635566512c3c8992605628f721
+>>>>>>> b2db8b45f04188e429a24839fa2c448ad53bc713
+>>>>>>> 411e2bee8b9fe2ff1476be9ca5f88908ef55ed70
+              </value>
+            </param>
+            <param index="4">
+              <value>
+<<<<<<< HEAD
+                <![CDATA[/playlists/{playlist_id}/tracks]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[/playlists/{playlist-id}]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[/user/{user_id}/playlist]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[/albums/{id}]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[/me/episodes/contain]]>
+=======
+<<<<<<< HEAD
+                <![CDATA[/me/albums/contains]]>
+=======
+                <![CDATA[/artists/{id}/albums]]>
+>>>>>>> 177e2149eeaae530baed8bc3e2a90bc4030d1be8
+>>>>>>> 8e0d3ef0b7add269c37806a385031acbe0f09dab
+>>>>>>> 26a05544a29d31635566512c3c8992605628f721
+>>>>>>> b2db8b45f04188e429a24839fa2c448ad53bc713
+>>>>>>> 411e2bee8b9fe2ff1476be9ca5f88908ef55ed70
+>>>>>>> 692ea4785f084d773ddd0b0cd33173c59e54321f
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.spotify.utils.ApiActionUtil.validateStatusCode(ApiActionUtil.java:191)
+at com.spotify.playlist.TYSS_TC_Playlists_UPI_001.TC_Playlists_UPI_001(TYSS_TC_Playlists_UPI_001.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- TC_Playlists_UPI_001 -->
+      </class> <!-- com.spotify.playlist.TYSS_TC_Playlists_UPI_001 -->
+=======
+<<<<<<< HEAD
+        </test-method> <!-- TYSS_Playlists_GP_002 -->
+      </class> <!-- com.spotify.playlist.TYSS_TC_Playlists_GP_002 -->
+=======
+<<<<<<< HEAD
+        </test-method> <!-- TC_Playlists_CP_001 -->
+      </class> <!-- com.spotify.playlist.TYSS_Playlists_CP_004 -->
+=======
+<<<<<<< HEAD
+        </test-method> <!-- TC_TYSS_Albums_GA_001 -->
+      </class> <!-- com.spotify.albums.TYSS_Albums_GA_001 -->
+=======
+<<<<<<< HEAD
+        </test-method> <!-- TC_TYSS_Episodes_GE_002 -->
+      </class> <!-- com.tyss.spotify.episodes.TYSS_Episodes_CUSE_002 -->
+=======
+<<<<<<< HEAD
+        </test-method> <!-- TC_TYSS_Albums_CUSA_001 -->
+      </class> <!-- com.spotify.albums.TYSS_Albums_CUSA_001 -->
+=======
+        </test-method> <!-- TC_Artists_GAA_002 -->
+      </class> <!-- com.spotify.artists.TYSS_TC_Artists_GAA_002 -->
+>>>>>>> 177e2149eeaae530baed8bc3e2a90bc4030d1be8
+>>>>>>> 8e0d3ef0b7add269c37806a385031acbe0f09dab
+>>>>>>> 26a05544a29d31635566512c3c8992605628f721
+>>>>>>> b2db8b45f04188e429a24839fa2c448ad53bc713
+>>>>>>> 411e2bee8b9fe2ff1476be9ca5f88908ef55ed70
+>>>>>>> 692ea4785f084d773ddd0b0cd33173c59e54321f
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

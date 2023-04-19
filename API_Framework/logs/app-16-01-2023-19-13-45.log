@@ -1,0 +1,22 @@
+2023-01-16 19:13:45,717 391  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-16 19:13:45,728 402  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\Abhishek\New folder\API_Framework/reports/Automation Report- 01_16_2023_19_13_45
+2023-01-16 19:13:45,909 583  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-16 19:13:45,910 584  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-16 19:13:50,686 5360 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:13:50,694 5368 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:13:50,900 5574 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:13:51,723 6397 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Response body value is: BQB2qOv_0OQz0UW1gl65gjqwsPL_YL834gabP9zsqM7Zh0PQG3VZOH69j0I72IG-o_9jf4BGRLUzeGjXmNHsgDA4xv4y73eyBBbeWKSoplHk_4TAjpWCt-hpjriCfeeuwjMic-R3blqXZSRfBzUUxzVZ7HQj5qcuRn2vRGQX9VJAhaZQ8U-xjNyK_1e55_uGESwID7mQHxHg0cdIr-ZaxFV9-lunqCzYCAGMT0gB84mTlhFtqUcD1a5aO0K82kq7t4lQE0-GT7EUt6Mgac0xzbDqmiHWc764UQ5q37quCLnEIUHH9_m_AY6n8BBk-3gix7lwIc9kUnjWunF13A6D
+2023-01-16 19:13:52,019 6693 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to write data into json file
+2023-01-16 19:13:52,071 6745 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to read data from json file
+2023-01-16 19:13:52,081 6755 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to add headers for authentication
+2023-01-16 19:13:52,099 6773 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - This request do not have Path parameters
+2023-01-16 19:13:52,100 6774 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Path parameters added to the request
+2023-01-16 19:13:52,100 6774 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - This reuest do not have Query Parameters
+2023-01-16 19:13:52,101 6775 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to add query parameter
+2023-01-16 19:13:52,836 7510 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:13:52,840 7514 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:13:52,893 7567 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Able to get request using parameters
+2023-01-16 19:13:52,899 7573 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:13:52,899 7573 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Actual Response Time: 687 is less than Expected Response Time: 2000
+2023-01-16 19:13:52,900 7574 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:13:52,956 7630 [main] INFO  com.spotify.episodes.TYSS_Episodes_GUSE_002 - Response body contains name: [Praveen Mohan - Indian History Retold & Rethought | The Ranveer Show 259, Siachen, Africa & Combat Stories - Maj. Samar Toor On The Indian Infantry | The Ranveer Show 258]

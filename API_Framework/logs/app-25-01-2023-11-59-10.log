@@ -1,0 +1,21 @@
+2023-01-25 11:59:10,686 145  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-25 11:59:10,693 152  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\User\git\API_Framework/reports/Automation Report- 01_25_2023_11_59_10
+2023-01-25 11:59:10,756 215  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-25 11:59:10,756 215  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-25 11:59:12,844 2303 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-25 11:59:12,846 2305 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:59:12,985 2444 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Able to provide Authorization and fetch the token
+2023-01-25 11:59:13,363 2822 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Response body value is: BQD2zuvM9ixKkHJSOj1HI8rk9Dzrd7ql3Pa7i1C1jpudKPjINqpGKKiq8fEvPlouWfPvVJVfp0VUCb1fIrm3ZIFzenqJsV6CPo-sKP-6lqFIaN3Wwl7SZ4hjTITkoC_kGohfk9Xu2pS325aQTMpMZQ2jy_hsF44Ucy-Ba-0vZsmyBEcsrizjAUCAiwCf2AeaHnD4DAKkECAT0-fmmrw7NVCSCjFCG6NF8Gl9SsfOL_Ga_Qvm7wFUyQ1cD80cLaUGE5Ma2cCBSWPrT-mcP3gqd1GFw1QL3LprStsJFiagS8NTyRjXwWYA8IJ_OIuk9Ydm9YkI4PBWZcr8jQjglZGubg
+2023-01-25 11:59:13,477 2936 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Able to write data into json file
+2023-01-25 11:59:13,494 2953 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Able to read data from json file
+2023-01-25 11:59:13,499 2958 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Able to add headers for authentication
+2023-01-25 11:59:13,504 2963 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Path parameters added to the request
+2023-01-25 11:59:13,504 2963 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - This reuest do not have Query Parameters
+2023-01-25 11:59:13,504 2963 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Able to add query parameter
+2023-01-25 11:59:13,969 3428 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-25 11:59:13,971 3430 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-25 11:59:13,976 3435 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Able to post request using json file
+2023-01-25 11:59:13,980 3439 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Actual Response Time: 445 is less than Expected Response Time: 4000
+2023-01-25 11:59:13,980 3439 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Expected Status code is: 403 is matching with actual status code: 403
+2023-01-25 11:59:13,988 3447 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Response body value is: [status:403, message:You cannot create a playlist for another user.]
+2023-01-25 11:59:13,997 3456 [main] INFO  com.spotify.playlist.TYSS_Playlists_CP_003 - Response body contains [status:403, message:You cannot create a playlist for another user.]: You cannot create a playlist for another user.

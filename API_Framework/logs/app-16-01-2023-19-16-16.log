@@ -1,0 +1,22 @@
+2023-01-16 19:16:16,855 375  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-16 19:16:16,865 385  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\Users\Abhishek\New folder\API_Framework/reports/Automation Report- 01_16_2023_19_16_16
+2023-01-16 19:16:17,040 560  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-16 19:16:17,041 561  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-16 19:16:21,598 5118 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-16 19:16:21,608 5128 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:16:21,804 5324 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to provide Authorization and fetch the token
+2023-01-16 19:16:22,576 6096 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Response body value is: BQDMQhAxcRzelLRDxuXl9PmVmAu37KhZ9vA-H6lYtatfbf-wbNkJD5enjJNNRHZUTrHxj0iFa3RTRzEvZMexhepSdwOyP1S6KtiD6Q0O45D1OeeDOVsvJqJyLV7yAB51-7wgLOmRCrpA5urMrl50_zksUdTApS_wOkmtc0Ml490pNc8Dy2JmeBBgs00f1oRDLhJfwnZnJnVJc6MWHgRhksre75-nqzmqBaNC1SBO2PbcHSrrwmK2kp46ZSx4ccfxUyRsFzzoJJ35ddH4Nw6lFxK5SrYl94pLicHB5umgraubiMmTXIK9YmRsaNPGQxeAoMRDxvJr7vZ111lkyTxB
+2023-01-16 19:16:22,860 6380 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to write data into json file
+2023-01-16 19:16:22,930 6450 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to read data from json file
+2023-01-16 19:16:22,945 6465 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to add headers for authentication
+2023-01-16 19:16:22,965 6485 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - This request do not have Path parameters
+2023-01-16 19:16:22,966 6486 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Path parameters added to the request
+2023-01-16 19:16:22,966 6486 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - This reuest do not have Query Parameters
+2023-01-16 19:16:22,967 6487 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to add query parameter
+2023-01-16 19:16:23,499 7019 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2023-01-16 19:16:23,501 7021 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-16 19:16:23,518 7038 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Able to get request using parameters
+2023-01-16 19:16:23,521 7041 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - expected Content type is: application/json equal to actual Content type: application/json; charset=utf-8
+2023-01-16 19:16:23,522 7042 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Actual Response Time: 483 is less than Expected Response Time: 2000
+2023-01-16 19:16:23,523 7043 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Expected Status code is: 200 is matching with actual status code: 200
+2023-01-16 19:16:23,616 7136 [main] INFO  com.spotify.shows.TYSS_Shows_GUSS_002 - Response body contains name: The Horror Show by Khooni Monday - Scary Stories in Hindi

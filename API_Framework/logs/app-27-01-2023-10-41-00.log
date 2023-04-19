@@ -1,0 +1,21 @@
+2023-01-27 10:41:00,355 451  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-27 10:41:00,361 457  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-D:\Api_FW\API_Framework/reports/Automation Report- 01_27_2023_10_41_00
+2023-01-27 10:41:00,538 634  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-27 10:41:00,539 635  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-27 10:41:04,651 4747 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-27 10:41:04,653 4749 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-27 10:41:04,834 4930 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Able to provide Authorization and fetch the token
+2023-01-27 10:41:05,667 5763 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Response body value is: BQCHsaur9bd2Rqfq2JKblW2rAr2_uqQ4-F9_Johpm-7OGSnyi2uYjTQVrAsjs8_cqvC4z8e5xa-XNku0VtbcLbNHLQndUWrgOVfs0FPuAiqjuDDU_-tjN44KZaM-6d4WLfjHKSXmRv3XPwWRQbayi9cNwdnCmklC8MwR4fj1Fjm3L_3OKk-gbjEjAkykr9jYa_zAGAeTCul9gtl5ANdHtbFVZ9DEg4dsTtLGrb3Ev3diQW84Heckbdddg6Y-6k2xYbkGkZJ23iwjsl-wslQ1US5caUBZDvBi2bCktKq1VvIfXjyhXt5mnwCJaAUzPojVqTjeHTA1wksRrIzWXgFTrg
+2023-01-27 10:41:05,909 6005 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Able to write data into json file
+2023-01-27 10:41:05,946 6042 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Able to read data from json file
+2023-01-27 10:41:05,953 6049 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Able to add headers for authentication
+2023-01-27 10:41:05,965 6061 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Path parameters added to the request
+2023-01-27 10:41:05,965 6061 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - This reuest do not have Query Parameters
+2023-01-27 10:41:05,965 6061 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Able to add query parameter
+2023-01-27 10:41:06,333 6429 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-27 10:41:06,333 6429 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-27 10:41:06,337 6433 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Able to put request using json file
+2023-01-27 10:41:06,343 6439 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - expected Content type is: application/json equal to actual Content type: application/json
+2023-01-27 10:41:06,343 6439 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Expected Status code is: 404 is matching with actual status code: 404
+2023-01-27 10:41:06,343 6439 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Actual Response Time: 289 is less than Expected Response Time: 2000
+2023-01-27 10:41:06,362 6458 [main] INFO  com.spotify.playlist.TYSS_TC_Playlists_UPI_003 - Response body contains error.message: Service not found

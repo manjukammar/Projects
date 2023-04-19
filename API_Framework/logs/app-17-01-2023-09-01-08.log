@@ -1,0 +1,17 @@
+2023-01-17 09:01:08,642 383  [main] INFO  com.spotify.baseutil.BaseTest - Folder creation for Extent
+2023-01-17 09:01:08,649 390  [main] INFO  com.spotify.baseutil.BaseTest - ExtentDir:-C:\API Workspace\API_Framework/reports/Automation Report- 01_17_2023_09_01_08
+2023-01-17 09:01:08,802 543  [main] INFO  com.spotify.baseutil.BaseTest - Report Initiated
+2023-01-17 09:01:08,804 545  [main] INFO  com.spotify.baseutil.BaseTest - Screenshot folder created
+2023-01-17 09:01:12,702 4443 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+2023-01-17 09:01:12,712 4453 [main] DEBUG i.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2023-01-17 09:01:12,891 4632 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Able to provide Authorization and fetch the token
+2023-01-17 09:01:13,651 5392 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Response body value is: BQCXCVNrTt3sE2Vk4H_YbqGQ0Qx0Fq0dDqjA8t9PV81ovHhjC1ZiM2YxNzSJ-X043Hzf_NxfZZOs7B51p-poA8fuHcpIr-srzSUrHDVWNWycXcQYnEjzUFFIzgRVs434iXYmL7RZa__I3WGQa0SSPSvPeuzpCmHgJI3MQPvEHPUbh3bmWtIne_rgaI5XYN1KnCJy_blG7_VJrpAT9A7D2FALBRvm6v7vaZgxTuEOI3IZuPC5Jq4u2AkRZ2XCXKEe73kyPs8CMDycDptccYb0iRnAjGZok1u1PPk6lLhSgmMlYLZZNMNaWmRHEKqtDciULqbTcO8FKGCDM087uKN6
+2023-01-17 09:01:13,860 5601 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Able to write data into json file
+2023-01-17 09:01:13,900 5641 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Able to read data from json file
+2023-01-17 09:01:13,910 5651 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Able to add headers for authentication
+2023-01-17 09:01:13,923 5664 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - This request do not have Path parameters
+2023-01-17 09:01:13,924 5665 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Path parameters added to the request
+2023-01-17 09:01:13,929 5670 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Able to add query parameter
+2023-01-17 09:01:14,436 6177 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Able to get request using parameters
+2023-01-17 09:01:14,441 6182 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Actual Response Time: 430 is less than Expected Response Time: 2000
+2023-01-17 09:01:14,442 6183 [main] INFO  com.spotify.shows.TYSS_Shows_CUSS_002 - Expected Status code is: 404 is matching with actual status code: 404

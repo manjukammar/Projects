@@ -1,0 +1,5 @@
+/bin/
+/test-output/
+logs
+.DS_Store
+/target/

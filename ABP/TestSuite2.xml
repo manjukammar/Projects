@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" name="ABP">
+  <listeners>
+    <listener class-name="com.tyss.abp.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="1" name="PROJECT_Test1">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.tyss.abp.article.scripts.Tyss_Article_Demo"/>
+      <!-- <class name="com.tyss.abp.livetvshows.scripts.TYSS_LiveTv_Shows_Demo"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_001"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_002"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_003"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_004"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_005"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_006"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_007"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_008"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_009"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_010"/>
+      <class name="com.tyss.abp.article.scripts.TYSS_Article_011"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_001"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_002"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_003"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_004"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_005"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_006"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_007"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_008"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_009"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_010"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_011"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_012"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_013"/>
+      <class name="com.tyss.abp.cricket.scripts.TYSS_Cricket_014"/>
+      <class name="com.tyss.abp.footer.scripts.TYSS_Footer_001"/>
+      <class name="com.tyss.abp.footer.scripts.TYSS_Footer_002"/>
+      <class name="com.tyss.abp.footer.scripts.TYSS_Footer_003"/>
+      <class name="com.tyss.abp.footer.scripts.TYSS_Footer_004"/>
+      <class name="com.tyss.abp.footer.scripts.TYSS_Footer_005"/>
+      <class name="com.tyss.abp.footer.scripts.TYSS_Footer_006"/>
+      <class name="com.tyss.abp.footer.scripts.TYSS_Footer_007"/>
+      <class name="com.tyss.abp.footer.scripts.TYSS_Footer_008"/>
+      <class name="com.tyss.abp.footer.scripts.TYSS_Footer_009"/>
+      <class name="com.tyss.abp.game.scripts.TYSS_Game_001"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_001"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_002"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_003"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_004"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_005"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_006"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_007"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_008"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_009"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_010"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_011"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_012"/>
+      <class name="com.tyss.abp.home.scripts.TYSS_Home_013"/>
+      <class name="com.tyss.abp.livetv.scripts.TYSS_LiveTv_001"/>
+      <class name="com.tyss.abp.livetv.scripts.TYSS_LiveTv_002"/>
+      <class name="com.tyss.abp.livetv.scripts.TYSS_LiveTv_003"/>
+      <class name="com.tyss.abp.livetv.scripts.TYSS_LiveTv_004"/>
+      <class name="com.tyss.abp.livetv.scripts.TYSS_LiveTv_005"/>
+      <class name="com.tyss.abp.livetv.scripts.TYSS_LiveTv_006"/>
+      <class name="com.tyss.abp.livetv.scripts.TYSS_LiveTv_007"/>
+      <class name="com.tyss.abp.livetv.scripts.TYSS_LiveTv_008"/>
+      <class name="com.tyss.abp.livetv.scripts.TYSS_LiveTv_009"/>
+      <class name="com.tyss.abp.livetvshows.scripts.TYSS_LiveTv_Shows_001"/>
+      <class name="com.tyss.abp.livetvshows.scripts.TYSS_LiveTv_Shows_002"/>
+      <class name="com.tyss.abp.livetvshows.scripts.TYSS_LiveTv_Shows_003"/>
+      <class name="com.tyss.abp.loginorregister.scripts.TYSS_LoginOrRegister_001"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_001"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_002"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_003"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_004"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_005"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_006"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_007"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_008"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_009"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_010"/>
+      <class name="com.tyss.abp.photos.scripts.TYSS_Photos_011"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_001"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_002"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_003"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_004"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_005"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_006"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_007"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_008"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_009"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_010"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_011"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_012"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_013"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_014"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_015"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_016"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_017"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_018"/>
+      <class name="com.tyss.abp.podcast.scripts.TYSS_Podcast_019"/>
+      <class name="com.tyss.abp.search.scripts.TYSS_Search_001"/>
+      <class name="com.tyss.abp.selectlanguage.scripts.TYSS_Select_Language_001"/>
+      <class name="com.tyss.abp.taboola.scripts.TYSS_Taboola_001"/>
+      <class name="com.tyss.abp.topic.scripts.TYSS_Topic_001"/>
+      <class name="com.tyss.abp.topic.scripts.TYSS_Topic_002"/>
+      <class name="com.tyss.abp.topic.scripts.TYSS_Topic_003"/>
+      <class name="com.tyss.abp.videos.scripts.TYSS_Videos_001"/>
+      <class name="com.tyss.abp.videos.scripts.TYSS_Videos_002"/>
+      <class name="com.tyss.abp.videos.scripts.TYSS_Videos_003"/>
+      <class name="com.tyss.abp.videos.scripts.TYSS_Videos_004"/>
+      <class name="com.tyss.abp.videos.scripts.TYSS_Videos_005"/>
+      <class name="com.tyss.abp.videos.scripts.TYSS_Videos_006"/>
+      <class name="com.tyss.abp.videos.scripts.TYSS_Videos_007"/> -->
+    </classes>
+  </test> <!-- PROJECT_Test1 -->
+</suite> <!-- ABP -->
